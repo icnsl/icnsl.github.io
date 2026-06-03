@@ -322,3 +322,13 @@
     }
   }
 }
+
+/* Center author name and bio in the sidebar */
+.author__content {
+  text-align: center;
+}
+
+.author__name,
+.author__bio {
+  text-align: center;
+}
