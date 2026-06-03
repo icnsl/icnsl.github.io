@@ -399,3 +399,15 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Custom style for About Me bio */
+.page__content .bio-text {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.7;
+  max-width: 820px;
+}
+
+.page__content .bio-text p {
+  margin-bottom: 1.1em;
+}
