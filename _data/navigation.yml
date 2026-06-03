@@ -12,7 +12,7 @@ main:
     url: /
 
   - title: "About Me"
-    url: /aboutme/    
+    url: /about-me/    
 
   - title: "Publications"
     url: /publications/    
@@ -21,7 +21,7 @@ main:
     url: /patents/
         
   - title: "Experiences"
-    url: /exp/
+    url: /experiences/
     
   - title: "Lecture"
     url: /lecture/
