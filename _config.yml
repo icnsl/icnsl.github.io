@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Jonghun Han"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor"
+  bio              : "Assistant Professor, Sejong Univ."
   location         : "Seoul, South Korea"
   employer         : "Sejong University"
   uri              : # URL
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "icnsl"
+  github           : # "icnsl"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
