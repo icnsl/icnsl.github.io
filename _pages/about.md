@@ -14,7 +14,11 @@ I received my B.S., M.S., and Ph.D. degrees in Electrical Engineering and Comput
 </p>
 
 <p>
-I worked as a Staff Engineer at Samsung Electronics until October 2022, contributing to Wi-Fi firmware development and IEEE 802.11 standardization. Until February 2025, I was a Senior Researcher at the Korea Railroad Research Institute, focusing on wireless LAN/PAN systems, positioning, and mission-critical railway applications.
+I worked as a Staff Engineer at Samsung Electronics until October 2022, contributing to Wi-Fi firmware development and IEEE 802.11 standardization. 
+</p>
+
+<p>
+Until February 2025, I was a Senior Researcher at the Korea Railroad Research Institute, focusing on wireless LAN/PAN systems, positioning, and mission-critical railway applications.
 </p>
 
 <p>
