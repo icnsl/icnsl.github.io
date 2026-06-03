@@ -29,7 +29,7 @@ author:
   bio              : >-
     Assistant Professor<br>
     Sejong University<br>
-    Wireless Communication & Networking
+    # Wireless Communication & Networking
   location         : "Seoul, South Korea"
   employer         : "Sejong University"
   uri              : # URL
