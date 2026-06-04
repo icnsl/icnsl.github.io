@@ -28,9 +28,9 @@ Since March 2025, I have been an Assistant Professor in the Department of Artifi
 </div>
 
 ## Recent News
-- [2026.06] Website renewal
-- [2025.04] Our paper titled “Real-time Task Scheduling with Fairness in Digital Twin Systems” has been published in the Internet of Things Journal.
-- [2025.03] I appointed as an Assistant Professor in the Department of Artificial Intelligence and Information Technology at Sejong University.
+- **[2026.06]** Website renewal
+- **[2025.04]** Our paper titled “Real-time Task Scheduling with Fairness in Digital Twin Systems” has been published in the **Internet of Things Journal**.
+- **[2025.03]** I appointed as an Assistant Professor in the Department of Artificial Intelligence and Information Technology at Sejong University.
 
 ## Research Interest
 - IEEE 802.11 (Wi-Fi) systems and standards
