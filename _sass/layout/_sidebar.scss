@@ -323,12 +323,32 @@
   }
 }
 
-/* Center author name and bio in the sidebar */
-.author__content {
-  text-align: center;
-}
+/* Custom sidebar profile block alignment */
+@media (min-width: 64em) {
+  .sidebar .author__avatar,
+  .sidebar .author__content {
+    width: 240px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.author__name,
-.author__bio {
-  text-align: center;
+  .sidebar .author__avatar img {
+    display: block;
+    width: 260px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sidebar .author__content {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .sidebar .author__name,
+  .sidebar .author__bio {
+    text-align: center;
+  }
 }
