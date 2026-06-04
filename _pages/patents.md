@@ -3,6 +3,6 @@ title: "Patents"
 permalink: /patents/
 author_profile: true
 ---
-## Patents (Granted, US)
+## Patents (US, Granted)
 
-## Patents (Granted, KR)
+## Patents (KR, Granted)
