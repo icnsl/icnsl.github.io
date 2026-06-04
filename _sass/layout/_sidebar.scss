@@ -323,15 +323,24 @@
   }
 }
 
-/* Custom sidebar profile block alignment */
-/* Custom sidebar profile alignment */
+/* ==========================================================================
+   CUSTOM: Sidebar profile alignment
+   ========================================================================== */
+
+/*
+  Goal:
+  1. Keep profile image, name, and bio aligned to the same visual center.
+  2. Move the whole profile block slightly to the left within the sidebar.
+  3. Keep author links left-aligned under the same profile width.
+*/
+
 @media (min-width: 64em) {
   .sidebar .author__avatar,
   .sidebar .author__content,
   .sidebar .author__urls-wrapper {
     width: 180px;
     max-width: 100%;
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
   }
 
@@ -354,7 +363,15 @@
     text-align: center;
   }
 
+  .sidebar .author__bio {
+    line-height: 1.45;
+  }
+
   .sidebar .author__urls-wrapper {
     text-align: left;
+  }
+
+  .sidebar .author__urls {
+    width: 100%;
   }
 }
