@@ -5,8 +5,6 @@ author_profile: true
 ---
 ## Patents (US, Granted)
 
-## Patents (US, granted)
-
 <div class="pub-list">
 
 <div class="pub-entry">
