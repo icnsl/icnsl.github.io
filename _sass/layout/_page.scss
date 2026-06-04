@@ -525,3 +525,10 @@
     text-align: left;
   }
 }
+
+/* Keep footer visually near the bottom on short pages */
+@media (min-width: 64em) {
+  #main {
+    min-height: calc(100vh - 180px);
+  }
+}
