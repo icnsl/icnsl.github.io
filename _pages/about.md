@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-## Bio
+## About me
 <div class="bio-text">
 <p>
 I received my B.S., M.S., and Ph.D. degrees in Electrical Engineering and Computer Science from Seoul National University in 2010, 2012, and 2017.
@@ -35,4 +35,4 @@ Since March 2025, I have been an Assistant Professor in the Department of Artifi
 ## Research Interest
 - IEEE 802.11 (Wi-Fi) systems and standards
 - Mobility and positioning
-- Digital twin technology
+- Digital twin systems
