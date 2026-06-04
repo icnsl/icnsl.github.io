@@ -411,3 +411,73 @@
 .page__content .bio-text p {
   margin-bottom: 1.1em;
 }
+
+/* Publications page: aligned citation layout */
+.page__content .pub-list {
+  max-width: 900px;
+}
+
+.page__content .pub-entry {
+  display: grid;
+  grid-template-columns: 3.6rem minmax(0, 1fr);
+  column-gap: 0.45rem;
+  align-items: baseline;
+  margin: 1.15rem 0 1.45rem;
+  line-height: 1.65;
+}
+
+.page__content .pub-no {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.page__content .pub-citation {
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.page__content .pub-title {
+  font-weight: 600;
+}
+
+.page__content .pub-impact {
+  white-space: normal;
+}
+
+.page__content .pub-red {
+  color: #ff4d4d;
+  font-weight: 700;
+}
+
+/* Optional: subtle publication card style */
+.page__content .pub-entry {
+  padding: 0.85rem 1rem;
+  border-left: 3px solid rgba(255, 255, 255, 0.22);
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.page__content .pub-entry:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+@media (max-width: 600px) {
+  .page__content .pub-entry {
+    grid-template-columns: 1fr;
+    row-gap: 0.15rem;
+  }
+
+  .page__content .pub-no {
+    margin-bottom: 0.1rem;
+  }
+
+  .page__content .pub-citation {
+    text-align: left;
+  }
+}
