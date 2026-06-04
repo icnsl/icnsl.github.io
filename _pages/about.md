@@ -14,11 +14,11 @@ I received my B.S., M.S., and Ph.D. degrees in Electrical Engineering and Comput
 </p>
 
 <p>
-I worked as a Staff Engineer at Samsung Electronics until October 2022, contributing to Wi-Fi firmware development and IEEE 802.11 standardization. 
+I worked as a Staff Engineer at Samsung Electronics until October 2022, contributing to Wi-Fi SoC firmware development and IEEE 802.11 standardization. 
 </p>
 
 <p>
-Until February 2025, I was a Senior Researcher at the Korea Railroad Research Institute, focusing on wireless LAN/PAN systems, positioning, and mission-critical railway applications.
+Until February 2025, I was a Senior Researcher at the Korea Railroad Research Institute~(KRRI), focusing on private-5G railway technology, train positioning, and mission-critical railway applications.
 </p>
 
 <p>
@@ -28,7 +28,7 @@ Since March 2025, I have been an Assistant Professor in the Department of Artifi
 </div>
 
 ## Recent News
-- [2026.06] Website Renewal
+- [2026.06] Website renewal
 - [2025.04] Our paper titled “Real-time Task Scheduling with Fairness in Digital Twin Systems” has been published in the Internet of Things Journal.
 - [2025.03] I appointed as an Assistant Professor in the Department of Artificial Intelligence and Information Technology at Sejong University.
 
