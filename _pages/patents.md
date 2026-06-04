@@ -239,7 +239,6 @@ author_profile: true
     “공간 재사용을 이용하여 데이터를 전송하는 무선 통신 장치 및 이를 이용한 데이터 통신 방법,”
     <strong>Jonghun Han</strong>, Young-Wook Son, Sung-Hyun Choi, Seong-Won Kim, and Kang-Hyun Lee,
     2023.08.30.
-    <span class="pub-impact">(Application No. KR10-2018-0141957; Publication No. KR20200057481A).</span>
   </div>
 </div>
 
@@ -250,6 +249,5 @@ author_profile: true
     “고장 방지 기능을 갖는 멀티-억세스 에지 컴퓨팅 시스템 및 이의 고장 방지 방법,”
     Seongho Kwon, Ilmu Byun, Youngju Kim, Sungsoo Park, and <strong>Jonghun Han</strong>,
     2025.11.28.
-    <span class="pub-impact">(Application No. KR10-2024-0148824).</span>
   </div>
 </div>
