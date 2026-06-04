@@ -32,9 +32,9 @@ Since March 2025, I have been an Assistant Professor in the Department of Artifi
 <div class="news-list">
 
 <div class="news-entry">
-  <div class="news-date">[2026.06]</div>
+  
   <div class="news-text">
-    Website renewal! Yay!
+    <strong>[2026.06]</strong> Website renewal! Yay!
   </div>
 </div>
 
