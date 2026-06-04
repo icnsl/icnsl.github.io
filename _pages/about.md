@@ -39,16 +39,14 @@ Since March 2025, I have been an Assistant Professor in the Department of Artifi
 </div>
 
 <div class="news-entry">
-  <div class="news-date">[2025.04]</div>
   <div class="news-text">
-    Our paper titled “Real-Time Task Scheduling With Fairness in Digital Twin Systems” has been published in the <em>IEEE Internet of Things Journal</em>.
+    <strong>[2025.04]</strong> Our paper titled “Real-Time Task Scheduling With Fairness in Digital Twin Systems” has been published in the <em>IEEE Internet of Things Journal</em>.
   </div>
 </div>
 
 <div class="news-entry">
-  <div class="news-date">[2025.03]</div>
   <div class="news-text">
-    I was appointed as an Assistant Professor in the Department of Artificial Intelligence and Information Technology at Sejong University.
+    <strong>[2025.03]</strong> I was appointed as an Assistant Professor in the Department of Artificial Intelligence and Information Technology at Sejong University.
   </div>
 </div>
 
