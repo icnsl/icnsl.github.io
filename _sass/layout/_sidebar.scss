@@ -324,10 +324,12 @@
 }
 
 /* Custom sidebar profile block alignment */
+/* Custom sidebar profile alignment */
 @media (min-width: 64em) {
   .sidebar .author__avatar,
-  .sidebar .author__content {
-    width: 240px;
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    width: 260px;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -351,14 +353,8 @@
   .sidebar .author__bio {
     text-align: center;
   }
-}
 
-@media (min-width: 64em) {
   .sidebar .author__urls-wrapper {
-    width: 260px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     text-align: left;
   }
 }
