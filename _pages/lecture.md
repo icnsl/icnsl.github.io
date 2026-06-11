@@ -1,5 +1,5 @@
 ---
-title: "🧑‍🏫 Lecture"
+title: "🎓 Lecture"
 permalink: /lecture/
 author_profile: true
 ---
