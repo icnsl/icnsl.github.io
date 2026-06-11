@@ -25,15 +25,6 @@ author_profile: true
 
 <div class="contact-row">
   <div class="contact-icon">
-    <i class="fas fa-phone-alt"></i>
-  </div>
-  <div class="contact-text">
-    +82-2-3408-3549
-  </div>
-</div>
-
-<div class="contact-row">
-  <div class="contact-icon">
     <i class="fas fa-at"></i>
   </div>
   <div class="contact-text">
