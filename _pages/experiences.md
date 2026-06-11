@@ -123,7 +123,7 @@ author_profile: true
   <div class="timeline-card">
     <div class="timeline-head">
       <div class="timeline-title">Korea National Railway</div>
-      <div class="timeline-date">Jun. 2024–May 2026</div>
+      <div class="timeline-date">Jun. 2024–May. 2026</div>
     </div>
 
     <div class="timeline-role">
