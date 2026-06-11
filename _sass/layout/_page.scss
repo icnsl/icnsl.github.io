@@ -1104,3 +1104,22 @@
     font-size: 0.82em;
   }
 }
+
+/* ==========================================================================
+   CUSTOM: Home page notice box
+   ========================================================================== */
+
+.page__content .home-notice-box {
+  margin-top: 1.2rem;
+  margin-bottom: 2.3rem;
+  padding: 0.85rem 1rem;
+
+  font-size: 1.05em;
+  font-weight: 600;
+  line-height: 1.65;
+
+  border-left: 4px solid rgba(255, 255, 255, 0.28);
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.045);
+  color: var(--global-text-color);
+}
