@@ -23,6 +23,14 @@ author_profile: true
 <div class="lecture-list">
 
 <div class="lecture-entry">
+  <div class="lecture-term">2026 Fall</div>
+  <ul class="lecture-courses">
+    <li>Signals and Systems (신호 및 시스템)</li>
+    <li>세종인을 위한 전공탐색</li>
+  </ul>
+</div>
+
+<div class="lecture-entry">
   <div class="lecture-term">2026 Spring</div>
   <ul class="lecture-courses">
     <li>IoT Network (IoT 네트워크)</li>
