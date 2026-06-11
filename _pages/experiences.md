@@ -102,22 +102,33 @@ author_profile: true
 
 </div>
 
-
 ## Advisory and Committee Service
 
-<div class="cv-list">
+<div class="service-list">
 
-<div class="cv-entry">
-  <div class="cv-date">Aug. 2024–Jul. 2026</div>
-  <div class="cv-body">
-    External Member, KORAIL Business Development Committee.
+<div class="service-entry">
+  <div class="timeline-card">
+    <div class="timeline-head">
+      <div class="timeline-title">KORAIL Business Development Committee</div>
+      <div class="timeline-date">Aug. 2024–Jul. 2026</div>
+    </div>
+
+    <div class="timeline-role">
+      External Member
+    </div>
   </div>
 </div>
 
-<div class="cv-entry">
-  <div class="cv-date">Jun. 2024–May 2026</div>
-  <div class="cv-body">
-    Technical Advisory Committee Member, Korea National Railway.
+<div class="service-entry">
+  <div class="timeline-card">
+    <div class="timeline-head">
+      <div class="timeline-title">Korea National Railway</div>
+      <div class="timeline-date">Jun. 2024–May 2026</div>
+    </div>
+
+    <div class="timeline-role">
+      Technical Advisory Committee Member
+    </div>
   </div>
 </div>
 
@@ -126,18 +137,18 @@ author_profile: true
 
 ## Academic Service
 
-<div class="cv-list">
+<div class="service-list">
 
-<div class="cv-entry">
-  <div class="cv-date">Reviewer</div>
-  <div class="cv-body">
-    <span class="cv-title">Journal Reviewer</span>
-    <ul class="cv-details">
-      <li><em>IEEE Transactions on Vehicular Technology (2019) </em></li>
-      <li><em>IEEE Communications Letters (2023) </em></li>
-      <li><em>IEEE Journal of Selected Topics in Signal Processing (2024) </em></li>
-      <li><em>Journal of Korean Institute of Communications and Information Sciences (2026)</em></li>
-      <li><em>IEEE Internet of Things Journal (2026)</em></li>
+<div class="service-entry">
+  <div class="timeline-card">
+    <div class="timeline-head">
+      <div class="timeline-title">Journal Reviewer</div>
+    </div>
+
+    <ul class="service-details">
+      <li><em>IEEE Transactions on Vehicular Technology</em></li>
+      <li><em>IEEE Communications Letters</em></li>
+      <li><em>IEEE Journal of Selected Topics in Signal Processing</em></li>
     </ul>
   </div>
 </div>
