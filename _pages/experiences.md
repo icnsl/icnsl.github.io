@@ -4,7 +4,7 @@ permalink: /experiences/
 author_profile: true
 ---
 
-## Professional Experience
+## 🏢Professional Experience
 
 <div class="timeline-list">
 
@@ -81,7 +81,7 @@ author_profile: true
 </div>
 
 
-## Invited Talks
+## 🎤Invited Talks
 
 <div class="cv-list">
 
@@ -103,7 +103,7 @@ author_profile: true
 
 </div>
 
-## Advisory and Committee Service
+## 🏛️Advisory and Committee Service
 
 <div class="service-list">
 
@@ -136,7 +136,7 @@ author_profile: true
 </div>
 
 
-## Academic Service
+## 📝Academic Service
 
 <div class="service-list">
 
