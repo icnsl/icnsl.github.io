@@ -33,9 +33,7 @@ author_profile: true
     <i class="fas fa-map-marker-alt"></i>
   </div>
   <div class="contact-text contact-address">
-    704, Daeyang AI Center, 209, Neungdong-ro,<br>
-    Gwangjin-gu, Seoul 05006, South Korea<br>
-    (Sejong University)
+    704, Daeyang AI Center, 209, Neungdong-ro, Gwangjin-gu, Seoul 05006, South Korea (Sejong University)
   </div>
 </div>
 
