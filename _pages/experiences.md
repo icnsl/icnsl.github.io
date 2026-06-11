@@ -60,7 +60,6 @@ author_profile: true
       <li>Wi-Fi system engineer</li>
       <li>IEEE 802.11 MAC standard delegate, including participation in the IEEE 802.11be task group</li>
       <li>Wi-Fi SoC firmware development and verification</li>
-      <li>IEEE 802.11 PHY/MAC algorithm development</li>
     </ul>
   </div>
 </div>
