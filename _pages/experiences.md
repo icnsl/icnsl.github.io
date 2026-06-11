@@ -20,8 +20,9 @@ author_profile: true
     </div>
 
     <ul class="timeline-details">
-      <li>Intelligent communication and networked systems</li>
-      <li>IEEE 802.11 Wi-Fi systems, mobility, positioning, and digital twin systems</li>
+      <li>IEEE 802.11 Wi-Fi systems</li>
+      <li>Mobility and positioning</li>
+      <li>Digital Twin systems</li>
     </ul>
   </div>
 </div>
