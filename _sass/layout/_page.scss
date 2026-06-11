@@ -575,3 +575,194 @@
   white-space: nowrap;
   margin-right: 0.2rem;
 }
+
+/* ==========================================================================
+   CUSTOM: Experiences page - professional timeline
+   ========================================================================== */
+
+.page__content .timeline-list {
+  position: relative;
+  max-width: 920px;
+  margin: 1.25rem 0 2.75rem;
+  padding-left: 1.6rem;
+}
+
+.page__content .timeline-list::before {
+  content: "";
+  position: absolute;
+  top: 0.45rem;
+  bottom: 0.45rem;
+  left: 0.38rem;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.page__content .timeline-entry {
+  position: relative;
+  margin: 0 0 1.35rem;
+}
+
+.page__content .timeline-entry::before {
+  content: "";
+  position: absolute;
+  left: -1.56rem;
+  top: 1.05rem;
+  width: 0.72rem;
+  height: 0.72rem;
+  border-radius: 50%;
+  background: var(--global-text-color);
+  border: 2px solid var(--global-bg-color);
+  z-index: 2;
+}
+
+.page__content .timeline-card {
+  padding: 0.9rem 1rem;
+  line-height: 1.75;
+  border-left: 3px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.page__content .timeline-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.page__content .timeline-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.2rem;
+}
+
+.page__content .timeline-title {
+  font-weight: 700;
+  font-size: 1.05em;
+}
+
+.page__content .timeline-role {
+  margin-top: 0.1rem;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.page__content .timeline-date {
+  flex: 0 0 auto;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--global-text-color-light);
+}
+
+.page__content .timeline-details {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.page__content .timeline-details li {
+  line-height: 1.65;
+  margin-bottom: 0.15rem;
+}
+
+
+/* ==========================================================================
+   CUSTOM: Experiences page - CV/service entries
+   ========================================================================== */
+
+.page__content .cv-list {
+  max-width: 920px;
+  margin: 1rem 0 2.75rem;
+}
+
+.page__content .cv-entry {
+  display: grid;
+  grid-template-columns: 8.8rem minmax(0, 1fr);
+  column-gap: 0.85rem;
+  align-items: baseline;
+
+  margin: 0 0 1.05rem;
+  padding: 0.75rem 0.9rem;
+
+  line-height: 1.75;
+
+  border-left: 3px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.page__content .cv-entry:hover {
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.page__content .cv-date {
+  font-weight: 700;
+  white-space: nowrap;
+  color: var(--global-text-color);
+}
+
+.page__content .cv-body {
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.page__content .cv-title {
+  font-weight: 700;
+}
+
+.page__content .cv-details {
+  margin: 0.4rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.page__content .cv-details li {
+  line-height: 1.65;
+  margin-bottom: 0.1rem;
+}
+
+
+/* ==========================================================================
+   CUSTOM: Experiences page - mobile layout
+   ========================================================================== */
+
+@media (max-width: 600px) {
+  .page__content .timeline-list {
+    padding-left: 1.15rem;
+  }
+
+  .page__content .timeline-list::before {
+    left: 0.25rem;
+  }
+
+  .page__content .timeline-entry::before {
+    left: -1.25rem;
+  }
+
+  .page__content .timeline-head {
+    display: block;
+  }
+
+  .page__content .timeline-date {
+    margin-top: 0.2rem;
+  }
+
+  .page__content .timeline-role {
+    text-align: left;
+  }
+
+  .page__content .cv-entry {
+    grid-template-columns: 1fr;
+    row-gap: 0.15rem;
+  }
+
+  .page__content .cv-body {
+    text-align: left;
+  }
+}
