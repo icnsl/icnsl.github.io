@@ -58,8 +58,8 @@ author_profile: true
 
     <ul class="timeline-details">
       <li>Wi-Fi system engineer</li>
-      <li>IEEE 802.11 MAC standard delegate, including participation in the IEEE 802.11be task group</li>
       <li>Wi-Fi SoC firmware development and verification</li>
+      <li>IEEE 802.11 MAC standard delegate, including participation in the IEEE 802.11be task group</li>
     </ul>
   </div>
 </div>
