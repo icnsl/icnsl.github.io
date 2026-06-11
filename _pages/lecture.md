@@ -12,11 +12,7 @@ author_profile: true
 }
 
 .page__title::before {
-  content: "\f51c";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  margin-right: 0.65rem;
-  font-size: 0.88em;
+  content: none !important;
 }
 </style>
 
