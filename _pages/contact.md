@@ -13,11 +13,7 @@ author_profile: true
 }
 
 .page__title::before {
-  content: "\f095";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  margin-right: 0.65rem;
-  font-size: 0.92em;
+  content: none !important;
 }
 </style>
 
