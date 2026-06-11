@@ -7,14 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-## 📢 Recent News
+연구/학업/대학 생활 등 장르와 무관하게 상담이 필요한 경우, 메일로 연락주세요. 
+
+## 📢 Recent News (최근 소식)
 
 <div class="news-list">
 
-<div class="news-entry">
-  
+<div class="news-entry">  
   <div class="news-text">
-    <strong>[2026.06]</strong> Website renewal! Yay! 😺
+    <strong>[2026.06]</strong> Website renewal! Yay! 홈페이지를 리뉴얼 했습니다 😺
   </div>
 </div>
 
