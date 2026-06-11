@@ -400,6 +400,7 @@
   text-transform: uppercase;
 }
 
+
 /* ==========================================================================
    CUSTOM: Desktop layout width and sidebar-content spacing
    ========================================================================== */
@@ -450,7 +451,7 @@
 
 
 /* ==========================================================================
-   CUSTOM: Publications page citation layout
+   CUSTOM: Publications and Patents citation layout
    ========================================================================== */
 
 .page__content .pub-list {
@@ -508,7 +509,7 @@
 
 
 /* ==========================================================================
-   CUSTOM: Mobile publication layout
+   CUSTOM: Mobile publication and patent layout
    ========================================================================== */
 
 @media (max-width: 600px) {
@@ -526,12 +527,18 @@
   }
 }
 
+
+/* ==========================================================================
+   CUSTOM: Footer position helper
+   ========================================================================== */
+
 /* Keep footer visually near the bottom on short pages */
 @media (min-width: 64em) {
   #main {
     min-height: calc(100vh - 180px);
   }
 }
+
 
 /* ==========================================================================
    CUSTOM: Recent News layout - inline date version
@@ -575,6 +582,7 @@
   white-space: nowrap;
   margin-right: 0.2rem;
 }
+
 
 /* ==========================================================================
    CUSTOM: Experiences page - professional timeline
@@ -627,33 +635,40 @@
   background: rgba(255, 255, 255, 0.06);
 }
 
+/* Timeline header: institution left, date right */
 .page__content .timeline-head {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  column-gap: 1.25rem;
   align-items: baseline;
-  gap: 1.2rem;
+  margin-bottom: 0.15rem;
 }
 
 .page__content .timeline-title {
-  font-weight: 700;
-  font-size: 1.05em;
+  min-width: 0;
+  font-weight: 800;
+  font-size: 1.08em;
+  color: var(--global-text-color);
+  letter-spacing: 0.01em;
+}
+
+.page__content .timeline-date {
+  font-weight: 400;
+  font-size: 0.95em;
+  white-space: nowrap;
+  color: var(--global-text-color-light);
+  text-align: right;
 }
 
 .page__content .timeline-role {
-  margin-top: 0.1rem;
+  margin-top: 0.15rem;
+  line-height: 1.65;
   text-align: justify;
   text-align-last: left;
   text-justify: inter-word;
   hyphens: auto;
   -webkit-hyphens: auto;
   overflow-wrap: break-word;
-}
-
-.page__content .timeline-date {
-  flex: 0 0 auto;
-  font-weight: 600;
-  white-space: nowrap;
-  color: var(--global-text-color-light);
 }
 
 .page__content .timeline-details {
@@ -746,11 +761,13 @@
   }
 
   .page__content .timeline-head {
-    display: block;
+    grid-template-columns: 1fr;
+    row-gap: 0.1rem;
   }
 
   .page__content .timeline-date {
-    margin-top: 0.2rem;
+    text-align: left;
+    font-size: 0.9em;
   }
 
   .page__content .timeline-role {
