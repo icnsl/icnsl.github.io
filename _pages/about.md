@@ -30,6 +30,8 @@ redirect_from:
   </div>
 </div>
 
+</div>
+
 ## 👤 About me
 <div class="bio-text">
 <p>
@@ -47,8 +49,6 @@ Until February 2025, I was a Senior Researcher at the Korea Railroad Research In
 <p>
 Since March 2025, I have been an Assistant Professor in the Department of Artificial Intelligence and Information Technology at Sejong University, focusing on intelligent communication and networked systems.
 </p>
-
-</div>
 
 </div>
 
