@@ -14,7 +14,7 @@ redirect_from:
 <div class="news-entry">
   
   <div class="news-text">
-    <strong>[2026.06]</strong> Website renewal! Yay!
+    <strong>[2026.06]</strong> Website renewal! Yay! 😺
   </div>
 </div>
 
