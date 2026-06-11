@@ -784,3 +784,34 @@
     text-align: left;
   }
 }
+
+/* ==========================================================================
+   CUSTOM: Experiences page - service entries using timeline-card style
+   ========================================================================== */
+
+.page__content .service-list {
+  max-width: 920px;
+  margin: 1rem 0 2.75rem;
+}
+
+.page__content .service-entry {
+  margin: 0 0 1.05rem;
+}
+
+.page__content .service-entry .timeline-card {
+  padding: 0.85rem 1rem;
+}
+
+.page__content .service-entry .timeline-role {
+  margin-top: 0.2rem;
+}
+
+.page__content .service-details {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.page__content .service-details li {
+  line-height: 1.65;
+  margin-bottom: 0.15rem;
+}
