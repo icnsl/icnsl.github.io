@@ -29,7 +29,7 @@ author_profile: true
 <div class="timeline-entry">
   <div class="timeline-card">
     <div class="timeline-head">
-      <div class="timeline-title">Korea Railroad Research Institute (KRRI)</div>
+      <div class="timeline-title">Korea Railroad Research Institute </div>
       <div class="timeline-date">Oct. 2022–Feb. 2025</div>
     </div>
 
@@ -67,12 +67,12 @@ author_profile: true
 <div class="timeline-entry">
   <div class="timeline-card">
     <div class="timeline-head">
-      <div class="timeline-title">Seoul National University (SNU)</div>
+      <div class="timeline-title">Seoul National University </div>
       <div class="timeline-date">Sep. 2017–Oct. 2017</div>
     </div>
 
     <div class="timeline-role">
-      Postdoctoral Research Scholar, Institute of New Media and Communications (INMC), Seoul, Korea
+      Postdoctoral Research Scholar, Institute of New Media and Communications, Seoul, Korea
     </div>
   </div>
 </div>
@@ -146,9 +146,10 @@ author_profile: true
     </div>
 
     <ul class="service-details">
-      <li><em>IEEE Transactions on Vehicular Technology</em></li>
-      <li><em>IEEE Communications Letters</em></li>
-      <li><em>IEEE Journal of Selected Topics in Signal Processing</em></li>
+      <li><em>IEEE Transactions on Vehicular Technology (2019) </em></li>
+      <li><em>IEEE Communications Letters (2023) </em></li>
+      <li><em>IEEE Journal of Selected Topics in Signal Processing (2024) </em></li>
+      <li><em>IEEE Internet of Things Journal (2026) </em></li>
     </ul>
   </div>
 </div>
