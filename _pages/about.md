@@ -6,8 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-연구/학업/대학 생활 등 장르와 무관하게 상담이 필요한 경우, 메일로 연락주세요. 
+<div class="home-notice-title">
+  <strong>📌 Notice:</strong> 연구/학업/대학 생활 등 장르와 무관하게 면담이 필요한 경우, 메일로 연락주세요. 
+</div>
 
 ## 📢 Recent News (최근 소식)
 
