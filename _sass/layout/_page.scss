@@ -653,7 +653,7 @@
 }
 
 .page__content .timeline-date {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 0.95em;
   white-space: nowrap;
   color: var(--global-text-color-light);
@@ -663,6 +663,7 @@
 .page__content .timeline-role {
   margin-top: 0.15rem;
   line-height: 1.65;
+  font-style: italic;
   text-align: justify;
   text-align-last: left;
   text-justify: inter-word;
