@@ -883,3 +883,99 @@
 .page__content .timeline-role {
   font-style: italic;
 }
+
+/* ==========================================================================
+   CUSTOM: Lecture page timeline
+   ========================================================================== */
+
+.page__content .lecture-list {
+  position: relative;
+  max-width: 920px;
+  margin: 1.4rem 0 2.75rem;
+  padding-left: 2rem;
+}
+
+/* Vertical timeline line */
+.page__content .lecture-list::before {
+  content: "";
+  position: absolute;
+  top: 0.55rem;
+  bottom: 0.55rem;
+  left: 0.42rem;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.28);
+}
+
+/* Each semester block */
+.page__content .lecture-entry {
+  position: relative;
+  margin: 0 0 2.2rem;
+}
+
+/* Timeline dot */
+.page__content .lecture-entry::before {
+  content: "";
+  position: absolute;
+  left: -1.95rem;
+  top: 0.35rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: var(--global-text-color);
+  border: 2px solid var(--global-bg-color);
+  z-index: 2;
+}
+
+/* Semester title */
+.page__content .lecture-term {
+  font-weight: 800;
+  font-size: 1.22em;
+  line-height: 1.45;
+  margin-bottom: 0.65rem;
+  color: var(--global-text-color);
+  letter-spacing: 0.01em;
+}
+
+/* Course list */
+.page__content .lecture-courses {
+  margin: 0;
+  padding-left: 1.45rem;
+}
+
+.page__content .lecture-courses li {
+  line-height: 1.7;
+  margin-bottom: 0.15rem;
+  text-align: left;
+}
+
+/* Remove bottom margin from the last semester */
+.page__content .lecture-entry:last-child {
+  margin-bottom: 0;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  .page__content .lecture-list {
+    padding-left: 1.45rem;
+  }
+
+  .page__content .lecture-list::before {
+    left: 0.28rem;
+  }
+
+  .page__content .lecture-entry::before {
+    left: -1.5rem;
+  }
+
+  .page__content .lecture-term {
+    font-size: 1.12em;
+  }
+
+  .page__content .lecture-courses {
+    padding-left: 1.2rem;
+  }
+
+  .page__content .lecture-courses li {
+    line-height: 1.65;
+  }
+}
