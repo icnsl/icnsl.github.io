@@ -147,10 +147,10 @@ author_profile: true
     </div>
 
     <ul class="service-details">
-      <li><em>IEEE Transactions on Vehicular Technology (2019) </em></li>
-      <li><em>IEEE Communications Letters (2023) </em></li>
-      <li><em>IEEE Journal of Selected Topics in Signal Processing (2024) </em></li>
-      <li><em>IEEE Internet of Things Journal (2026) </em></li>
+      <li>IEEE Transactions on Vehicular Technology (2019) </li>
+      <li>IEEE Communications Letters (2023) </li>
+      <li>IEEE Journal of Selected Topics in Signal Processing (2024) </li>
+      <li>IEEE Internet of Things Journal (2026) </li>
     </ul>
   </div>
 </div>
