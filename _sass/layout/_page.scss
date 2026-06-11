@@ -532,3 +532,46 @@
     min-height: calc(100vh - 180px);
   }
 }
+
+/* ==========================================================================
+   CUSTOM: Recent News layout - inline date version
+   ========================================================================== */
+
+.page__content .news-list {
+  max-width: 900px;
+  margin-top: 1rem;
+  margin-bottom: 2.25rem;
+}
+
+.page__content .news-entry {
+  display: block;
+  margin: 0 0 1.25em 0;
+  padding: 0;
+  line-height: 1.75;
+
+  border-left: none;
+  border-radius: 0;
+  background: transparent;
+}
+
+.page__content .news-entry:last-child {
+  margin-bottom: 0;
+}
+
+.page__content .news-text {
+  line-height: 1.75;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.page__content .news-text strong {
+  font-weight: 700;
+  white-space: nowrap;
+  margin-right: 0.2rem;
+}
