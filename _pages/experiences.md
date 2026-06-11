@@ -133,9 +133,11 @@ author_profile: true
   <div class="cv-body">
     <span class="cv-title">Journal Reviewer</span>
     <ul class="cv-details">
-      <li><em>IEEE Transactions on Vehicular Technology</em></li>
-      <li><em>IEEE Communications Letters</em></li>
-      <li><em>IEEE Journal of Selected Topics in Signal Processing</em></li>
+      <li><em>IEEE Transactions on Vehicular Technology (2019) </em></li>
+      <li><em>IEEE Communications Letters (2023) </em></li>
+      <li><em>IEEE Journal of Selected Topics in Signal Processing (2024) </em></li>
+      <li><em>Journal of Korean Institute of Communications and Information Sciences (2026)</em></li>
+      <li><em>IEEE Internet of Things Journal (2026)</em></li>
     </ul>
   </div>
 </div>
