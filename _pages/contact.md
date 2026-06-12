@@ -199,12 +199,12 @@ author_profile: true
     <div class="contact-location-list">
 
       <div class="contact-location-row">
-        <div class="contact-location-label">Faculty Office (교수 연구실) </div>
+        <div class="contact-location-label">Faculty Office </div>
         <div class="contact-location-text">Room 704, Daeyang AI Center</div>
       </div>
 
       <div class="contact-location-row">
-        <div class="contact-location-label">Student Lab (학생 연구실) </div>
+        <div class="contact-location-label">Student Lab </div>
         <div class="contact-location-text">Room 321, Daeyang AI Center</div>
       </div>
 
