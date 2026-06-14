@@ -235,6 +235,16 @@ author_profile: true
 <div class="pub-entry">
   <div class="pub-no">[P23]</div>
   <div class="pub-citation">
+    KR#10-2755897,
+    “EDCA 파라미터를 동적으로 조절하는 방법 및 장치,”
+    <strong>Jonghun Han</strong>, Jung-tai Kim, and Yong-ki Yoon,
+    2025.01.13.
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-no">[P24]</div>
+  <div class="pub-citation">
     KR#10-2572878,
     “공간 재사용을 이용하여 데이터를 전송하는 무선 통신 장치 및 이를 이용한 데이터 통신 방법,”
     <strong>Jonghun Han</strong>, Young-Wook Son, Sung-Hyun Choi, Seong-Won Kim, and Kang-Hyun Lee,
@@ -243,7 +253,7 @@ author_profile: true
 </div>
 
 <div class="pub-entry">
-  <div class="pub-no">[P24]</div>
+  <div class="pub-no">[P25]</div>
   <div class="pub-citation">
     KR#10-2894598,
     “고장 방지 기능을 갖는 멀티-억세스 에지 컴퓨팅 시스템 및 이의 고장 방지 방법,”
