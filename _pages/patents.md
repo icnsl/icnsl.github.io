@@ -281,5 +281,3 @@ author_profile: true
     2023.08.30.
   </div>
 </div>
-
-</div>
