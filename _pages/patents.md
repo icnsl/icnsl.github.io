@@ -233,6 +233,33 @@ author_profile: true
 ## Patents (KR, Granted)
 
 <div class="pub-entry">
+  <div class="pub-no">[P25]</div>
+  <div class="pub-citation">
+    KR#10-2976771,
+    “시 민감 네트워크 패킷의 무선 송수신 시 데이터 송수신 방법 및 장치,”
+    Ilmu Byun, <strong>Jonghun Han</strong>, Youngju Kim, Sungsoo Park, and Yong-ki Yoon,
+    2026.06.09.
+  </div>
+
+<div class="pub-entry">
+  <div class="pub-no">[P25]</div>
+  <div class="pub-citation">
+    KR#10-2976784,
+    “시 민감 네트워크 패킷의 무선 송수신을 위한 무선 플로우 해지 방법 및 장치,”
+    Ilmu Byun, <strong>Jonghun Han</strong>, Youngju Kim, Sungsoo Park, and Yong-ki Yoon,
+    2026.06.09.
+  </div>
+
+<div class="pub-entry">
+  <div class="pub-no">[P25]</div>
+  <div class="pub-citation">
+    KR#10-2894598,
+    “고장 방지 기능을 갖는 멀티-억세스 에지 컴퓨팅 시스템 및 이의 고장 방지 방법,”
+    Seongho Kwon, Ilmu Byun, Youngju Kim, Sungsoo Park, and <strong>Jonghun Han</strong>,
+    2025.11.28.
+  </div>
+
+<div class="pub-entry">
   <div class="pub-no">[P23]</div>
   <div class="pub-citation">
     KR#10-2755897,
@@ -252,12 +279,4 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P25]</div>
-  <div class="pub-citation">
-    KR#10-2894598,
-    “고장 방지 기능을 갖는 멀티-억세스 에지 컴퓨팅 시스템 및 이의 고장 방지 방법,”
-    Seongho Kwon, Ilmu Byun, Youngju Kim, Sungsoo Park, and <strong>Jonghun Han</strong>,
-    2025.11.28.
-  </div>
 </div>
