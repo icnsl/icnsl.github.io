@@ -233,22 +233,24 @@ author_profile: true
 ## Patents (KR, Granted)
 
 <div class="pub-entry">
-  <div class="pub-no">[P25]</div>
+  <div class="pub-no">[P23]</div>
   <div class="pub-citation">
     KR#10-2976771,
     “시 민감 네트워크 패킷의 무선 송수신 시 데이터 송수신 방법 및 장치,”
     Ilmu Byun, <strong>Jonghun Han</strong>, Youngju Kim, Sungsoo Park, and Yong-ki Yoon,
     2026.06.09.
   </div>
+</div>
 
 <div class="pub-entry">
-  <div class="pub-no">[P25]</div>
+  <div class="pub-no">[P24]</div>
   <div class="pub-citation">
     KR#10-2976784,
     “시 민감 네트워크 패킷의 무선 송수신을 위한 무선 플로우 해지 방법 및 장치,”
     Ilmu Byun, <strong>Jonghun Han</strong>, Youngju Kim, Sungsoo Park, and Yong-ki Yoon,
     2026.06.09.
   </div>
+</div>
 
 <div class="pub-entry">
   <div class="pub-no">[P25]</div>
@@ -258,9 +260,10 @@ author_profile: true
     Seongho Kwon, Ilmu Byun, Youngju Kim, Sungsoo Park, and <strong>Jonghun Han</strong>,
     2025.11.28.
   </div>
+</div>
 
 <div class="pub-entry">
-  <div class="pub-no">[P23]</div>
+  <div class="pub-no">[P26]</div>
   <div class="pub-citation">
     KR#10-2755897,
     “EDCA 파라미터를 동적으로 조절하는 방법 및 장치,”
@@ -270,7 +273,7 @@ author_profile: true
 </div>
 
 <div class="pub-entry">
-  <div class="pub-no">[P24]</div>
+  <div class="pub-no">[P27]</div>
   <div class="pub-citation">
     KR#10-2572878,
     “공간 재사용을 이용하여 데이터를 전송하는 무선 통신 장치 및 이를 이용한 데이터 통신 방법,”
