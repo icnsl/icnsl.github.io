@@ -21,7 +21,7 @@ author_profile: true
 <div class="pub-entry">
   <div class="pub-no">[J2]</div>
   <div class="pub-citation">
-    Jongyeon Park, <strong>Jonghun Han*</strong>, and Saewoong Bahk,
+    Jongyeon Park, <strong>Jonghun Han*</strong>, and Saewoong Bahk*,
     “Adaptive Multi-Link Channel Access Under Cross-Link Interference in Next-Generation WLANs,”
     <em>IEEE Internet of Things Journal</em>, vol. 11, no. 14, pp. 24685–24697, 2024.
     <span class="pub-impact">(impact factor <span class="pub-red">8.2</span>, SCIE top <span class="pub-red">3.4%</span>)</span>
@@ -41,7 +41,7 @@ author_profile: true
 <div class="pub-entry">
   <div class="pub-no">[J4]</div>
   <div class="pub-citation">
-    <strong>Jonghun Han</strong>, Changhee Joo, and Saewoong Bahk,
+    <strong>Jonghun Han</strong>, Changhee Joo, and Saewoong Bahk*,
     “Resource Sharing in Dual-Stack Devices: Opportunistic Bluetooth Transmissions in WLAN Busy Periods,”
     <em>IEEE Transactions on Mobile Computing</em>, vol. 17, no. 10, pp. 2396–2407, Oct. 2018.
     <span class="pub-impact">(impact factor 4.098, SCIE top <span class="pub-red">9.1%</span>)</span>
