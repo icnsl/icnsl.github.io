@@ -34,7 +34,7 @@ author_profile: true
     Minchae Jung, and <strong>Jonghun Han*</strong>, 
     “Adaptive Packet Tuning for Energy Efficient Communication in Underlay CSMA/CA Networks,”
     <em>IEEE Access</em>, vol. 11, pp. 95989-95998, Aug. 2023.
-    <span class="pub-impact">(impact factor 3.9, SCIE top <span class="pub-red">36.2%</span>)</span>
+    <span class="pub-impact">(impact factor 3.9, SCIE top 36.2%)</span>
   </div>
 </div>
 
