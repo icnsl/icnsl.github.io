@@ -16,10 +16,9 @@ redirect_from:
 
 <div class="news-entry">  
   <div class="news-text">
-    <strong>[2026.07]</strong> Our work, "Demystifying Multi-Link Device Behavior and Performance under Network Saturation in Wi-Fi 7", has been accepted to <em>IEEE Transactions on Networking<em>.
+    <strong>[2026.07]</strong> Our work, "Demystifying Multi-Link Device Behavior and Performance under Network Saturation in Wi-Fi 7", has been accepted to <em>IEEE Transactions on Networking</em>.
   </div>
 </div>
-
 
 <div class="news-entry">  
   <div class="news-text">
@@ -29,7 +28,7 @@ redirect_from:
 
 <div class="news-entry">
   <div class="news-text">
-    <strong>[2025.04]</strong> Our paper titled “Real-Time Task Scheduling With Fairness in Digital Twin Systems” has been published in the <em>IEEE Internet of Things Journal<em>.
+    <strong>[2025.04]</strong> Our paper titled “Real-Time Task Scheduling With Fairness in Digital Twin Systems” has been published in the <em>IEEE Internet of Things Journal</em>.
   </div>
 </div>
 
