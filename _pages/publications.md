@@ -11,6 +11,15 @@ author_profile: true
 <div class="pub-entry">
   <div class="pub-no">[J1]</div>
   <div class="pub-citation">
+    Jongyeon Park, Youngwook Son*, Kanghyun Lee, <strong>Jonghun Han</strong>, and Saewoong Bahk,
+    “Demystifying Multi-Link Device Behavior and Performance under Network Saturation in Wi-Fi 7,”
+    <em>IEEE Transactions on Networking</em>, accepted, Jul. 2026.
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-no">[J2]</div>
+  <div class="pub-citation">
     Cheonyong Kim, Walid Saad, <strong>Jonghun Han*</strong>, <em>Tao Yu, Kei Sakaguchi and Minchae Jung*</em>,
     “Real-Time Task Scheduling with Fairness in Digital Twin Systems,”
     <em>IEEE Internet of Things Journal</em>, vol. 12, no. 7, pp. 7846–7862, Apr. 2025.
@@ -19,7 +28,7 @@ author_profile: true
 </div>
 
 <div class="pub-entry">
-  <div class="pub-no">[J2]</div>
+  <div class="pub-no">[J3]</div>
   <div class="pub-citation">
     Jongyeon Park, <strong>Jonghun Han*</strong>, and Saewoong Bahk*,
     “Adaptive Multi-Link Channel Access Under Cross-Link Interference in Next-Generation WLANs,”
@@ -29,7 +38,7 @@ author_profile: true
 </div>
 
 <div class="pub-entry">
-  <div class="pub-no">[J3]</div>
+  <div class="pub-no">[J4]</div>
   <div class="pub-citation">
     Minchae Jung, and <strong>Jonghun Han*</strong>, 
     “Adaptive Packet Tuning for Energy Efficient Communication in Underlay CSMA/CA Networks,”
@@ -39,7 +48,7 @@ author_profile: true
 </div>
 
 <div class="pub-entry">
-  <div class="pub-no">[J4]</div>
+  <div class="pub-no">[J5]</div>
   <div class="pub-citation">
     <strong>Jonghun Han</strong>, Changhee Joo, and Saewoong Bahk*,
     “Resource Sharing in Dual-Stack Devices: Opportunistic Bluetooth Transmissions in WLAN Busy Periods,”
