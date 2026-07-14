@@ -20,7 +20,7 @@ author_profile: true
 <div class="pub-entry">
   <div class="pub-no">[J2]</div>
   <div class="pub-citation">
-    Cheonyong Kim, Walid Saad, <strong>Jonghun Han*</strong>, <em>Tao Yu, Kei Sakaguchi and Minchae Jung*</em>,
+    Cheonyong Kim, Walid Saad, <strong>Jonghun Han*</strong>, Tao Yu, Kei Sakaguchi and Minchae Jung*,
     “Real-Time Task Scheduling with Fairness in Digital Twin Systems,”
     <em>IEEE Internet of Things Journal</em>, vol. 12, no. 7, pp. 7846–7862, Apr. 2025.
     <span class="pub-impact">(impact factor <span class="pub-red">8.2</span>, SCIE top <span class="pub-red">3.4%</span>)</span>
