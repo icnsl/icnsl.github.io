@@ -2,7 +2,7 @@
 areas:
   - kicker: "NEXT-GENERATION WLAN"
     title: "Wi-Fi 7 Multi-Link Networking"
-    image: "/images/research/wifi7-mlo.svg"
+    image: "/images/research/dark1.png"
     alt: "Illustration of a Wi-Fi 7 multi-link device communicating over 2.4, 5, and 6 GHz links"
     description: "Analysis and design of IEEE 802.11 multi-link operation, including cross-link self-interference, fair channel access, and behavior under saturated traffic. The objective is predictable, standards-compatible performance across multiple links."
     publications:
@@ -13,7 +13,7 @@ areas:
 
   - kicker: "HETEROGENEOUS WIRELESS"
     title: "Bluetooth–Wi-Fi Coexistence and Cooperative Discovery"
-    image: "/images/research/wifi-ble-coexistence.svg"
+    image: "/images/research/dark2.png"
     alt: "Illustration of coordinated Wi-Fi and Bluetooth Low Energy operation in a dual-stack device"
     description: "Cross-stack coordination between Wi-Fi and Bluetooth/BLE is used to reuse otherwise idle airtime and share scan information. These mechanisms improve throughput and reduce the time and energy cost of discovering nearby access points."
     publications:
@@ -24,7 +24,7 @@ areas:
 
   - kicker: "ENERGY-EFFICIENT IOT"
     title: "Interference-Aware IoT Networking"
-    image: "/images/research/energy-efficient-iot.svg"
+    image: "/images/research/dark3.png"
     alt: "Illustration of an underlay IoT network adapting packet length around overlay wireless traffic"
     description: "Statistical modeling and parameter adaptation for low-power CSMA/CA networks operating beneath higher-power overlay traffic. Packet sizes are tuned to maximize bit-per-joule efficiency in shared unlicensed spectrum."
     publications:
@@ -33,7 +33,7 @@ areas:
 
   - kicker: "REAL-TIME CYBER–PHYSICAL SYSTEMS"
     title: "Digital Twin Scheduling and Synchronization"
-    image: "/images/research/digital-twin-scheduling.svg"
+    image: "/images/research/dark4.png"
     alt: "Illustration of update and inference task scheduling between a physical twin and a cyber twin"
     description: "Joint scheduling of update and inference tasks, fairness across cyber twins, synchronization-error control, and optimization of update and inference timing for responsive digital twin services."
     publications:
