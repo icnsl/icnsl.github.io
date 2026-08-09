@@ -1,0 +1,1599 @@
+/* ==========================================================================
+   SINGLE PAGE/POST
+   ========================================================================== */
+
+#main {
+  @include container;
+  @include clearfix;
+  margin-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  animation: intro 0.3s both;
+  animation-delay: 0.35s;
+
+  @include breakpoint($x-large) {
+    max-width: $x-large;
+  }
+}
+
+.page {
+  @include breakpoint($large) {
+    @include span(10 of 12 last);
+    @include prefix(0.5 of 12);
+    @include suffix(2 of 12);
+  }
+
+  .page__inner-wrap {
+    @include full();
+
+    .page__content,
+    .page__meta,
+    .page__share {
+      @include full();
+    }
+  }
+}
+
+.page__title {
+  margin-top: 0;
+  line-height: 1;
+
+  & + .page__meta {
+    margin-top: -0.5em;
+  }
+}
+
+.page__lead {
+  font-family: $global-font-family;
+  font-size: $type-size-4;
+}
+
+.page__content {
+
+  h2 {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  p, li, dl {
+    font-size: 1em;
+  }
+
+  /* paragraph indents */
+  p {
+    margin: 0 0 $indent-var;
+
+    /* sibling indentation*/
+    @if $paragraph-indent == true {
+      & + p {
+        text-indent: $indent-var;
+        margin-top: -($indent-var);
+      }
+    }
+  }
+
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: underline;
+
+      img {
+        box-shadow: 0 0 10px rgba(#000, 0.25);
+      }
+    }
+  }
+
+  dt {
+    margin-top: 1em;
+    font-family: $sans-serif;
+    font-weight: bold;
+  }
+
+  dd {
+    margin-left: 1em;
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+  }
+
+  .small {
+    font-size: $type-size-6;
+  }
+
+  /* blockquote citations */
+  blockquote + .small {
+    margin-top: -1.5em;
+    padding-left: 1.25rem;
+  }
+}
+
+.page__hero {
+  position: relative;
+  margin-bottom: 2em;
+  @include clearfix;
+  animation: intro 0.3s both;
+  animation-delay: 0.25s;
+
+  &--overlay {
+    position: relative;
+    margin-bottom: 2em;
+    padding: 3em 0;
+    @include clearfix;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: intro 0.3s both;
+    animation-delay: 0.25s;
+
+    a {
+      color: #fff;
+    }
+
+    .wrapper {
+      padding-left: 1em;
+      padding-right: 1em;
+
+      @include breakpoint($x-large) {
+        max-width: $x-large;
+      }
+    }
+
+    .page__title,
+    .page__meta,
+    .page__lead,
+    .btn {
+      color: #fff;
+      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+    }
+
+    .page__lead {
+      max-width: $medium;
+    }
+
+    .page__title {
+      font-size: $type-size-2;
+
+      @include breakpoint($small) {
+        font-size: $type-size-1;
+      }
+    }
+  }
+}
+
+.page__hero-image {
+  width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+}
+
+.page__hero-caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 2px 5px;
+  color: #fff;
+  font-family: $caption-font-family;
+  font-size: $type-size-7;
+  background: #000;
+  text-align: right;
+  z-index: 5;
+  opacity: 0.5;
+  border-radius: $border-radius 0 $border-radius 0;
+
+  @include breakpoint($large) {
+    padding: 5px 10px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/*
+   Social sharing
+   ========================================================================== */
+
+.page__share {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid var(--global-border-color);
+
+  @include breakpoint(max-width $small) {
+    .btn span {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+  }
+}
+
+.page__share-title {
+  margin-bottom: 10px;
+  font-size: $type-size-6;
+  text-transform: uppercase;
+}
+
+
+/*
+   Page meta
+   ========================================================================== */
+
+.page__meta {
+  margin-top: 2em;
+  color: var(--global-text-color-light);
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.page__meta-title {
+  margin-bottom: 10px;
+  font-size: $type-size-6;
+  text-transform: uppercase;
+}
+
+
+/*
+   Page taxonomy
+   ========================================================================== */
+
+.page__taxonomy {
+  .sep {
+    display: none;
+  }
+
+  strong {
+    margin-right: 10px;
+  }
+}
+
+.page__taxonomy-item {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+
+  &:hover {
+    text-decoration: none;
+    color: var(--global-link-color-hover);
+  }
+}
+
+
+/*
+   Comments
+   ========================================================================== */
+
+.page__comments {
+  @include full();
+}
+
+.page__comments-title {
+  margin-top: 2rem;
+  margin-bottom: 10px;
+  padding-top: 2rem;
+  font-size: $type-size-6;
+  border-top: 1px solid var(--global-border-color);
+  text-transform: uppercase;
+}
+
+.page__comments-form {
+  padding: 1em;
+  background: var(--global-border-color);
+  transition: $global-transition;
+
+  &.disabled {
+    input,
+    button,
+    textarea,
+    label {
+      pointer-events: none;
+      cursor: not-allowed;
+      filter: alpha(opacity=65);
+      box-shadow: none;
+      opacity: 0.65;
+    }
+  }
+}
+
+.comment {
+  @include clearfix();
+  margin: 1em 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--global-border-color);
+  }
+}
+
+.comment__avatar-wrapper {
+  float: left;
+  width: 60px;
+  height: 60px;
+
+  @include breakpoint($large) {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.comment__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  @include breakpoint($large) {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid var(--global-border-color);
+  }
+}
+
+.comment__content-wrapper {
+  float: right;
+  width: calc(100% - 60px);
+
+  @include breakpoint($large) {
+    width: calc(100% - 100px);
+  }
+}
+
+.comment__author {
+  margin: 0;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.comment__date {
+  @extend .page__meta;
+  margin: 0;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+
+/*
+   Related
+   ========================================================================== */
+
+.page__related {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid var(--global-border-color);
+  @include clearfix();
+  float: left;
+
+  @include breakpoint($large) {
+    @include pre(2.5 of 12);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.page__related-title {
+  margin-bottom: 10px;
+  font-size: $type-size-6;
+  text-transform: uppercase;
+}
+
+
+/* ==========================================================================
+   CUSTOM: Desktop layout width and sidebar-content spacing
+   ========================================================================== */
+
+/*
+  Goal:
+  1. Reduce excessive empty space on the far left side.
+  2. Increase the gap between the sidebar profile image and the main content.
+  3. Keep the top navigation and main body visually aligned.
+*/
+
+@media (min-width: 80em) {
+  #main,
+  .masthead__inner-wrap {
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 64em) {
+  #main .page,
+  #main .archive {
+    padding-left: calc(4.16667% + 2rem);
+    padding-right: 8.33333%;
+  }
+}
+
+
+/* ==========================================================================
+   CUSTOM: About Me bio text
+   ========================================================================== */
+
+.page__content .bio-text {
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  line-height: 1.75;
+  max-width: 900px;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.page__content .bio-text p {
+  margin-bottom: 1.25em;
+}
+
+
+/* ==========================================================================
+   CUSTOM: Publications and Patents citation layout
+   ========================================================================== */
+
+.page__content .pub-list {
+  max-width: 920px;
+}
+
+.page__content .pub-entry {
+  display: grid;
+  grid-template-columns: 3.6rem minmax(0, 1fr);
+  column-gap: 0.55rem;
+  align-items: baseline;
+
+  margin: 1.15rem 0 1.45rem;
+  padding: 0.85rem 1rem;
+
+  line-height: 1.65;
+
+  border-left: 3px solid rgba(255, 255, 255, 0.22);
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.page__content .pub-entry:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.page__content .pub-no {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.page__content .pub-citation {
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.page__content .pub-title {
+  font-weight: 600;
+}
+
+.page__content .pub-impact {
+  white-space: normal;
+}
+
+.page__content .pub-red {
+  color: #ff4d4d;
+  font-weight: 700;
+}
+
+
+/* ==========================================================================
+   CUSTOM: Mobile publication and patent layout
+   ========================================================================== */
+
+@media (max-width: 600px) {
+  .page__content .pub-entry {
+    grid-template-columns: 1fr;
+    row-gap: 0.15rem;
+  }
+
+  .page__content .pub-no {
+    margin-bottom: 0.1rem;
+  }
+
+  .page__content .pub-citation {
+    text-align: left;
+  }
+}
+
+
+/* ==========================================================================
+   CUSTOM: Footer position helper
+   ========================================================================== */
+
+/* Keep footer visually near the bottom on short pages */
+@media (min-width: 64em) {
+  #main {
+    min-height: calc(100vh - 180px);
+  }
+}
+
+
+/* ==========================================================================
+   CUSTOM: Recent News layout - inline date version
+   ========================================================================== */
+
+.page__content .news-list {
+  max-width: 900px;
+  margin-top: 1rem;
+  margin-bottom: 2.25rem;
+}
+
+.page__content .news-entry {
+  display: block;
+  margin: 0 0 1em 0;
+  padding: 0;
+  line-height: 1.75;
+
+  border-left: none;
+  border-radius: 0;
+  background: transparent;
+}
+
+.page__content .news-entry:last-child {
+  margin-bottom: 0;
+}
+
+.page__content .news-text {
+  line-height: 1.75;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.page__content .news-text strong {
+  font-weight: 700;
+  white-space: nowrap;
+  margin-right: 0.2rem;
+}
+
+
+/* ==========================================================================
+   CUSTOM: Experiences page - professional timeline
+   ========================================================================== */
+
+.page__content .timeline-list {
+  position: relative;
+  max-width: 920px;
+  margin: 1.25rem 0 2.75rem;
+  padding-left: 1.6rem;
+}
+
+.page__content .timeline-list::before {
+  content: "";
+  position: absolute;
+  top: 0.45rem;
+  bottom: 0.45rem;
+  left: 0.38rem;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.page__content .timeline-entry {
+  position: relative;
+  margin: 0 0 1.35rem;
+}
+
+.page__content .timeline-entry::before {
+  content: "";
+  position: absolute;
+  left: -1.56rem;
+  top: 1.05rem;
+  width: 0.72rem;
+  height: 0.72rem;
+  border-radius: 50%;
+  background: var(--global-text-color);
+  border: 2px solid var(--global-bg-color);
+  z-index: 2;
+}
+
+.page__content .timeline-card {
+  padding: 0.9rem 1rem;
+  line-height: 1.75;
+  border-left: 3px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.page__content .timeline-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Timeline header: institution left, date right */
+.page__content .timeline-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  column-gap: 1.25rem;
+  align-items: baseline;
+  margin-bottom: 0.15rem;
+}
+
+.page__content .timeline-title {
+  min-width: 0;
+  font-weight: 800;
+  font-size: 1.08em;
+  color: var(--global-text-color);
+  letter-spacing: 0.01em;
+}
+
+.page__content .timeline-date {
+  font-weight: 700;
+  font-size: 0.95em;
+  white-space: nowrap;
+  color: var(--global-text-color-light);
+  text-align: right;
+}
+
+.page__content .timeline-role {
+  margin-top: 0.15rem;
+  line-height: 1.65;
+  font-style: italic;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.page__content .timeline-details {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.page__content .timeline-details li {
+  line-height: 1.65;
+  margin-bottom: 0.15rem;
+}
+
+
+/* ==========================================================================
+   CUSTOM: Experiences page - CV/service entries
+   ========================================================================== */
+
+.page__content .cv-list {
+  max-width: 920px;
+  margin: 1rem 0 2.75rem;
+}
+
+.page__content .cv-entry {
+  display: grid;
+  grid-template-columns: 8.8rem minmax(0, 1fr);
+  column-gap: 0.85rem;
+  align-items: baseline;
+
+  margin: 0 0 1.05rem;
+  padding: 0.75rem 0.9rem;
+
+  line-height: 1.75;
+
+  border-left: 3px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.page__content .cv-entry:hover {
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.page__content .cv-date {
+  font-weight: 700;
+  white-space: nowrap;
+  color: var(--global-text-color);
+}
+
+.page__content .cv-body {
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.page__content .cv-title {
+  font-weight: 700;
+}
+
+.page__content .cv-details {
+  margin: 0.4rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.page__content .cv-details li {
+  line-height: 1.65;
+  margin-bottom: 0.1rem;
+}
+
+
+/* ==========================================================================
+   CUSTOM: Experiences page - mobile layout
+   ========================================================================== */
+
+@media (max-width: 600px) {
+  .page__content .timeline-list {
+    padding-left: 1.15rem;
+  }
+
+  .page__content .timeline-list::before {
+    left: 0.25rem;
+  }
+
+  .page__content .timeline-entry::before {
+    left: -1.25rem;
+  }
+
+  .page__content .timeline-head {
+    grid-template-columns: 1fr;
+    row-gap: 0.1rem;
+  }
+
+  .page__content .timeline-date {
+    text-align: left;
+    font-size: 0.9em;
+  }
+
+  .page__content .timeline-role {
+    text-align: left;
+  }
+
+  .page__content .cv-entry {
+    grid-template-columns: 1fr;
+    row-gap: 0.15rem;
+  }
+
+  .page__content .cv-body {
+    text-align: left;
+  }
+}
+
+/* ==========================================================================
+   CUSTOM: Experiences page - service entries using timeline-card style
+   ========================================================================== */
+
+.page__content .service-list {
+  max-width: 920px;
+  margin: 1rem 0 2.75rem;
+}
+
+.page__content .service-entry {
+  margin: 0 0 1.05rem;
+}
+
+.page__content .service-entry .timeline-card {
+  padding: 0.85rem 1rem;
+}
+
+.page__content .service-entry .timeline-role {
+  margin-top: 0.2rem;
+}
+
+.page__content .service-details {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.page__content .service-details li {
+  line-height: 1.65;
+  margin-bottom: 0.15rem;
+}
+
+/* ==========================================================================
+   CUSTOM: Make experience-page cards match section-line width
+   ========================================================================== */
+
+/*
+  This block makes the cards in Professional Experience, Invited Talks,
+  Advisory and Committee Service, and Academic Service use the same visual
+  width as the section underline.
+*/
+
+.page__content .timeline-list,
+.page__content .cv-list,
+.page__content .service-list {
+  max-width: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Invited Talks / CV-style cards */
+.page__content .cv-entry {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Advisory / Academic Service cards */
+.page__content .service-entry .timeline-card {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Professional Experience timeline cards:
+   expand the card leftward so the visible box matches the h2 underline width,
+   while keeping the text aligned with the original timeline text position. */
+.page__content .timeline-card {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+/* Apply the timeline-width correction only to cards inside .timeline-list */
+.page__content .timeline-list .timeline-card {
+  width: calc(100% + 1.6rem);
+  margin-left: -1.6rem;
+  padding-left: calc(1rem + 1.6rem);
+}
+
+/* Keep the vertical timeline line and dots visible above the card */
+.page__content .timeline-list::before {
+  z-index: 2;
+}
+
+.page__content .timeline-entry::before {
+  z-index: 3;
+}
+
+/* Keep institution and date styling */
+.page__content .timeline-title {
+  font-weight: 800;
+}
+
+.page__content .timeline-date {
+  font-weight: 700;
+}
+
+.page__content .timeline-role {
+  font-style: italic;
+}
+
+/* ==========================================================================
+   CUSTOM: Lecture page timeline
+   ========================================================================== */
+
+.page__content .lecture-list {
+  position: relative;
+  max-width: 920px;
+  margin: 1.4rem 0 2.75rem;
+  padding-left: 2rem;
+}
+
+/* Vertical timeline line */
+.page__content .lecture-list::before {
+  content: "";
+  position: absolute;
+  top: 0.55rem;
+  bottom: 0.55rem;
+  left: 0.42rem;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.28);
+}
+
+/* Each semester block */
+.page__content .lecture-entry {
+  position: relative;
+  margin: 0 0 2.2rem;
+}
+
+/* Timeline dot */
+.page__content .lecture-entry::before {
+  content: "";
+  position: absolute;
+  left: -1.95rem;
+  top: 0.35rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: var(--global-text-color);
+  border: 2px solid var(--global-bg-color);
+  z-index: 2;
+}
+
+/* Semester title */
+.page__content .lecture-term {
+  font-weight: 800;
+  font-size: 1.22em;
+  line-height: 1.45;
+  margin-bottom: 0.65rem;
+  color: var(--global-text-color);
+  letter-spacing: 0.01em;
+}
+
+/* Course list */
+.page__content .lecture-courses {
+  margin: 0;
+  padding-left: 1.45rem;
+}
+
+.page__content .lecture-courses li {
+  line-height: 1.7;
+  margin-bottom: 0.15rem;
+  text-align: left;
+}
+
+/* Remove bottom margin from the last semester */
+.page__content .lecture-entry:last-child {
+  margin-bottom: 0;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  .page__content .lecture-list {
+    padding-left: 1.45rem;
+  }
+
+  .page__content .lecture-list::before {
+    left: 0.28rem;
+  }
+
+  .page__content .lecture-entry::before {
+    left: -1.5rem;
+  }
+
+  .page__content .lecture-term {
+    font-size: 1.12em;
+  }
+
+  .page__content .lecture-courses {
+    padding-left: 1.2rem;
+  }
+
+  .page__content .lecture-courses li {
+    line-height: 1.65;
+  }
+}
+
+/* ==========================================================================
+   CUSTOM: Contact page
+   ========================================================================== */
+
+.page__content .contact-list {
+  max-width: 920px;
+  width: 100%;
+  margin: 1.6rem 0 2.2rem;
+}
+
+.page__content .contact-row {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  column-gap: 0.85rem;
+  align-items: start;
+
+  margin: 0 0 1.25rem;
+  line-height: 1.55;
+}
+
+.page__content .contact-icon {
+  width: 2.1rem;
+  min-height: 2.1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.25rem;
+  color: var(--global-text-color);
+}
+
+.page__content .contact-text {
+  font-size: 1.08em;
+  line-height: 1.55;
+  color: var(--global-text-color);
+}
+
+.page__content .contact-address {
+  line-height: 1.45;
+}
+
+/* Google map block */
+.page__content .contact-map {
+  position: relative;
+
+  max-width: 920px;
+  width: 100%;
+
+  margin: 2rem 0 2.5rem;
+  overflow: hidden;
+
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.035);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.18);
+}
+
+.page__content .contact-map iframe {
+  display: block;
+  width: 100%;
+  height: 430px;
+  border: 0;
+}
+
+/* Button on the map */
+.page__content .contact-map-link {
+  position: absolute;
+  top: 0.85rem;
+  left: 0.85rem;
+  z-index: 5;
+
+  padding: 0.55rem 0.75rem;
+
+  border-radius: 0.25rem;
+  background: #ffffff;
+  color: #1a73e8 !important;
+
+  font-size: 0.88em;
+  font-weight: 700;
+  line-height: 1;
+
+  text-decoration: none !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
+}
+
+.page__content .contact-map-link:hover {
+  text-decoration: none !important;
+  background: #f7f7f7;
+}
+
+.page__content .contact-map-link i {
+  margin-left: 0.25rem;
+  font-size: 0.82em;
+}
+
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  .page__content .contact-row {
+    grid-template-columns: 1.9rem minmax(0, 1fr);
+    column-gap: 0.65rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .page__content .contact-icon {
+    width: 1.8rem;
+    min-height: 1.8rem;
+    font-size: 1.05rem;
+  }
+
+  .page__content .contact-text {
+    font-size: 1em;
+  }
+
+  .page__content .contact-map iframe {
+    height: 340px;
+  }
+
+  .page__content .contact-map-link {
+    top: 0.65rem;
+    left: 0.65rem;
+    font-size: 0.82em;
+  }
+}
+
+/* ==========================================================================
+   CUSTOM: Home page notice box
+   ========================================================================== */
+
+.page__content .home-notice-box {
+  margin-top: 1.2rem;
+  margin-bottom: 2.3rem;
+  padding: 0.85rem 1rem;
+
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 1.65;
+
+  border-left: 4px solid rgba(255, 255, 255, 0.28);
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.045);
+  color: var(--global-text-color);
+}
+
+/* ==========================================================================
+   CUSTOM: Full-width content pages
+   ========================================================================== */
+
+.page--full-width {
+  @include breakpoint($large) {
+    @include full();
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+
+/* ==========================================================================
+   CUSTOM: Home research-area cards
+   ========================================================================== */
+
+.page__content .research-intro {
+  margin: -0.25rem 0 1.35rem;
+  color: var(--global-text-color-light);
+  line-height: 1.65;
+}
+
+.page__content .research-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  width: 100%;
+  margin: 0.5rem 0 2.75rem;
+}
+
+.page__content .research-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.7rem;
+  background: rgba(47, 127, 147, 0.035);
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.09);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+html[data-theme="dark"] .page__content .research-card {
+  background: rgba(255, 255, 255, 0.045);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+}
+
+.page__content .research-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--global-dark-border-color);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.14);
+}
+
+.page__content .research-card__image {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #07131f;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.page__content .research-card__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: none !important;
+}
+
+.page__content .research-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.05rem 1.1rem 1.1rem;
+}
+
+.page__content .research-card__kicker {
+  margin-bottom: 0.4rem;
+  color: var(--global-link-color);
+  font-size: 0.72em;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.page__content .research-card__title {
+  margin: 0 0 0.7rem;
+  color: var(--global-text-color);
+  font-size: 1.18em;
+  line-height: 1.35;
+}
+
+.page__content .research-card__description {
+  flex: 1;
+  margin: 0 0 1rem;
+  color: var(--global-text-color);
+  font-size: 0.96em;
+  line-height: 1.65;
+  text-align: left;
+}
+
+.page__content .research-card__refs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+  align-items: center;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--global-border-color);
+  color: var(--global-text-color-light);
+  font-size: 0.78em;
+  font-weight: 700;
+}
+
+.page__content .research-card__refs > span {
+  margin-right: 0.1rem;
+}
+
+.page__content .research-card__refs a {
+  display: inline-flex;
+  min-width: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.48rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  color: var(--global-link-color);
+  line-height: 1;
+  text-decoration: none !important;
+}
+
+.page__content .research-card__refs a:hover {
+  border-color: var(--global-link-color);
+  color: var(--global-link-color-hover);
+  text-decoration: none !important;
+}
+
+@media (max-width: 780px) {
+  .page__content .research-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ==========================================================================
+   CUSTOM: People page
+   ========================================================================== */
+
+.page__content .people-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0.25rem 0 2.15rem;
+  padding: 0.8rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.65rem;
+  background: rgba(47, 127, 147, 0.035);
+}
+
+html[data-theme="dark"] .page__content .people-subnav {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.page__content .people-subnav a {
+  display: inline-flex;
+  gap: 0.45rem;
+  align-items: center;
+  padding: 0.5rem 0.72rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  color: var(--global-text-color);
+  font-size: 0.9em;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.page__content .people-subnav a:hover {
+  border-color: var(--global-link-color);
+  color: var(--global-link-color-hover);
+  text-decoration: none !important;
+}
+
+.page__content .people-subnav a span {
+  display: inline-flex;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: rgba(47, 127, 147, 0.12);
+  color: var(--global-link-color);
+  font-size: 0.82em;
+}
+
+html[data-theme="dark"] .page__content .people-subnav a span {
+  background: rgba(14, 161, 197, 0.16);
+}
+
+.page__content .people-heading {
+  display: flex;
+  scroll-margin-top: 6rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.page__content .people-count {
+  color: var(--global-text-color-light);
+  font-size: 0.7em;
+  font-weight: 700;
+}
+
+.page__content .faculty-list {
+  margin: 1.25rem 0 3rem;
+}
+
+.page__content .faculty-card {
+  display: grid;
+  grid-template-columns: minmax(170px, 220px) minmax(0, 1fr);
+  gap: 1.65rem;
+  padding: 1.45rem;
+  overflow: hidden;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.75rem;
+  background: rgba(47, 127, 147, 0.035);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.09);
+}
+
+html[data-theme="dark"] .page__content .faculty-card {
+  background: rgba(255, 255, 255, 0.045);
+  box-shadow: 0 9px 26px rgba(0, 0, 0, 0.22);
+}
+
+.page__content .faculty-card__photo-wrap {
+  align-self: start;
+}
+
+.page__content .faculty-card__photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.62rem;
+  box-shadow: none !important;
+}
+
+.page__content .faculty-card__content {
+  min-width: 0;
+}
+
+.page__content .faculty-card__identity {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.page__content .faculty-card__name {
+  margin: 0 0 0.3rem;
+  color: var(--global-text-color);
+  font-size: 1.65em;
+  line-height: 1.2;
+}
+
+.page__content .faculty-card__role {
+  margin-bottom: 0.45rem;
+  color: var(--global-link-color);
+  font-size: 0.84em;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.page__content .faculty-card__affiliation {
+  color: var(--global-text-color);
+  line-height: 1.55;
+}
+
+.page__content .faculty-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.95rem;
+  margin: 0.95rem 0 0;
+}
+
+.page__content .faculty-card__links a {
+  display: inline-flex;
+  gap: 0.38rem;
+  align-items: center;
+  color: var(--global-link-color);
+  font-size: 0.9em;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.page__content .faculty-card__links a:hover {
+  color: var(--global-link-color-hover);
+  text-decoration: none !important;
+}
+
+.page__content .faculty-card__bio,
+.page__content .faculty-card__interests {
+  margin-top: 1.15rem;
+}
+
+.page__content .faculty-card__label {
+  margin-bottom: 0.65rem;
+  color: var(--global-text-color-light);
+  font-size: 0.74em;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.page__content .faculty-card__bio p {
+  margin-bottom: 0.85rem;
+  color: var(--global-text-color);
+  font-size: 0.96em;
+  line-height: 1.7;
+  text-align: justify;
+  text-align-last: left;
+}
+
+.page__content .faculty-card__bio p:last-child {
+  margin-bottom: 0;
+}
+
+.page__content .interest-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.page__content .interest-tags span {
+  display: inline-flex;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  color: var(--global-text-color);
+  font-size: 0.82em;
+  line-height: 1.25;
+}
+
+.page__content .member-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 3rem;
+}
+
+.page__content .member-card {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 1rem;
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.65rem;
+  background: rgba(47, 127, 147, 0.03);
+}
+
+html[data-theme="dark"] .page__content .member-card {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.page__content .member-card__photo,
+.page__content .member-card__placeholder {
+  display: flex;
+  width: 92px;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.55rem;
+  background: rgba(47, 127, 147, 0.04);
+  color: var(--global-text-color-light);
+  font-size: 0.65em;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.page__content .member-card h3 {
+  margin: 0 0 0.3rem;
+  color: var(--global-text-color);
+  font-size: 1.08em;
+}
+
+.page__content .member-card__program {
+  color: var(--global-link-color);
+  font-size: 0.78em;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.page__content .member-card__period {
+  margin-top: 0.35rem;
+  color: var(--global-text-color-light);
+  font-size: 0.8em;
+}
+
+.page__content .member-card p {
+  margin: 0.65rem 0;
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+
+.page__content .member-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.page__content .member-card__links a {
+  font-size: 0.85em;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.page__content .people-empty {
+  margin: 1.2rem 0 3rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px dashed var(--global-border-color);
+  border-radius: 0.65rem;
+  color: var(--global-text-color-light);
+  font-size: 0.92em;
+  line-height: 1.6;
+}
+
+@media (max-width: 780px) {
+  .page__content .faculty-card {
+    grid-template-columns: 1fr;
+  }
+
+  .page__content .faculty-card__photo-wrap {
+    max-width: 220px;
+  }
+
+  .page__content .faculty-card__bio p {
+    text-align: left;
+  }
+
+  .page__content .member-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .page__content .people-subnav {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .page__content .people-subnav a {
+    justify-content: space-between;
+  }
+
+  .page__content .faculty-card {
+    padding: 1rem;
+  }
+
+  .page__content .member-card {
+    grid-template-columns: 78px minmax(0, 1fr);
+  }
+
+  .page__content .member-card__photo,
+  .page__content .member-card__placeholder {
+    width: 78px;
+    height: 100px;
+  }
+}
