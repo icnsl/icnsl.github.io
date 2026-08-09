@@ -1,0 +1,45 @@
+# Four research cards shown on the Home page.
+areas:
+  - kicker: "NEXT-GENERATION WLAN"
+    title: "Wi-Fi 7 Multi-Link Networking"
+    image: "/images/research/wifi7-mlo.svg"
+    alt: "Illustration of a Wi-Fi 7 multi-link device communicating over 2.4, 5, and 6 GHz links"
+    description: "Analysis and design of IEEE 802.11 multi-link operation, including cross-link self-interference, fair channel access, and behavior under saturated traffic. The objective is predictable, standards-compatible performance across multiple links."
+    publications:
+      - label: "J1"
+        url: "/publications/#pub-j1"
+      - label: "J3"
+        url: "/publications/#pub-j3"
+
+  - kicker: "HETEROGENEOUS WIRELESS"
+    title: "Bluetooth–Wi-Fi Coexistence and Cooperative Discovery"
+    image: "/images/research/wifi-ble-coexistence.svg"
+    alt: "Illustration of coordinated Wi-Fi and Bluetooth Low Energy operation in a dual-stack device"
+    description: "Cross-stack coordination between Wi-Fi and Bluetooth/BLE is used to reuse otherwise idle airtime and share scan information. These mechanisms improve throughput and reduce the time and energy cost of discovering nearby access points."
+    publications:
+      - label: "J5"
+        url: "/publications/#pub-j5"
+      - label: "C3"
+        url: "/publications/#pub-c3"
+
+  - kicker: "ENERGY-EFFICIENT IOT"
+    title: "Interference-Aware IoT Networking"
+    image: "/images/research/energy-efficient-iot.svg"
+    alt: "Illustration of an underlay IoT network adapting packet length around overlay wireless traffic"
+    description: "Statistical modeling and parameter adaptation for low-power CSMA/CA networks operating beneath higher-power overlay traffic. Packet sizes are tuned to maximize bit-per-joule efficiency in shared unlicensed spectrum."
+    publications:
+      - label: "J4"
+        url: "/publications/#pub-j4"
+
+  - kicker: "REAL-TIME CYBER–PHYSICAL SYSTEMS"
+    title: "Digital Twin Scheduling and Synchronization"
+    image: "/images/research/digital-twin-scheduling.svg"
+    alt: "Illustration of update and inference task scheduling between a physical twin and a cyber twin"
+    description: "Joint scheduling of update and inference tasks, fairness across cyber twins, synchronization-error control, and optimization of update and inference timing for responsive digital twin services."
+    publications:
+      - label: "J2"
+        url: "/publications/#pub-j2"
+      - label: "C1"
+        url: "/publications/#pub-c1"
+      - label: "C2"
+        url: "/publications/#pub-c2"
