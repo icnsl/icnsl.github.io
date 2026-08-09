@@ -8,7 +8,7 @@ author_profile: true
 
 <div class="pub-list">
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-j1">
   <div class="pub-no">[J1]</div>
   <div class="pub-citation">
     Jongyeon Park, Youngwook Son*, Kanghyun Lee, <strong>Jonghun Han</strong>, and Saewoong Bahk,
@@ -17,7 +17,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-j2">
   <div class="pub-no">[J2]</div>
   <div class="pub-citation">
     Cheonyong Kim, Walid Saad, <strong>Jonghun Han*</strong>, Tao Yu, Kei Sakaguchi and Minchae Jung*,
@@ -27,7 +27,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-j3">
   <div class="pub-no">[J3]</div>
   <div class="pub-citation">
     Jongyeon Park, <strong>Jonghun Han*</strong>, and Saewoong Bahk*,
@@ -37,7 +37,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-j4">
   <div class="pub-no">[J4]</div>
   <div class="pub-citation">
     Minchae Jung, and <strong>Jonghun Han*</strong>, 
@@ -47,7 +47,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-j5">
   <div class="pub-no">[J5]</div>
   <div class="pub-citation">
     <strong>Jonghun Han</strong>, Changhee Joo, and Saewoong Bahk*,
@@ -62,7 +62,7 @@ author_profile: true
 ## Conference Papers
 <div class="pub-list">
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-c1">
   <div class="pub-no">[C1]</div>
   <div class="pub-citation">
     Seonho Jang, Jongseo Lee, <strong>Jonghun Han</strong>, and Minchae Jung,
@@ -72,7 +72,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-c2">
   <div class="pub-no">[C2]</div>
   <div class="pub-citation">
     Subin Choi, Hongjae Jeong, <strong>Jonghun Han</strong>, and Minchae Jung,
@@ -82,7 +82,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-c3">
   <div class="pub-no">[C3]</div>
   <div class="pub-citation">
     <strong>Jonghun Han</strong>, Joonsuk Kim, Changhee Joo, and Saewoong Bahk,
@@ -92,7 +92,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-c4">
   <div class="pub-no">[C4]</div>
   <div class="pub-citation">
     Taeseop Lee, <strong>Jonghun Han</strong>, Myung-Sup Lee, Hyung-Sin Kim, and Saewoong Bahk,
@@ -102,7 +102,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-c5">
   <div class="pub-no">[C5]</div>
   <div class="pub-citation">
     Wonbin Park, <strong>Jonghun Han</strong>, Seowoo Jang, and Saewoong Bahk,
@@ -112,7 +112,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-c6">
   <div class="pub-no">[C6]</div>
   <div class="pub-citation">
     Sung-Guk Yoon, <strong>Jonghun Han</strong>, and Saewoong Bahk,
@@ -122,7 +122,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-c7">
   <div class="pub-no">[C7]</div>
   <div class="pub-citation">
     <strong>Jonghun Han</strong> and Saewoong Bahk,
@@ -132,7 +132,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-entry">
+<div class="pub-entry" id="pub-c8">
   <div class="pub-no">[C8]</div>
   <div class="pub-citation">
     Nalin Chakoo, <strong>Jonghun Han</strong>, and Saewoong Bahk,

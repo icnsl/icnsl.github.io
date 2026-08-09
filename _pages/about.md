@@ -40,27 +40,31 @@ redirect_from:
 
 </div>
 
-## 👤 About me
-<div class="bio-text">
-<p>
-I received my B.S., M.S., and Ph.D. degrees in Electrical Engineering and Computer Science from Seoul National University in 2010, 2012, and 2017.
+## 🔬 Research Areas
+
+<p class="research-intro">
+Four themes distilled from journal and conference work published since 2018.
 </p>
 
-<p>
-I worked as a Staff Engineer at Samsung Electronics until October 2022, contributing to Wi-Fi SoC firmware development and IEEE 802.11 standardization. 
-</p>
-
-<p>
-Until February 2025, I was a Senior Researcher at the Korea Railroad Research Institute, focusing on private-5G railway technology, train positioning, and mission-critical railway applications.
-</p>
-
-<p>
-Since March 2025, I have been an Assistant Professor in the Department of Artificial Intelligence and Information Technology at Sejong University, focusing on intelligent communication and networked systems.
-</p>
-
+<div class="research-card-grid">
+{% for area in site.data.research.areas %}
+  <article class="research-card">
+    <div class="research-card__image">
+      <img src="{{ area.image | relative_url }}" alt="{{ area.alt }}" loading="lazy" decoding="async">
+    </div>
+    <div class="research-card__body">
+      <div class="research-card__kicker">{{ area.kicker }}</div>
+      <h3 class="research-card__title">{{ area.title }}</h3>
+      <p class="research-card__description">{{ area.description }}</p>
+      {% if area.publications and area.publications.size > 0 %}
+      <div class="research-card__refs" aria-label="Representative publications">
+        <span>Representative work</span>
+        {% for publication in area.publications %}
+          <a href="{{ publication.url | relative_url }}">{{ publication.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </article>
+{% endfor %}
 </div>
-
-## 🔬 Research Interest
-- IEEE 802.11 (Wi-Fi) systems and standards
-- Mobility and positioning
-- Digital twin systems
