@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Bluetooth and Wi-Fi coexistence</title>
+  <desc id="desc">A dual-stack wireless device coordinates Wi-Fi and Bluetooth transmissions and shares Wi-Fi scan information over BLE.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131f"/>
+      <stop offset="1" stop-color="#14283f"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#183b55"/>
+      <stop offset="1" stop-color="#0b1d2c"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#2fd0ed"/>
+    </marker>
+    <marker id="arr2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#8d7bff"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" rx="34" fill="url(#bg)"/>
+  <g opacity=".14" stroke="#5bbad0">
+    <path d="M0 112H1200M0 224H1200M0 336H1200M0 448H1200M0 560H1200"/>
+    <path d="M150 0V675M300 0V675M450 0V675M600 0V675M750 0V675M900 0V675M1050 0V675"/>
+  </g>
+
+  <g filter="url(#shadow)" transform="translate(485 95)">
+    <rect x="0" y="0" width="230" height="430" rx="36" fill="url(#phone)" stroke="#55738a" stroke-width="3"/>
+    <rect x="25" y="48" width="180" height="318" rx="22" fill="#081a28"/>
+    <rect x="82" y="18" width="66" height="8" rx="4" fill="#7091a6"/>
+    <circle cx="115" cy="397" r="16" fill="none" stroke="#7091a6" stroke-width="3"/>
+
+    <g transform="translate(55 82)">
+      <path d="M0 64q60-70 120 0M22 82q38-44 76 0M49 101q11-13 22 0" fill="none" stroke="#2fd0ed" stroke-width="8" stroke-linecap="round"/>
+      <text x="60" y="142" fill="#d6f8ff" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">Wi-Fi</text>
+    </g>
+    <line x1="45" y1="255" x2="185" y2="255" stroke="#29485d" stroke-width="2"/>
+    <g transform="translate(74 276)">
+      <path d="M42 0v74l32-27-32-25 32-24-32-28v74L13 21M42 22L13 53" fill="none" stroke="#8d7bff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="42" y="111" fill="#e3ddff" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">BLE</text>
+    </g>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(105 120)" filter="url(#shadow)">
+      <rect width="270" height="130" rx="25" fill="#102b3f" stroke="#2fd0ed" stroke-width="3"/>
+      <text x="135" y="43" fill="#dffaff" font-size="22" font-weight="700" text-anchor="middle">WI-FI ACCESS POINTS</text>
+      <g fill="#2fd0ed">
+        <rect x="42" y="76" width="46" height="25" rx="6"/><rect x="112" y="67" width="46" height="34" rx="6"/><rect x="182" y="73" width="46" height="28" rx="6"/>
+      </g>
+      <g stroke="#2fd0ed" stroke-width="4" fill="none" stroke-linecap="round">
+        <path d="M48 74q17-23 34 0"/><path d="M118 65q17-23 34 0"/><path d="M188 71q17-23 34 0"/>
+      </g>
+    </g>
+
+    <g transform="translate(824 118)" filter="url(#shadow)">
+      <rect width="270" height="134" rx="25" fill="#1b2444" stroke="#8d7bff" stroke-width="3"/>
+      <text x="135" y="43" fill="#ece9ff" font-size="22" font-weight="700" text-anchor="middle">NEARBY STATIONS</text>
+      <circle cx="78" cy="88" r="23" fill="#8d7bff"/><circle cx="135" cy="88" r="23" fill="#7d6df0"/><circle cx="192" cy="88" r="23" fill="#6e5fde"/>
+    </g>
+  </g>
+
+  <path d="M380 186C430 168 455 165 480 165" fill="none" stroke="#2fd0ed" stroke-width="8" stroke-linecap="round" marker-end="url(#arr)"/>
+  <text x="427" y="142" fill="#c8f6ff" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">SCAN</text>
+
+  <path d="M720 184C760 166 790 166 815 171" fill="none" stroke="#8d7bff" stroke-width="8" stroke-linecap="round" marker-end="url(#arr2)"/>
+  <text x="770" y="142" fill="#e3ddff" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">SHARE RESULTS</text>
+
+  <g transform="translate(98 425)" filter="url(#shadow)">
+    <rect width="1004" height="142" rx="26" fill="#0a1d2b" stroke="#35586e" stroke-width="2"/>
+    <text x="32" y="39" fill="#a9c5d5" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">AIRTIME COORDINATION</text>
+    <g transform="translate(32 62)">
+      <rect width="174" height="48" rx="10" fill="#2fd0ed"/>
+      <rect x="188" width="123" height="48" rx="10" fill="#173549"/>
+      <rect x="325" width="238" height="48" rx="10" fill="#8d7bff"/>
+      <rect x="577" width="123" height="48" rx="10" fill="#173549"/>
+      <rect x="714" width="226" height="48" rx="10" fill="#2fd0ed"/>
+      <text x="87" y="31" fill="#06141f" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">WI-FI TX</text>
+      <text x="249" y="31" fill="#9fc0d2" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">DEFER</text>
+      <text x="444" y="31" fill="#0a1025" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">OPPORTUNISTIC BLE</text>
+      <text x="638" y="31" fill="#9fc0d2" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">DEFER</text>
+      <text x="827" y="31" fill="#06141f" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">WI-FI TX</text>
+    </g>
+  </g>
+
+  <g transform="translate(63 50)">
+    <rect width="265" height="47" rx="23.5" fill="#0b2436" stroke="#8d7bff" stroke-opacity=".65"/>
+    <text x="132.5" y="31" fill="#e8e3ff" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle" letter-spacing="2">CROSS-STACK COORDINATION</text>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Interference-aware energy-efficient IoT networking</title>
+  <desc id="desc">Low-power IoT sensors adapt packet length to transmit efficiently in gaps between overlay wireless packets.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131f"/>
+      <stop offset="1" stop-color="#173143"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="13" stdDeviation="14" flood-color="#000" flood-opacity=".34"/>
+    </filter>
+    <marker id="mintArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#58d5b2"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" rx="34" fill="url(#bg)"/>
+  <g opacity=".13" stroke="#6bc4d5">
+    <path d="M0 96H1200M0 192H1200M0 288H1200M0 384H1200M0 480H1200M0 576H1200"/>
+    <path d="M100 0V675M200 0V675M300 0V675M400 0V675M500 0V675M600 0V675M700 0V675M800 0V675M900 0V675M1000 0V675M1100 0V675"/>
+  </g>
+
+  <g transform="translate(75 110)" filter="url(#shadow)">
+    <rect width="1050" height="162" rx="26" fill="#0a1e2c" stroke="#3e5f72" stroke-width="2"/>
+    <text x="32" y="41" fill="#aac6d6" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">OVERLAY NETWORK TRAFFIC</text>
+    <line x1="32" y1="123" x2="1018" y2="123" stroke="#537286" stroke-width="3"/>
+    <g fill="#ff7b8d">
+      <path d="M78 123V70H190V123Z"/>
+      <path d="M255 123V87H335V123Z"/>
+      <path d="M445 123V55H605V123Z"/>
+      <path d="M720 123V78H815V123Z"/>
+      <path d="M905 123V64H995V123Z"/>
+    </g>
+    <g fill="#ffb1bd" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">
+      <text x="134" y="62">BUSY</text><text x="525" y="47">BUSY</text><text x="950" y="56">BUSY</text>
+    </g>
+    <g stroke="#58d5b2" stroke-width="8" stroke-linecap="round">
+      <path d="M190 103H255"/><path d="M335 103H445"/><path d="M605 103H720"/><path d="M815 103H905"/>
+    </g>
+  </g>
+
+  <g transform="translate(95 330)">
+    <g filter="url(#shadow)">
+      <rect x="0" y="0" width="395" height="250" rx="28" fill="#102d3f" stroke="#58d5b2" stroke-width="3"/>
+      <text x="197.5" y="42" fill="#d5fff2" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">UNDERLAY IoT NETWORK</text>
+      <g transform="translate(74 84)">
+        <circle cx="124" cy="61" r="39" fill="#58d5b2"/>
+        <circle cx="32" cy="20" r="23" fill="#2fd0ed"/>
+        <circle cx="32" cy="112" r="23" fill="#2fd0ed"/>
+        <circle cx="217" cy="20" r="23" fill="#2fd0ed"/>
+        <circle cx="217" cy="112" r="23" fill="#2fd0ed"/>
+        <g stroke="#7fe6c7" stroke-width="5" fill="none">
+          <path d="M53 29L92 48M53 103L92 75M196 29L156 48M196 103L156 75"/>
+        </g>
+        <text x="124" y="68" fill="#082118" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">HUB</text>
+      </g>
+      <text x="197.5" y="224" fill="#a8c9d6" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">sense · contend · transmit</text>
+    </g>
+
+    <g transform="translate(486 0)" filter="url(#shadow)">
+      <rect width="524" height="250" rx="28" fill="#0b2131" stroke="#3f6579" stroke-width="3"/>
+      <text x="30" y="42" fill="#aac6d6" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">ADAPTIVE PACKET TUNING</text>
+      <text x="30" y="86" fill="#eff9fd" font-family="Arial, sans-serif" font-size="25" font-weight="700">Packet length</text>
+      <line x1="32" y1="126" x2="486" y2="126" stroke="#35576b" stroke-width="10" stroke-linecap="round"/>
+      <line x1="32" y1="126" x2="315" y2="126" stroke="#58d5b2" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="315" cy="126" r="21" fill="#d5fff2" stroke="#58d5b2" stroke-width="6"/>
+      <text x="32" y="165" fill="#8cacbd" font-family="Arial, sans-serif" font-size="16">short</text>
+      <text x="486" y="165" fill="#8cacbd" font-family="Arial, sans-serif" font-size="16" text-anchor="end">long</text>
+      <path d="M47 212C135 176 219 230 304 188C376 153 426 172 477 139" fill="none" stroke="#ffb35c" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="304" cy="188" r="11" fill="#ffb35c"/>
+      <text x="475" y="214" fill="#ffd9a8" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="end">MAX BIT/JOULE</text>
+    </g>
+  </g>
+
+  <path d="M495 455C530 455 545 455 570 455" fill="none" stroke="#58d5b2" stroke-width="8" stroke-linecap="round" marker-end="url(#mintArrow)"/>
+
+  <g transform="translate(63 50)">
+    <rect width="286" height="47" rx="23.5" fill="#0b2436" stroke="#58d5b2" stroke-opacity=".65"/>
+    <text x="143" y="31" fill="#d8fff3" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle" letter-spacing="2">ENERGY-AWARE COEXISTENCE</text>
+  </g>
+</svg>

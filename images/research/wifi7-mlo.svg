@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Wi-Fi 7 multi-link networking</title>
+  <desc id="desc">An access point and a multi-link device exchange data over three frequency bands while cross-link interference is controlled.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131f"/>
+      <stop offset="1" stop-color="#102c42"/>
+    </linearGradient>
+    <linearGradient id="device" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#183a53"/>
+      <stop offset="1" stop-color="#0d2335"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity=".32"/>
+    </filter>
+    <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2fd0ed"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#5b8cff"/>
+    </marker>
+    <marker id="arrowMint" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#58d5b2"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" rx="34" fill="url(#bg)"/>
+  <g opacity=".16" stroke="#6fcbe0" stroke-width="1">
+    <path d="M0 105H1200M0 210H1200M0 315H1200M0 420H1200M0 525H1200"/>
+    <path d="M120 0V675M240 0V675M360 0V675M480 0V675M600 0V675M720 0V675M840 0V675M960 0V675M1080 0V675"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="370" y="70" width="460" height="148" rx="28" fill="url(#device)" stroke="#3f6680" stroke-width="3"/>
+    <rect x="398" y="98" width="404" height="92" rx="18" fill="#0a1d2c" stroke="#2fd0ed" stroke-opacity=".45"/>
+    <text x="600" y="135" fill="#eaf8ff" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">AP MULTI-LINK DEVICE</text>
+    <g fill="#2fd0ed">
+      <circle cx="520" cy="165" r="8"/><circle cx="550" cy="165" r="8"/><circle cx="580" cy="165" r="8"/>
+    </g>
+    <path d="M706 160q26-30 52 0M716 171q16-18 32 0" fill="none" stroke="#58d5b2" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="330" y="453" width="540" height="155" rx="30" fill="url(#device)" stroke="#3f6680" stroke-width="3"/>
+    <rect x="370" y="486" width="460" height="84" rx="20" fill="#0a1d2c"/>
+    <text x="600" y="526" fill="#eaf8ff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">NON-AP MULTI-LINK DEVICE</text>
+    <text x="600" y="558" fill="#9fc3d7" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">one MAC service · coordinated channel access</text>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-width="10">
+    <path d="M470 235 C350 305 360 385 470 437" stroke="#2fd0ed" marker-end="url(#arrowCyan)"/>
+    <path d="M600 235 C555 300 555 375 600 437" stroke="#5b8cff" marker-end="url(#arrowBlue)"/>
+    <path d="M730 235 C850 305 840 385 730 437" stroke="#58d5b2" marker-end="url(#arrowMint)"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <g transform="translate(300 315)">
+      <rect x="-78" y="-30" width="156" height="60" rx="30" fill="#0d2638" stroke="#2fd0ed" stroke-width="3"/>
+      <text y="8" fill="#c8f7ff" font-size="24">2.4 GHz</text>
+    </g>
+    <g transform="translate(600 335)">
+      <rect x="-68" y="-30" width="136" height="60" rx="30" fill="#0d2638" stroke="#5b8cff" stroke-width="3"/>
+      <text y="8" fill="#d8e1ff" font-size="24">5 GHz</text>
+    </g>
+    <g transform="translate(900 315)">
+      <rect x="-68" y="-30" width="136" height="60" rx="30" fill="#0d2638" stroke="#58d5b2" stroke-width="3"/>
+      <text y="8" fill="#d6fff3" font-size="24">6 GHz</text>
+    </g>
+  </g>
+
+  <g transform="translate(738 350)">
+    <path d="M-45-44L-15-7L-34 0L3 47L-5 10L22 2L-9-44Z" fill="#ffb35c"/>
+    <circle cx="0" cy="0" r="68" fill="none" stroke="#ffb35c" stroke-width="3" stroke-dasharray="9 10" opacity=".8"/>
+    <text x="0" y="92" fill="#ffd8a5" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">CROSS-LINK INTERFERENCE</text>
+  </g>
+
+  <g transform="translate(63 50)">
+    <rect width="208" height="47" rx="23.5" fill="#0b2436" stroke="#2fd0ed" stroke-opacity=".55"/>
+    <text x="104" y="31" fill="#d7f7ff" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle" letter-spacing="2">MULTI-LINK OPERATION</text>
+  </g>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Digital twin scheduling and synchronization</title>
+  <desc id="desc">A scheduler coordinates update and inference tasks between physical assets and cyber twins while tracking freshness.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131f"/>
+      <stop offset="1" stop-color="#172944"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="15" flood-color="#000" flood-opacity=".34"/>
+    </filter>
+    <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#5b8cff"/>
+    </marker>
+    <marker id="pinkArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#ff7b8d"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" rx="34" fill="url(#bg)"/>
+  <g opacity=".13" stroke="#6ac4d8">
+    <path d="M0 105H1200M0 210H1200M0 315H1200M0 420H1200M0 525H1200"/>
+    <path d="M120 0V675M240 0V675M360 0V675M480 0V675M600 0V675M720 0V675M840 0V675M960 0V675M1080 0V675"/>
+  </g>
+
+  <g transform="translate(72 127)" filter="url(#shadow)">
+    <rect width="330" height="310" rx="30" fill="#102b3e" stroke="#ff7b8d" stroke-width="3"/>
+    <text x="165" y="43" fill="#ffdce1" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">PHYSICAL TWINS</text>
+    <g transform="translate(54 82)">
+      <rect x="10" y="76" width="202" height="102" rx="14" fill="#173b50" stroke="#ff9aaa" stroke-width="3"/>
+      <rect x="43" y="32" width="136" height="62" rx="12" fill="#1e4b63" stroke="#ff9aaa" stroke-width="3"/>
+      <circle cx="57" cy="190" r="22" fill="#081925" stroke="#ff9aaa" stroke-width="7"/>
+      <circle cx="165" cy="190" r="22" fill="#081925" stroke="#ff9aaa" stroke-width="7"/>
+      <path d="M76 53h70M33 115h158M33 143h124" stroke="#ffc0c9" stroke-width="7" stroke-linecap="round"/>
+      <text x="111" y="236" fill="#a9c8d7" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">sensors · state · logs</text>
+    </g>
+  </g>
+
+  <g transform="translate(798 127)" filter="url(#shadow)">
+    <rect width="330" height="310" rx="30" fill="#182848" stroke="#5b8cff" stroke-width="3"/>
+    <text x="165" y="43" fill="#e1e7ff" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">CYBER TWINS</text>
+    <g transform="translate(49 78)">
+      <rect width="232" height="174" rx="20" fill="#0b1930" stroke="#809cff" stroke-width="3"/>
+      <path d="M25 128C61 96 84 116 110 79C140 37 173 57 207 24" fill="none" stroke="#58d5b2" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="110" cy="79" r="10" fill="#58d5b2"/>
+      <g fill="#5b8cff">
+        <rect x="27" y="38" width="27" height="27" rx="5"/><rect x="70" y="38" width="27" height="27" rx="5"/><rect x="113" y="38" width="27" height="27" rx="5"/>
+      </g>
+      <text x="116" y="213" fill="#aebde7" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">monitor · simulate · predict</text>
+    </g>
+  </g>
+
+  <g transform="translate(468 103)" filter="url(#shadow)">
+    <rect width="264" height="218" rx="28" fill="#0a1d2d" stroke="#52adc8" stroke-width="3"/>
+    <text x="132" y="43" fill="#daf7ff" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">REAL-TIME SCHEDULER</text>
+    <g transform="translate(36 72)">
+      <rect width="192" height="38" rx="10" fill="#ff7b8d"/>
+      <rect y="50" width="192" height="38" rx="10" fill="#5b8cff"/>
+      <rect y="100" width="192" height="38" rx="10" fill="#ff7b8d"/>
+      <text x="96" y="25" fill="#2b0810" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">UPDATE</text>
+      <text x="96" y="75" fill="#07142d" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">INFERENCE</text>
+      <text x="96" y="125" fill="#2b0810" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">UPDATE</text>
+    </g>
+  </g>
+
+  <path d="M407 226C435 201 445 190 462 186" fill="none" stroke="#ff7b8d" stroke-width="8" stroke-linecap="round" marker-end="url(#pinkArrow)"/>
+  <path d="M738 186C758 190 772 201 792 226" fill="none" stroke="#5b8cff" stroke-width="8" stroke-linecap="round" marker-end="url(#blueArrow)"/>
+  <path d="M792 326C765 349 750 357 726 359" fill="none" stroke="#ff7b8d" stroke-width="8" stroke-linecap="round" marker-end="url(#pinkArrow)"/>
+  <path d="M474 359C446 354 430 344 407 326" fill="none" stroke="#5b8cff" stroke-width="8" stroke-linecap="round" marker-end="url(#blueArrow)"/>
+
+  <g transform="translate(158 500)" filter="url(#shadow)">
+    <rect width="884" height="105" rx="26" fill="#091c2a" stroke="#375a6f" stroke-width="2"/>
+    <text x="28" y="35" fill="#a9c7d7" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2">SCHEDULING TIMELINE</text>
+    <g transform="translate(28 52)">
+      <rect width="128" height="32" rx="8" fill="#ff7b8d"/>
+      <rect x="140" width="86" height="32" rx="8" fill="#5b8cff"/>
+      <rect x="238" width="86" height="32" rx="8" fill="#5b8cff"/>
+      <rect x="336" width="128" height="32" rx="8" fill="#ff7b8d"/>
+      <rect x="476" width="86" height="32" rx="8" fill="#5b8cff"/>
+      <rect x="574" width="86" height="32" rx="8" fill="#5b8cff"/>
+      <rect x="672" width="156" height="32" rx="8" fill="#58d5b2"/>
+      <text x="64" y="22" fill="#2b0810" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">UPDATE</text>
+      <text x="183" y="22" fill="#07142d" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">INF.</text>
+      <text x="281" y="22" fill="#07142d" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">INF.</text>
+      <text x="400" y="22" fill="#2b0810" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">UPDATE</text>
+      <text x="519" y="22" fill="#07142d" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">INF.</text>
+      <text x="617" y="22" fill="#07142d" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">INF.</text>
+      <text x="750" y="22" fill="#082219" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">FRESH RESPONSE</text>
+    </g>
+  </g>
+
+  <g transform="translate(63 50)">
+    <rect width="300" height="47" rx="23.5" fill="#0b2436" stroke="#5b8cff" stroke-opacity=".65"/>
+    <text x="150" y="31" fill="#e3e9ff" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle" letter-spacing="2">FRESHNESS · FAIRNESS · DEADLINES</text>
+  </g>
+</svg>
