@@ -14,11 +14,6 @@ faculty:
       - "I worked as a Staff Engineer at Samsung Electronics until October 2022, contributing to Wi-Fi SoC firmware development and IEEE 802.11 standardization."
       - "Until February 2025, I was a Senior Researcher at the Korea Railroad Research Institute, focusing on private-5G railway technology, train positioning, and mission-critical railway applications."
       - "Since March 2025, I have been an Assistant Professor in the Department of Artificial Intelligence and Information Technology at Sejong University, focusing on intelligent communication and networked systems."
-    research_interests:
-      - "IEEE 802.11 and next-generation Wi-Fi"
-      - "Intelligent communication and networked systems"
-      - "Mobility and wireless positioning"
-      - "Digital twin systems"
 
 # Example member fields: name, photo, program, period, research, email, linkedin.
 graduate_researchers: []
