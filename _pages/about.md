@@ -42,10 +42,6 @@ redirect_from:
 
 ## 🔬 Research Areas
 
-<p class="research-intro">
-Four themes distilled from journal and conference work published since 2018.
-</p>
-
 <div class="research-card-grid">
 {% for area in site.data.research.areas %}
   <article class="research-card">
