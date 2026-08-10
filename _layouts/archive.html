@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% assign main_navigation_urls = "/,/people/,/publications/,/patents/,/experiences/,/lecture/,/contact/" | split: "," %}
+{% assign hide_page_title = page.hide_title %}
+{% if main_navigation_urls contains page.url %}
+  {% assign hide_page_title = true %}
+{% endif %}
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
@@ -17,7 +23,9 @@ layout: default
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
+      {% unless hide_page_title %}
+        <h1 class="page__title">{{ page.title }}</h1>
+      {% endunless %}
     {% endunless %}
     {{ content }}
   </div>
