@@ -541,31 +541,36 @@
 
 
 /* ==========================================================================
-   CUSTOM: Recent News layout - inline date version
+   CUSTOM: Home-page sections and item lists
    ========================================================================== */
 
-.page__content .news-list {
-  max-width: 900px;
-  margin-top: 1rem;
-  margin-bottom: 2.25rem;
+.page__content .home-section {
+  margin: 0 0 2.75rem;
 }
 
-.page__content .news-entry {
+.page__content .home-section:first-child > h2 {
+  margin-top: 0;
+}
+
+.page__content .home-section__list {
+  max-width: 900px;
+  margin: 1rem 0 0;
+}
+
+.page__content .home-section__entry {
   display: block;
-  margin: 0 0 1em 0;
+  margin: 0 0 1rem;
   padding: 0;
   line-height: 1.75;
-
-  border-left: none;
-  border-radius: 0;
+  border: 0;
   background: transparent;
 }
 
-.page__content .news-entry:last-child {
+.page__content .home-section__entry:last-child {
   margin-bottom: 0;
 }
 
-.page__content .news-text {
+.page__content .home-section__text {
   line-height: 1.75;
   text-align: justify;
   text-align-last: left;
@@ -577,10 +582,18 @@
   letter-spacing: normal;
 }
 
-.page__content .news-text strong {
+.page__content .home-section__text strong {
+  margin-right: 0.2rem;
   font-weight: 700;
   white-space: nowrap;
-  margin-right: 0.2rem;
+}
+
+.page__content .home-section__translation {
+  margin-top: 0.2rem;
+  color: var(--global-text-color-light);
+  font-size: 0.94em;
+  line-height: 1.7;
+  overflow-wrap: break-word;
 }
 
 
@@ -1106,25 +1119,6 @@
 }
 
 /* ==========================================================================
-   CUSTOM: Home page notice box
-   ========================================================================== */
-
-.page__content .home-notice-box {
-  margin-top: 1.2rem;
-  margin-bottom: 2.3rem;
-  padding: 0.85rem 1rem;
-
-  font-size: 1.25em;
-  font-weight: 600;
-  line-height: 1.65;
-
-  border-left: 4px solid rgba(255, 255, 255, 0.28);
-  border-radius: 0.45rem;
-  background: rgba(255, 255, 255, 0.045);
-  color: var(--global-text-color);
-}
-
-/* ==========================================================================
    CUSTOM: Full-width content pages
    ========================================================================== */
 
@@ -1202,12 +1196,16 @@ html[data-theme="dark"] .page__content .research-card {
 
 .page__content .research-card__kicker {
   margin-bottom: 0.4rem;
-  color: var(--global-link-color);
+  color: #9a6700;
   font-size: 0.72em;
   font-weight: 800;
   letter-spacing: 0.13em;
   line-height: 1.35;
   text-transform: uppercase;
+}
+
+html[data-theme="dark"] .page__content .research-card__kicker {
+  color: #ffd166;
 }
 
 .page__content .research-card__title {
@@ -1242,23 +1240,41 @@ html[data-theme="dark"] .page__content .research-card {
   margin-right: 0.1rem;
 }
 
-.page__content .research-card__refs a {
+.page__content .research-card__refs a,
+.page__content .research-card__refs a:visited {
   display: inline-flex;
   min-width: 2rem;
   align-items: center;
   justify-content: center;
   padding: 0.25rem 0.48rem;
-  border: 1px solid var(--global-border-color);
+  border: 1px solid rgba(154, 103, 0, 0.48);
   border-radius: 999px;
-  color: var(--global-link-color);
+  background: rgba(255, 193, 7, 0.08);
+  color: #9a6700;
   line-height: 1;
   text-decoration: none !important;
 }
 
-.page__content .research-card__refs a:hover {
-  border-color: var(--global-link-color);
-  color: var(--global-link-color-hover);
+.page__content .research-card__refs a:hover,
+.page__content .research-card__refs a:focus-visible {
+  border-color: #7a5200;
+  background: rgba(255, 193, 7, 0.15);
+  color: #7a5200;
   text-decoration: none !important;
+}
+
+html[data-theme="dark"] .page__content .research-card__refs a,
+html[data-theme="dark"] .page__content .research-card__refs a:visited {
+  border-color: rgba(255, 209, 102, 0.5);
+  background: rgba(255, 209, 102, 0.08);
+  color: #ffd166;
+}
+
+html[data-theme="dark"] .page__content .research-card__refs a:hover,
+html[data-theme="dark"] .page__content .research-card__refs a:focus-visible {
+  border-color: #ffe49a;
+  background: rgba(255, 209, 102, 0.16);
+  color: #ffe49a;
 }
 
 @media (max-width: 640px) {
@@ -1366,12 +1382,64 @@ html[data-theme="dark"] .page__content .faculty-card {
 .page__content .faculty-card__bio {
   grid-area: bio;
   min-width: 0;
-  margin-top: 0.95rem;
-  padding-left: 0.95rem;
+  margin-top: 0.9rem;
+}
+
+.page__content .faculty-card__bio-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  padding: 0.18rem 0;
+  color: var(--global-link-color);
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.4;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.page__content .faculty-card__bio-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.page__content .faculty-card__bio-toggle::marker {
+  content: "";
+}
+
+.page__content .faculty-card__bio-toggle::before {
+  content: "+";
+  display: inline-block;
+  width: 0.85rem;
+  color: currentColor;
+  font-size: 1.05em;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+}
+
+.page__content .faculty-card__bio[open] .faculty-card__bio-toggle::before {
+  content: "−";
+}
+
+.page__content .faculty-card__bio-toggle:hover,
+.page__content .faculty-card__bio-toggle:focus-visible {
+  color: var(--global-link-color-hover);
+}
+
+.page__content .faculty-card__bio-toggle:focus-visible {
+  outline: 2px solid var(--global-link-color);
+  outline-offset: 0.22rem;
+  border-radius: 0.15rem;
+}
+
+.page__content .faculty-card__bio-content {
+  margin-top: 0.72rem;
+  padding: 0.05rem 0 0.05rem 0.95rem;
   border-left: 2px solid rgba(14, 161, 197, 0.38);
 }
 
-.page__content .faculty-card__bio p {
+.page__content .faculty-card__bio-content p {
   margin: 0 0 0.65rem;
   color: var(--global-text-color);
   font-size: 0.96em;
@@ -1379,7 +1447,7 @@ html[data-theme="dark"] .page__content .faculty-card {
   text-align: left;
 }
 
-.page__content .faculty-card__bio p:last-child {
+.page__content .faculty-card__bio-content p:last-child {
   margin-bottom: 0;
 }
 
@@ -1398,6 +1466,7 @@ html[data-theme="dark"] .page__content .faculty-card {
 .page__content .faculty-card__links a:visited {
   display: inline-flex;
   align-items: center;
+  gap: 0.34rem;
   color: var(--global-link-color) !important;
   font-size: 0.91em;
   font-weight: 700;
@@ -1406,10 +1475,14 @@ html[data-theme="dark"] .page__content .faculty-card {
 }
 
 .page__content .faculty-card__links a::after {
-  content: "\2197";
-  margin-left: 0.28rem;
-  font-size: 0.78em;
-  opacity: 0.8;
+  content: none !important;
+}
+
+.page__content .faculty-card__links i {
+  flex: 0 0 auto;
+  width: 1.1em;
+  color: inherit;
+  text-align: center;
 }
 
 .page__content .faculty-card__links a:hover,
@@ -1583,10 +1656,13 @@ html[data-theme="dark"] .page__content .people-empty {
 
   .page__content .faculty-card__bio {
     margin-top: 0.8rem;
+  }
+
+  .page__content .faculty-card__bio-content {
     padding-left: 0.75rem;
   }
 
-  .page__content .faculty-card__bio p {
+  .page__content .faculty-card__bio-content p {
     font-size: 0.92em;
   }
 }
