@@ -1,8 +1,8 @@
 ---
-title: "👥 People"
+title: "People"
 permalink: /people/
-author_profile: false
-full_width: true
+author_profile: true
+hide_title: true
 ---
 
 {% assign people = site.data.people %}
@@ -26,17 +26,40 @@ full_width: true
         </div>
       </header>
 
-      <div class="faculty-card__bio">
-        {% for paragraph in member.bio %}
-          <p>{{ paragraph }}</p>
-        {% endfor %}
-      </div>
+      <details class="faculty-card__bio">
+        <summary class="faculty-card__bio-toggle">Biography</summary>
+        <div class="faculty-card__bio-content">
+          {% for paragraph in member.bio %}
+            <p>{{ paragraph }}</p>
+          {% endfor %}
+        </div>
+      </details>
 
       <nav class="faculty-card__links" aria-label="External links for {{ member.name }}">
-        {% if member.email %}<a href="mailto:{{ member.email }}">Email</a>{% endif %}
-        {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>{% endif %}
-        {% if member.orcid %}<a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a>{% endif %}
-        {% if member.linkedin %}<a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>{% endif %}
+        {% if member.email %}
+          <a href="mailto:{{ member.email }}">
+            <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>
+            <span>Email</span>
+          </a>
+        {% endif %}
+        {% if member.scholar %}
+          <a href="{{ member.scholar }}" target="_blank" rel="noopener noreferrer">
+            <i class="ai ai-google-scholar ai-fw icon-pad-right" aria-hidden="true"></i>
+            <span>Google Scholar</span>
+          </a>
+        {% endif %}
+        {% if member.orcid %}
+          <a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer">
+            <i class="ai ai-orcid ai-fw icon-pad-right" aria-hidden="true"></i>
+            <span>ORCID</span>
+          </a>
+        {% endif %}
+        {% if member.linkedin %}
+          <a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+        {% endif %}
       </nav>
     </article>
   {% endfor %}

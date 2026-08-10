@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <section class="home-section home-section--notice" aria-labelledby="home-notice-heading">
-  <h2 id="home-notice-heading">Notice</h2>
+  <h2 id="home-notice-heading">📌 Notice</h2>
 
   <div class="home-section__list">
     <div class="home-section__entry home-section__entry--notice">
@@ -24,7 +24,7 @@ redirect_from:
 </section>
 
 <section class="home-section home-section--news" aria-labelledby="home-news-heading">
-  <h2 id="home-news-heading">Recent News</h2>
+  <h2 id="home-news-heading">📢 Recent News</h2>
 
   <div class="home-section__list">
     <div class="home-section__entry">
@@ -54,7 +54,7 @@ redirect_from:
 </section>
 
 <section class="home-section home-section--research" aria-labelledby="home-research-heading">
-  <h2 id="home-research-heading">Research Areas</h2>
+  <h2 id="home-research-heading">🔬 Research Areas</h2>
 
   <p class="research-intro">
     Four themes distilled from journal and conference work published since 2018.
