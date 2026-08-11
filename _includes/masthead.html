@@ -8,14 +8,7 @@
           <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
             <a class="site-brand" href="{{ base_path }}/" aria-label="ICNSL home">
               <span class="site-brand__mark" aria-hidden="true">
-                <svg viewBox="0 0 32 32" focusable="false">
-                  <path class="site-brand__mark-signal site-brand__mark-signal--outer" d="M7.2 13.1c4.9-5.1 12.7-5.1 17.6 0"/>
-                  <path class="site-brand__mark-signal site-brand__mark-signal--inner" d="M10.8 16.5c2.9-3 7.5-3 10.4 0"/>
-                  <path class="site-brand__mark-link" d="M8.4 24.3 16 20.4l7.6 3.9"/>
-                  <circle class="site-brand__mark-node" cx="7" cy="25" r="2.1"/>
-                  <circle class="site-brand__mark-node" cx="25" cy="25" r="2.1"/>
-                  <circle class="site-brand__mark-core" cx="16" cy="20" r="2.8"/>
-                </svg>
+                <img src="{{ '/images/icnsl-symbol-transparent.png' | relative_url }}" alt="">
               </span>
               <span class="site-brand__wordmark">{{ site.title }}</span>
             </a>
