@@ -1130,6 +1130,15 @@
   }
 }
 
+/* Main navigation pages omit the author sidebar and use a centered content column. */
+#main.main--without-sidebar .page--full-width {
+  float: none;
+  width: 100%;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /* ==========================================================================
    CUSTOM: Home research-area cards
@@ -1213,6 +1222,17 @@ html[data-theme="dark"] .page__content .research-card__kicker {
   color: var(--global-text-color);
   font-size: 1.18em;
   line-height: 1.35;
+}
+
+.page__content .research-card__title--italic {
+  font-style: italic;
+}
+
+.page__content .research-card__title--underline {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.075em;
+  text-underline-offset: 0.16em;
+  text-decoration-skip-ink: auto;
 }
 
 .page__content .research-card__description {
@@ -1336,16 +1356,20 @@ html[data-theme="dark"] .page__content .faculty-card {
   align-self: start;
   justify-self: start;
   width: 148px;
+  height: 148px;
 }
 
 .page__content .faculty-card__photo {
   display: block;
+  box-sizing: border-box;
   width: 148px;
-  height: 190px;
+  height: 148px;
+  padding: 4px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 20%;
   border: 1px solid var(--global-border-color);
-  border-radius: 0.68rem;
+  border-radius: 50%;
+  background: var(--global-bg-color);
   box-shadow: none !important;
 }
 
@@ -1365,12 +1389,16 @@ html[data-theme="dark"] .page__content .faculty-card {
 
 .page__content .faculty-card__role {
   margin-bottom: 0.42rem;
-  color: var(--global-link-color);
+  color: #9a6700;
   font-size: 0.8em;
   font-weight: 800;
   letter-spacing: 0.13em;
   line-height: 1.4;
   text-transform: uppercase;
+}
+
+html[data-theme="dark"] .page__content .faculty-card__role {
+  color: #ffd166;
 }
 
 .page__content .faculty-card__affiliation {
@@ -1390,7 +1418,7 @@ html[data-theme="dark"] .page__content .faculty-card {
   align-items: center;
   gap: 0.38rem;
   padding: 0.18rem 0;
-  color: var(--global-link-color);
+  color: #9a6700;
   font-size: 0.92em;
   font-weight: 700;
   line-height: 1.4;
@@ -1424,19 +1452,32 @@ html[data-theme="dark"] .page__content .faculty-card {
 
 .page__content .faculty-card__bio-toggle:hover,
 .page__content .faculty-card__bio-toggle:focus-visible {
-  color: var(--global-link-color-hover);
+  color: #7a5200;
 }
 
 .page__content .faculty-card__bio-toggle:focus-visible {
-  outline: 2px solid var(--global-link-color);
+  outline: 2px solid currentColor;
   outline-offset: 0.22rem;
   border-radius: 0.15rem;
+}
+
+html[data-theme="dark"] .page__content .faculty-card__bio-toggle {
+  color: #ffd166;
+}
+
+html[data-theme="dark"] .page__content .faculty-card__bio-toggle:hover,
+html[data-theme="dark"] .page__content .faculty-card__bio-toggle:focus-visible {
+  color: #ffe49a;
 }
 
 .page__content .faculty-card__bio-content {
   margin-top: 0.72rem;
   padding: 0.05rem 0 0.05rem 0.95rem;
-  border-left: 2px solid rgba(14, 161, 197, 0.38);
+  border-left: 2px solid rgba(154, 103, 0, 0.38);
+}
+
+html[data-theme="dark"] .page__content .faculty-card__bio-content {
+  border-left-color: rgba(255, 209, 102, 0.42);
 }
 
 .page__content .faculty-card__bio-content p {
@@ -1467,7 +1508,7 @@ html[data-theme="dark"] .page__content .faculty-card {
   display: inline-flex;
   align-items: center;
   gap: 0;
-  color: var(--global-link-color) !important;
+  color: #9a6700 !important;
   font-size: 0.91em;
   font-weight: 700;
   line-height: 1.35;
@@ -1487,9 +1528,19 @@ html[data-theme="dark"] .page__content .faculty-card {
 
 .page__content .faculty-card__links a:hover,
 .page__content .faculty-card__links a:focus-visible {
-  color: var(--global-link-color-hover) !important;
+  color: #7a5200 !important;
   text-decoration: underline !important;
   text-underline-offset: 0.18em;
+}
+
+html[data-theme="dark"] .page__content .faculty-card__links a,
+html[data-theme="dark"] .page__content .faculty-card__links a:visited {
+  color: #ffd166 !important;
+}
+
+html[data-theme="dark"] .page__content .faculty-card__links a:hover,
+html[data-theme="dark"] .page__content .faculty-card__links a:focus-visible {
+  color: #ffe49a !important;
 }
 
 .page__content .member-grid {
@@ -1603,10 +1654,7 @@ html[data-theme="dark"] .page__content .people-empty {
   .page__content .faculty-card__photo-wrap,
   .page__content .faculty-card__photo {
     width: 112px;
-  }
-
-  .page__content .faculty-card__photo {
-    height: 144px;
+    height: 112px;
   }
 
   .page__content .faculty-card__name {
@@ -1636,10 +1684,7 @@ html[data-theme="dark"] .page__content .people-empty {
   .page__content .faculty-card__photo-wrap,
   .page__content .faculty-card__photo {
     width: 92px;
-  }
-
-  .page__content .faculty-card__photo {
-    height: 118px;
+    height: 92px;
   }
 
   .page__content .faculty-card__name {

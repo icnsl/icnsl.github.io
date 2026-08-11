@@ -243,3 +243,17 @@
     }
   }
 }
+
+
+/* Main navigation archive pages omit the author sidebar. */
+.archive--full-width {
+  @include breakpoint($large) {
+    @include full();
+    float: none;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
