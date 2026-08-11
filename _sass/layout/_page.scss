@@ -2066,7 +2066,7 @@ html[data-theme="dark"] .page__content .icnsl-showcase__intro::after {
 }
 
 .page__content .icnsl-showcase .icnsl-catalog-list--patents {
-  --catalog-accent: var(--showcase-gold);
+  --catalog-accent: var(--showcase-accent);
 }
 
 .page__content .icnsl-showcase .icnsl-catalog-list .pub-entry {
@@ -2163,6 +2163,10 @@ html[data-theme="dark"] .page__content .icnsl-showcase__intro::after {
   color: var(--showcase-muted);
   font-size: 0.77em;
   line-height: 1.3;
+}
+
+.page__content .icnsl-showcase .pub-impact .pub-metric-value {
+  margin-left: 0.24em;
 }
 
 /* Experiences --------------------------------------------------------------- */
