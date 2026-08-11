@@ -7,6 +7,18 @@ hide_title: true
 
 {% assign people = site.data.people %}
 
+<div class="icnsl-showcase icnsl-showcase--people">
+<header class="icnsl-showcase__intro" aria-labelledby="people-intro-heading">
+  <div class="icnsl-showcase__glyph" aria-hidden="true"><i class="fas fa-users"></i></div>
+  <div class="icnsl-showcase__intro-copy">
+    <div class="icnsl-showcase__eyebrow">Our Team</div>
+    <p id="people-intro-heading" class="icnsl-showcase__lead">Faculty and student researchers advancing intelligent communications and networked systems.</p>
+    <div class="icnsl-showcase__tags" aria-label="People categories">
+      <span>Faculty</span><span>Graduate Researchers</span><span>Undergraduate Researchers</span>
+    </div>
+  </div>
+</header>
+
 <section class="people-section people-section--faculty">
   <h2 id="faculty" class="people-heading">Faculty</h2>
 
@@ -139,3 +151,4 @@ hide_title: true
   <div class="people-empty">Undergraduate researcher profiles will be added here.</div>
   {% endif %}
 </section>
+</div>

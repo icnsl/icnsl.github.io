@@ -7,11 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<header class="home-lab-hero" aria-labelledby="home-lab-title">
-  <div class="home-lab-hero__accent" aria-hidden="true">
-    <span></span><span></span><span></span>
+<div class="icnsl-showcase icnsl-showcase--home">
+<header class="icnsl-showcase__intro" aria-labelledby="home-lab-title">
+  <div class="icnsl-showcase__glyph" aria-hidden="true"><i class="fas fa-network-wired"></i></div>
+  <div class="icnsl-showcase__intro-copy">
+    <div class="icnsl-showcase__eyebrow">ICNSL</div>
+    <h1 id="home-lab-title" class="icnsl-showcase__lead">Intelligent Communications and Networked Systems Laboratory</h1>
+    <div class="icnsl-showcase__tags" aria-label="Laboratory research themes">
+      <span>Wireless Communications</span><span>Intelligent Networks</span><span>Positioning &amp; Digital Twins</span>
+    </div>
   </div>
-  <h1 id="home-lab-title" class="home-lab-hero__title">Intelligent Communications and Networked Systems Laboratory</h1>
 </header>
 
 <section class="home-section home-section--notice" aria-labelledby="home-notice-heading">
@@ -86,3 +91,4 @@ redirect_from:
   {% endfor %}
   </div>
 </section>
+</div>
