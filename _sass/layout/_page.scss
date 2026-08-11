@@ -1712,90 +1712,6 @@ html[data-theme="dark"] .page__content .people-empty {
   }
 }
 
-/* ==========================================================================
-   CUSTOM: Laboratory title banner on Home
-   ========================================================================== */
-
-.page__content .home-lab-hero {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  margin: 0 0 2.9rem;
-  padding: clamp(1.55rem, 3.2vw, 2.7rem) clamp(1.35rem, 3.6vw, 3rem);
-  border: 1px solid var(--global-border-color);
-  border-radius: 1rem;
-  background:
-    radial-gradient(circle at 92% 18%, rgba(14, 161, 197, 0.14), transparent 28%),
-    linear-gradient(135deg, rgba(47, 127, 147, 0.11), rgba(255, 209, 102, 0.055));
-  box-shadow: 0 12px 34px rgba(21, 54, 64, 0.12);
-}
-
-.page__content .home-lab-hero::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  right: -4rem;
-  bottom: -5rem;
-  width: 15rem;
-  height: 15rem;
-  border: 1px solid rgba(47, 127, 147, 0.18);
-  border-radius: 50%;
-  box-shadow:
-    0 0 0 2.5rem rgba(47, 127, 147, 0.035),
-    0 0 0 5rem rgba(47, 127, 147, 0.025);
-}
-
-.page__content .home-lab-hero__accent {
-  display: flex;
-  gap: 0.42rem;
-  align-items: center;
-  margin-bottom: 0.9rem;
-}
-
-.page__content .home-lab-hero__accent::after {
-  content: "";
-  width: min(11rem, 35vw);
-  height: 1px;
-  margin-left: 0.2rem;
-  background: linear-gradient(90deg, rgba(47, 127, 147, 0.72), transparent);
-}
-
-.page__content .home-lab-hero__accent span {
-  width: 0.54rem;
-  height: 0.54rem;
-  border-radius: 50%;
-}
-
-.page__content .home-lab-hero__accent span:nth-child(1) {
-  background: #0ea1c5;
-}
-
-.page__content .home-lab-hero__accent span:nth-child(2) {
-  background: #3478d4;
-}
-
-.page__content .home-lab-hero__accent span:nth-child(3) {
-  background: #d6a700;
-}
-
-.page__content .home-lab-hero__title {
-  max-width: 1040px;
-  margin: 0;
-  color: var(--global-text-color);
-  font-size: clamp(2rem, 4.4vw, 3.65rem);
-  font-weight: 850;
-  letter-spacing: -0.035em;
-  line-height: 1.08;
-  text-wrap: balance;
-}
-
-html[data-theme="dark"] .page__content .home-lab-hero {
-  background:
-    radial-gradient(circle at 92% 18%, rgba(14, 161, 197, 0.2), transparent 30%),
-    linear-gradient(135deg, rgba(255, 255, 255, 0.055), rgba(255, 209, 102, 0.035));
-  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.25);
-}
-
 /* Keep the English notice fully readable in light mode. */
 html:not([data-theme="dark"]) .page__content .home-section__translation {
   color: #111820;
@@ -1945,21 +1861,21 @@ html:not([data-theme="dark"]) .page__content hr {
 }
 
 /* ==========================================================================
-   CUSTOM: Unified card system for Publications, Patents, Experiences,
-           Lecture, and Contact
+   CUSTOM: Unified showcase system for Home, People, Publications,
+           Patents, Experiences, Lecture, and Contact
    ========================================================================== */
 
 .page__content .icnsl-showcase {
-  --showcase-surface: rgba(47, 127, 147, 0.055);
-  --showcase-surface-strong: rgba(47, 127, 147, 0.08);
-  --showcase-surface-hover: rgba(47, 127, 147, 0.11);
-  --showcase-border: #7f8a92;
-  --showcase-accent: #176f86;
-  --showcase-accent-2: #3478d4;
-  --showcase-accent-soft: rgba(23, 111, 134, 0.11);
-  --showcase-gold: #9a6700;
-  --showcase-gold-soft: rgba(154, 103, 0, 0.1);
-  --showcase-muted: #44535c;
+  --showcase-surface: rgba(43, 111, 115, 0.055);
+  --showcase-surface-strong: rgba(43, 111, 115, 0.085);
+  --showcase-surface-hover: rgba(43, 111, 115, 0.12);
+  --showcase-border: #7b898b;
+  --showcase-accent: #2b6f73;
+  --showcase-accent-2: #3d7885;
+  --showcase-accent-soft: rgba(43, 111, 115, 0.12);
+  --showcase-gold: #a66a00;
+  --showcase-gold-soft: rgba(166, 106, 0, 0.11);
+  --showcase-muted: #435255;
   --showcase-shadow: 0 8px 24px rgba(29, 48, 56, 0.1);
   --showcase-shadow-hover: 0 13px 30px rgba(29, 48, 56, 0.16);
 
@@ -1970,14 +1886,14 @@ html:not([data-theme="dark"]) .page__content hr {
 
 html[data-theme="dark"] .page__content .icnsl-showcase {
   --showcase-surface: rgba(255, 255, 255, 0.04);
-  --showcase-surface-strong: rgba(255, 255, 255, 0.055);
-  --showcase-surface-hover: rgba(255, 255, 255, 0.075);
-  --showcase-border: rgba(255, 255, 255, 0.22);
-  --showcase-accent: #65d7ee;
-  --showcase-accent-2: #77a9ff;
-  --showcase-accent-soft: rgba(101, 215, 238, 0.1);
-  --showcase-gold: #ffd166;
-  --showcase-gold-soft: rgba(255, 209, 102, 0.1);
+  --showcase-surface-strong: rgba(255, 255, 255, 0.058);
+  --showcase-surface-hover: rgba(255, 255, 255, 0.08);
+  --showcase-border: rgba(221, 235, 231, 0.23);
+  --showcase-accent: #74cfc2;
+  --showcase-accent-2: #86b8c8;
+  --showcase-accent-soft: rgba(116, 207, 194, 0.11);
+  --showcase-gold: #f2c45d;
+  --showcase-gold-soft: rgba(242, 196, 93, 0.11);
   --showcase-muted: var(--global-text-color-light);
   --showcase-shadow: 0 9px 26px rgba(0, 0, 0, 0.21);
   --showcase-shadow-hover: 0 14px 34px rgba(0, 0, 0, 0.3);
@@ -2015,7 +1931,7 @@ html[data-theme="dark"] .page__content .icnsl-showcase {
   border-radius: 50%;
   box-shadow:
     0 0 0 1.85rem var(--showcase-accent-soft),
-    0 0 0 3.7rem rgba(47, 127, 147, 0.025);
+    0 0 0 3.7rem rgba(43, 111, 115, 0.025);
   opacity: 0.64;
 }
 
@@ -2037,7 +1953,7 @@ html[data-theme="dark"] .page__content .icnsl-showcase__intro::after {
   font-size: 1.34rem;
   box-shadow:
     inset 0 0 0 1px rgba(255, 255, 255, 0.14),
-    0 5px 14px rgba(23, 111, 134, 0.12);
+    0 5px 14px rgba(43, 111, 115, 0.14);
 }
 
 .page__content .icnsl-showcase__intro-copy {
@@ -2055,13 +1971,17 @@ html[data-theme="dark"] .page__content .icnsl-showcase__intro::after {
 }
 
 .page__content .icnsl-showcase__lead {
-  max-width: 900px;
+  width: 100%;
+  max-width: none;
   margin: 0;
   color: var(--global-text-color);
   font-size: clamp(1rem, 1.55vw, 1.12rem);
   font-weight: 620;
   line-height: 1.55;
-  text-wrap: balance;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+  text-wrap: wrap;
 }
 
 .page__content .icnsl-showcase__tags {
@@ -2202,7 +2122,7 @@ html[data-theme="dark"] .page__content .icnsl-showcase__intro::after {
   padding: 0.28rem 0.55rem;
   border: 1px solid var(--showcase-gold);
   border-radius: 999px;
-  background: var(--showcase-gold-soft);
+  background: linear-gradient(135deg, var(--showcase-gold-soft), var(--showcase-accent-soft));
   color: var(--showcase-gold);
   font-family: $monospace;
   font-size: 0.82em;
