@@ -4,10 +4,25 @@ permalink: /publications/
 author_profile: false
 hide_title: true
 ---
+<div class="icnsl-showcase icnsl-showcase--publications">
+<header class="icnsl-showcase__intro">
+  <div class="icnsl-showcase__glyph" aria-hidden="true"><i class="fas fa-book-open"></i></div>
+  <div class="icnsl-showcase__intro-copy">
+    <div class="icnsl-showcase__eyebrow">Research Output</div>
+    <p class="icnsl-showcase__lead">Peer-reviewed journal and conference publications in wireless networking, IoT, and digital twin systems.</p>
+    <div class="icnsl-showcase__tags" aria-label="Publication categories">
+      <span>Journal Articles</span><span>Conference Papers</span>
+    </div>
+  </div>
+</header>
 
-## Journal Papers
+<section class="icnsl-section" aria-labelledby="journal-papers-heading">
+  <h2 id="journal-papers-heading" class="icnsl-section__heading">
+    <span class="icnsl-section__icon" aria-hidden="true">📚</span>
+    <span>Journal Papers</span>
+  </h2>
 
-<div class="pub-list">
+<div class="pub-list icnsl-catalog-list icnsl-catalog-list--journal">
 
 <div class="pub-entry" id="pub-j1">
   <div class="pub-no">[J1]</div>
@@ -59,9 +74,15 @@ hide_title: true
 </div>
 
 </div>
+</section>
 
-## Conference Papers
-<div class="pub-list">
+<section class="icnsl-section" aria-labelledby="conference-papers-heading">
+  <h2 id="conference-papers-heading" class="icnsl-section__heading">
+    <span class="icnsl-section__icon" aria-hidden="true">🛰️</span>
+    <span>Conference Papers</span>
+  </h2>
+
+<div class="pub-list icnsl-catalog-list icnsl-catalog-list--conference">
 
 <div class="pub-entry" id="pub-c1">
   <div class="pub-no">[C1]</div>
@@ -143,4 +164,6 @@ hide_title: true
   </div>
 </div>
 
+</div>
+</section>
 </div>

@@ -4,8 +4,20 @@ permalink: /experiences/
 author_profile: false
 hide_title: true
 ---
+<div class="icnsl-showcase icnsl-showcase--experiences">
+<header class="icnsl-showcase__intro">
+  <div class="icnsl-showcase__glyph" aria-hidden="true"><i class="fas fa-briefcase"></i></div>
+  <div class="icnsl-showcase__intro-copy">
+    <div class="icnsl-showcase__eyebrow">Career &amp; Service</div>
+    <p class="icnsl-showcase__lead">Academic, industrial, and public-research experience, together with invited talks and professional service.</p>
+    <div class="icnsl-showcase__tags" aria-label="Experience areas">
+      <span>Academia</span><span>Industry</span><span>Public Research</span>
+    </div>
+  </div>
+</header>
 
-## 🏢 Professional Experience
+<section class="icnsl-section icnsl-section--experience" aria-labelledby="professional-experience-heading">
+  <h2 id="professional-experience-heading" class="icnsl-section__heading"><span class="icnsl-section__icon" aria-hidden="true">🏢</span><span>Professional Experience</span></h2>
 
 <div class="timeline-list">
 
@@ -82,7 +94,10 @@ hide_title: true
 </div>
 
 
-## 🎤 Invited Talks
+</section>
+
+<section class="icnsl-section icnsl-section--experience" aria-labelledby="invited-talks-heading">
+  <h2 id="invited-talks-heading" class="icnsl-section__heading"><span class="icnsl-section__icon" aria-hidden="true">🎤</span><span>Invited Talks</span></h2>
 
 <div class="cv-list">
 
@@ -104,7 +119,10 @@ hide_title: true
 
 </div>
 
-## 🏛️ Advisory and Committee Service
+</section>
+
+<section class="icnsl-section icnsl-section--experience" aria-labelledby="advisory-service-heading">
+  <h2 id="advisory-service-heading" class="icnsl-section__heading"><span class="icnsl-section__icon" aria-hidden="true">🏛️</span><span>Advisory and Committee Service</span></h2>
 
 <div class="service-list">
 
@@ -137,7 +155,10 @@ hide_title: true
 </div>
 
 
-## 📝 Academic Service
+</section>
+
+<section class="icnsl-section icnsl-section--experience" aria-labelledby="academic-service-heading">
+  <h2 id="academic-service-heading" class="icnsl-section__heading"><span class="icnsl-section__icon" aria-hidden="true">📝</span><span>Academic Service</span></h2>
 
 <div class="service-list">
 
@@ -156,4 +177,6 @@ hide_title: true
   </div>
 </div>
 
+</div>
+</section>
 </div>
