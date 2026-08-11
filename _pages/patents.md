@@ -11,6 +11,16 @@ hide_title: true
 <div class="pub-entry">
   <div class="pub-no">[P1]</div>
   <div class="pub-citation">
+    US#12,701,614 B2,
+    “Apparatus For Channel Access In WLAN System And Operating Method Of The Apparatus,”
+    <strong>Jonghun Han</strong>, Saewoong Bahk and Jongyeon Park,
+    2026.08.04.
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-no">[P1]</div>
+  <div class="pub-citation">
     US#12,557,141 B2,
     “Methods, devices and systems for wireless communication using multi-link,”
     <strong>Jonghun Han</strong>, Chulho Chung, Myeongjin Kim, and Eunsung Jeon,
