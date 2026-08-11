@@ -1711,3 +1711,235 @@ html[data-theme="dark"] .page__content .people-empty {
     font-size: 0.92em;
   }
 }
+
+/* ==========================================================================
+   CUSTOM: Laboratory title banner on Home
+   ========================================================================== */
+
+.page__content .home-lab-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin: 0 0 2.9rem;
+  padding: clamp(1.55rem, 3.2vw, 2.7rem) clamp(1.35rem, 3.6vw, 3rem);
+  border: 1px solid var(--global-border-color);
+  border-radius: 1rem;
+  background:
+    radial-gradient(circle at 92% 18%, rgba(14, 161, 197, 0.14), transparent 28%),
+    linear-gradient(135deg, rgba(47, 127, 147, 0.11), rgba(255, 209, 102, 0.055));
+  box-shadow: 0 12px 34px rgba(21, 54, 64, 0.12);
+}
+
+.page__content .home-lab-hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: -4rem;
+  bottom: -5rem;
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid rgba(47, 127, 147, 0.18);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 2.5rem rgba(47, 127, 147, 0.035),
+    0 0 0 5rem rgba(47, 127, 147, 0.025);
+}
+
+.page__content .home-lab-hero__accent {
+  display: flex;
+  gap: 0.42rem;
+  align-items: center;
+  margin-bottom: 0.9rem;
+}
+
+.page__content .home-lab-hero__accent::after {
+  content: "";
+  width: min(11rem, 35vw);
+  height: 1px;
+  margin-left: 0.2rem;
+  background: linear-gradient(90deg, rgba(47, 127, 147, 0.72), transparent);
+}
+
+.page__content .home-lab-hero__accent span {
+  width: 0.54rem;
+  height: 0.54rem;
+  border-radius: 50%;
+}
+
+.page__content .home-lab-hero__accent span:nth-child(1) {
+  background: #0ea1c5;
+}
+
+.page__content .home-lab-hero__accent span:nth-child(2) {
+  background: #3478d4;
+}
+
+.page__content .home-lab-hero__accent span:nth-child(3) {
+  background: #d6a700;
+}
+
+.page__content .home-lab-hero__title {
+  max-width: 1040px;
+  margin: 0;
+  color: var(--global-text-color);
+  font-size: clamp(2rem, 4.4vw, 3.65rem);
+  font-weight: 850;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+  text-wrap: balance;
+}
+
+html[data-theme="dark"] .page__content .home-lab-hero {
+  background:
+    radial-gradient(circle at 92% 18%, rgba(14, 161, 197, 0.2), transparent 30%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.055), rgba(255, 209, 102, 0.035));
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.25);
+}
+
+/* Keep the English notice fully readable in light mode. */
+html:not([data-theme="dark"]) .page__content .home-section__translation {
+  color: #111820;
+}
+
+html[data-theme="dark"] .page__content .home-section__translation {
+  color: var(--global-text-color-light);
+}
+
+/* ==========================================================================
+   CUSTOM: Faculty seal and compact external-link icons
+   ========================================================================== */
+
+.page__content .faculty-card {
+  position: relative;
+}
+
+.page__content .faculty-card__identity {
+  min-height: 142px;
+  padding-right: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page__content .faculty-card__seal {
+  position: absolute;
+  top: 1.15rem;
+  right: 1.35rem;
+  display: grid;
+  width: 132px;
+  height: 132px;
+  place-items: center;
+  pointer-events: none;
+}
+
+.page__content .faculty-card__seal img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: transparent;
+  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.12));
+  box-shadow: none !important;
+}
+
+.page__content .faculty-card__links a,
+.page__content .faculty-card__links a:visited {
+  gap: 0.16rem;
+}
+
+.page__content .faculty-card__links i {
+  width: 1.08em;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 760px) {
+  .page__content .faculty-card__identity {
+    min-height: 110px;
+    padding-right: 108px;
+  }
+
+  .page__content .faculty-card__seal {
+    top: 1rem;
+    right: 1rem;
+    width: 92px;
+    height: 92px;
+  }
+}
+
+@media (max-width: 540px) {
+  .page__content .faculty-card__identity {
+    min-height: 90px;
+    padding-right: 68px;
+  }
+
+  .page__content .faculty-card__seal {
+    top: 0.9rem;
+    right: 0.9rem;
+    width: 58px;
+    height: 58px;
+  }
+
+  .page__content .faculty-card__links {
+    column-gap: 0.8rem;
+  }
+}
+
+/* ==========================================================================
+   CUSTOM: Light-mode contrast safeguards across content pages
+   ========================================================================== */
+
+html:not([data-theme="dark"]) .page__content h2,
+html:not([data-theme="dark"]) .page__content .faculty-card__identity,
+html:not([data-theme="dark"]) .page__content .faculty-card__links,
+html:not([data-theme="dark"]) .page__content .research-card__image,
+html:not([data-theme="dark"]) .page__content .research-card__refs {
+  border-color: #7f8a92;
+}
+
+html:not([data-theme="dark"]) .page__content .research-card,
+html:not([data-theme="dark"]) .page__content .faculty-card,
+html:not([data-theme="dark"]) .page__content .member-card {
+  border-color: #7f8a92;
+  background: rgba(47, 127, 147, 0.065);
+  box-shadow: 0 8px 24px rgba(29, 48, 56, 0.12);
+}
+
+html:not([data-theme="dark"]) .page__content .people-empty {
+  border-color: #7f8a92;
+  background: rgba(47, 127, 147, 0.045);
+  color: #36434b;
+}
+
+html:not([data-theme="dark"]) .page__content .pub-entry,
+html:not([data-theme="dark"]) .page__content .timeline-card,
+html:not([data-theme="dark"]) .page__content .cv-entry {
+  border-left-color: #507b88;
+  background: rgba(47, 127, 147, 0.065);
+}
+
+html:not([data-theme="dark"]) .page__content .pub-entry:hover,
+html:not([data-theme="dark"]) .page__content .timeline-card:hover,
+html:not([data-theme="dark"]) .page__content .cv-entry:hover {
+  background: rgba(47, 127, 147, 0.105);
+}
+
+html:not([data-theme="dark"]) .page__content .timeline-list::before,
+html:not([data-theme="dark"]) .page__content .lecture-list::before {
+  background: rgba(48, 61, 69, 0.48);
+}
+
+html:not([data-theme="dark"]) .page__content .contact-map {
+  border: 1px solid #7f8a92;
+  background: #eef2f4;
+}
+
+html:not([data-theme="dark"]) .page__content table,
+html:not([data-theme="dark"]) .page__content th,
+html:not([data-theme="dark"]) .page__content td {
+  border-color: #7f8a92;
+}
+
+html:not([data-theme="dark"]) .page__content hr {
+  border-color: #7f8a92;
+}

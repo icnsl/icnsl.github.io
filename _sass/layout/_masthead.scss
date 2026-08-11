@@ -79,3 +79,99 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+/* ==========================================================================
+   CUSTOM: ICNSL masthead wordmark
+   ========================================================================== */
+
+.masthead__menu-item--lg {
+  padding-right: 1.35rem;
+}
+
+.masthead__menu-item--lg .site-brand {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 2.2rem;
+  padding: 0.3rem 0.72rem 0.3rem 0.58rem;
+  border: 1px solid rgba(47, 127, 147, 0.52);
+  border-radius: 999px;
+  background:
+    linear-gradient(135deg, rgba(47, 127, 147, 0.13), rgba(255, 209, 102, 0.08));
+  box-shadow: 0 5px 16px rgba(20, 54, 64, 0.12);
+  line-height: 1;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.masthead__menu-item--lg .site-brand:hover {
+  transform: translateY(-1px);
+  border-color: #176f86;
+  box-shadow: 0 7px 20px rgba(20, 54, 64, 0.18);
+}
+
+.masthead__menu-item--lg.selected .site-brand,
+.masthead__menu-item--lg.selected .site-brand:hover {
+  border-bottom: 1px solid rgba(47, 127, 147, 0.52);
+}
+
+.site-brand__nodes {
+  display: inline-flex;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.site-brand__nodes span {
+  display: block;
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(47, 127, 147, 0.08);
+}
+
+.site-brand__nodes span:nth-child(1) {
+  background: #0ea1c5;
+}
+
+.site-brand__nodes span:nth-child(2) {
+  background: #3478d4;
+}
+
+.site-brand__nodes span:nth-child(3) {
+  background: #d6a700;
+}
+
+.site-brand__wordmark {
+  color: #173f4a;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+html[data-theme="dark"] .masthead__menu-item--lg .site-brand {
+  border-color: rgba(255, 209, 102, 0.42);
+  background:
+    linear-gradient(135deg, rgba(14, 161, 197, 0.16), rgba(255, 209, 102, 0.08));
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+}
+
+html[data-theme="dark"] .masthead__menu-item--lg.selected .site-brand,
+html[data-theme="dark"] .masthead__menu-item--lg.selected .site-brand:hover {
+  border-bottom-color: rgba(255, 209, 102, 0.42);
+}
+
+html[data-theme="dark"] .site-brand__wordmark {
+  color: #f8fbfc;
+}
+
+@media (max-width: 600px) {
+  .masthead__menu-item--lg .site-brand {
+    padding-right: 0.58rem;
+  }
+
+  .site-brand__wordmark {
+    font-size: 0.9rem;
+    letter-spacing: 0.12em;
+  }
+}
