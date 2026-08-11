@@ -26,6 +26,12 @@ hide_title: true
         </div>
       </header>
 
+      {% if member.seal %}
+        <div class="faculty-card__seal">
+          <img src="{{ member.seal | relative_url }}" alt="Sejong University seal" loading="eager" decoding="async">
+        </div>
+      {% endif %}
+
       <details class="faculty-card__bio">
         <summary class="faculty-card__bio-toggle">Biography</summary>
         <div class="faculty-card__bio-content">
@@ -38,31 +44,31 @@ hide_title: true
       <nav class="faculty-card__links" aria-label="External links for {{ member.name }}">
         {% if member.email %}
           <a href="mailto:{{ member.email }}">
-            <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>
+            <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
             <span>Email</span>
           </a>
         {% endif %}
         {% if member.scholar %}
           <a href="{{ member.scholar }}" target="_blank" rel="noopener noreferrer">
-            <i class="ai ai-google-scholar ai-fw icon-pad-right" aria-hidden="true"></i>
+            <i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i>
             <span>Google Scholar</span>
           </a>
         {% endif %}
         {% if member.orcid %}
           <a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer">
-            <i class="ai ai-orcid ai-fw icon-pad-right" aria-hidden="true"></i>
+            <i class="ai ai-orcid ai-fw" aria-hidden="true"></i>
             <span>ORCID</span>
           </a>
         {% endif %}
         {% if member.researchgate %}
           <a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>
+            <i class="fab fa-fw fa-researchgate" aria-hidden="true"></i>
             <span>ResearchGate</span>
           </a>
         {% endif %}
         {% if member.linkedin %}
           <a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
             <span>LinkedIn</span>
           </a>
         {% endif %}

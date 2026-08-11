@@ -7,6 +7,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<header class="home-lab-hero" aria-labelledby="home-lab-title">
+  <div class="home-lab-hero__accent" aria-hidden="true">
+    <span></span><span></span><span></span>
+  </div>
+  <h1 id="home-lab-title" class="home-lab-hero__title">Intelligent Communications and Networked Systems Laboratory</h1>
+</header>
 
 <section class="home-section home-section--notice" aria-labelledby="home-notice-heading">
   <h2 id="home-notice-heading">📌 Notice</h2>
@@ -56,9 +62,6 @@ redirect_from:
 <section class="home-section home-section--research" aria-labelledby="home-research-heading">
   <h2 id="home-research-heading">🔬 Research Areas</h2>
 
-  <p class="research-intro">
-    Four themes distilled from journal and conference work published since 2018.
-  </p>
 
   <div class="research-card-grid">
   {% for area in site.data.research.areas %}
