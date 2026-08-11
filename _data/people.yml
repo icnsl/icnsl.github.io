@@ -2,6 +2,7 @@
 faculty:
   - name: "Jonghun Han"
     photo: "/images/profile.png"
+    seal: "/images/sejong-university-seal.png"
     role: "Assistant Professor"
     department: "Department of Artificial Intelligence and Information Technology"
     institution: "Sejong University"
