@@ -4,8 +4,10 @@ layout: default
 
 {% assign main_navigation_urls = "/,/people/,/publications/,/patents/,/experiences/,/lecture/,/contact/" | split: "," %}
 {% assign hide_page_title = page.hide_title %}
+{% assign is_main_navigation_page = false %}
 {% if main_navigation_urls contains page.url %}
   {% assign hide_page_title = true %}
+  {% assign is_main_navigation_page = true %}
 {% endif %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -18,10 +20,12 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
-  {% include sidebar.html %}
+<div id="main" role="main"{% if is_main_navigation_page %} class="main--without-sidebar"{% endif %}>
+  {% unless is_main_navigation_page %}
+    {% include sidebar.html %}
+  {% endunless %}
 
-  <div class="archive">
+  <div class="archive{% if is_main_navigation_page %} archive--full-width{% endif %}">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       {% unless hide_page_title %}
         <h1 class="page__title">{{ page.title }}</h1>
