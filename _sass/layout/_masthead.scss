@@ -115,30 +115,58 @@
   border-bottom: 1px solid rgba(47, 127, 147, 0.52);
 }
 
-.site-brand__nodes {
-  display: inline-flex;
-  gap: 0.2rem;
-  align-items: center;
-}
-
-.site-brand__nodes span {
-  display: block;
-  width: 0.38rem;
-  height: 0.38rem;
+.site-brand__mark {
+  display: inline-grid;
+  width: 1.68rem;
+  height: 1.68rem;
+  flex: 0 0 1.68rem;
+  place-items: center;
+  border: 1px solid rgba(23, 111, 134, 0.32);
   border-radius: 50%;
-  box-shadow: 0 0 0 2px rgba(47, 127, 147, 0.08);
+  background: rgba(255, 255, 255, 0.54);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32);
 }
 
-.site-brand__nodes span:nth-child(1) {
-  background: #0ea1c5;
+.site-brand__mark svg {
+  display: block;
+  width: 1.36rem;
+  height: 1.36rem;
+  overflow: visible;
 }
 
-.site-brand__nodes span:nth-child(2) {
-  background: #3478d4;
+.site-brand__mark-signal,
+.site-brand__mark-link {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
-.site-brand__nodes span:nth-child(3) {
-  background: #d6a700;
+.site-brand__mark-signal {
+  stroke: #176f86;
+}
+
+.site-brand__mark-signal--outer {
+  stroke-width: 2.05;
+  opacity: 0.88;
+}
+
+.site-brand__mark-signal--inner {
+  stroke-width: 2.25;
+}
+
+.site-brand__mark-link {
+  stroke: #3478d4;
+  stroke-width: 1.85;
+}
+
+.site-brand__mark-node {
+  fill: #3478d4;
+}
+
+.site-brand__mark-core {
+  fill: #d6a700;
+  stroke: var(--global-bg-color);
+  stroke-width: 1.2;
 }
 
 .site-brand__wordmark {
@@ -159,6 +187,30 @@ html[data-theme="dark"] .masthead__menu-item--lg .site-brand {
 html[data-theme="dark"] .masthead__menu-item--lg.selected .site-brand,
 html[data-theme="dark"] .masthead__menu-item--lg.selected .site-brand:hover {
   border-bottom-color: rgba(255, 209, 102, 0.42);
+}
+
+html[data-theme="dark"] .site-brand__mark {
+  border-color: rgba(255, 209, 102, 0.35);
+  background: rgba(7, 19, 31, 0.66);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+html[data-theme="dark"] .site-brand__mark-signal {
+  stroke: #65d7ee;
+}
+
+html[data-theme="dark"] .site-brand__mark-link {
+  stroke: #77a9ff;
+  fill: none;
+}
+
+html[data-theme="dark"] .site-brand__mark-node {
+  fill: #77a9ff;
+}
+
+html[data-theme="dark"] .site-brand__mark-core {
+  fill: #ffd166;
+  stroke: #07131f;
 }
 
 html[data-theme="dark"] .site-brand__wordmark {
