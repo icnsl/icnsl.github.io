@@ -1,20 +1,10 @@
 ---
-title: "🎓 Lecture"
+title: "Lecture"
 permalink: /lecture/
-author_profile: true
+author_profile: false
+hide_title: true
 ---
 
-<style>
-/* Add a lecture icon before the page title only on this page */
-.page__title {
-  padding-bottom: 0.45em;
-  border-bottom: 1px solid var(--global-border-color);
-}
-
-.page__title::before {
-  content: none !important;
-}
-</style>
 
 <div class="lecture-list">
 

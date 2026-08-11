@@ -1,7 +1,7 @@
 ---
 title: "People"
 permalink: /people/
-author_profile: true
+author_profile: false
 hide_title: true
 ---
 
@@ -52,6 +52,12 @@ hide_title: true
           <a href="{{ member.orcid }}" target="_blank" rel="noopener noreferrer">
             <i class="ai ai-orcid ai-fw icon-pad-right" aria-hidden="true"></i>
             <span>ORCID</span>
+          </a>
+        {% endif %}
+        {% if member.researchgate %}
+          <a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>
+            <span>ResearchGate</span>
           </a>
         {% endif %}
         {% if member.linkedin %}

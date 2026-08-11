@@ -1,21 +1,11 @@
 ---
-title: "📞 Contact"
+title: "Contact"
 permalink: /contact/
-author_profile: true
+author_profile: false
+hide_title: true
 ---
 
 <style>
-/* Contact page title style */
-.page__title {
-  padding-bottom: 0.45em;
-  border-bottom: 1px solid var(--global-border-color);
-  letter-spacing: 0.06em;
-}
-
-.page__title::before {
-  content: none !important;
-}
-
 /* Contact page layout */
 .page__content .contact-list {
   max-width: 920px;

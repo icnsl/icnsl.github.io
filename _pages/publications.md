@@ -1,7 +1,8 @@
 ---
-title: "📄 Publications"
+title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
+hide_title: true
 ---
 
 ## Journal Papers

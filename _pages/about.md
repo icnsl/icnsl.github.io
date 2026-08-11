@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Home"
-author_profile: true
+author_profile: false
 hide_title: true
 redirect_from:
   - /about/
@@ -14,10 +14,10 @@ redirect_from:
   <div class="home-section__list">
     <div class="home-section__entry home-section__entry--notice">
       <div class="home-section__text" lang="ko">
-        연구/학업/대학생활 등 면담이 필요한 경우, 메일로 연락주세요.
+        연구, 학업, 진로·미래 또는 개인적인 고민에 관해 면담이 필요한 경우, 메일로 연락주세요.
       </div>
       <div class="home-section__translation" lang="en">
-        If you would like to discuss research, academics, or university life, please contact me by email.
+        If you would like to discuss research, academics, career or future plans, or personal concerns, please contact me by email.
       </div>
     </div>
   </div>
@@ -68,7 +68,7 @@ redirect_from:
       </div>
       <div class="research-card__body">
         <div class="research-card__kicker">{{ area.kicker }}</div>
-        <h3 class="research-card__title">{{ area.title }}</h3>
+        <h3 class="research-card__title{% if area.title_style %} research-card__title--{{ area.title_style }}{% endif %}">{{ area.title }}</h3>
         <p class="research-card__description">{{ area.description }}</p>
         {% if area.publications and area.publications.size > 0 %}
         <div class="research-card__refs" aria-label="Representative publications">

@@ -1,7 +1,8 @@
 ---
-title: "💡Patents"
+title: "Patents"
 permalink: /patents/
-author_profile: true
+author_profile: false
+hide_title: true
 ---
 ## Patents (US, Granted)
 

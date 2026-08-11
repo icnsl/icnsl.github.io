@@ -1,7 +1,8 @@
 ---
-title: "💼 Experiences"
+title: "Experiences"
 permalink: /experiences/
-author_profile: true
+author_profile: false
+hide_title: true
 ---
 
 ## 🏢 Professional Experience
