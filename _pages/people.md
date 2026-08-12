@@ -19,8 +19,11 @@ hide_title: true
   </div>
 </header>
 
-<section class="people-section people-section--faculty">
-  <h2 id="faculty" class="people-heading">Faculty</h2>
+<section class="people-section people-section--faculty icnsl-section">
+  <h2 id="faculty" class="people-heading icnsl-section__heading">
+    <span class="icnsl-section__icon" aria-hidden="true">🧑‍🏫</span>
+    <span>Faculty</span>
+  </h2>
 
   <div class="faculty-list">
   {% for member in people.faculty %}
@@ -90,8 +93,11 @@ hide_title: true
   </div>
 </section>
 
-<section class="people-section">
-  <h2 id="graduate-researchers" class="people-heading">Graduate Researchers</h2>
+<section class="people-section icnsl-section">
+  <h2 id="graduate-researchers" class="people-heading icnsl-section__heading">
+    <span class="icnsl-section__icon" aria-hidden="true">🎓</span>
+    <span>Graduate Researchers</span>
+  </h2>
 
   {% if people.graduate_researchers.size > 0 %}
   <div class="member-grid">
@@ -121,8 +127,11 @@ hide_title: true
   {% endif %}
 </section>
 
-<section class="people-section">
-  <h2 id="undergraduate-researchers" class="people-heading">Undergraduate Researchers</h2>
+<section class="people-section icnsl-section">
+  <h2 id="undergraduate-researchers" class="people-heading icnsl-section__heading">
+    <span class="icnsl-section__icon" aria-hidden="true">📘</span>
+    <span>Undergraduate Researchers</span>
+  </h2>
 
   {% if people.undergraduate_researchers.size > 0 %}
   <div class="member-grid">
