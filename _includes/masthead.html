@@ -7,10 +7,14 @@
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
             <a class="site-brand" href="{{ base_path }}/" aria-label="ICNSL home">
-              <span class="site-brand__mark" aria-hidden="true">
-                <img src="{{ '/images/icnsl-symbol-transparent.png' | relative_url }}" alt="">
-              </span>
-              <span class="site-brand__wordmark">{{ site.title }}</span>
+              <img
+                class="site-brand__logo"
+                src="{{ '/images/icnsl-logo-masthead.png' | relative_url }}"
+                alt="ICNSL"
+                width="900"
+                height="290"
+                decoding="async"
+              >
             </a>
           </li>
           {% for link in site.data.navigation.main %}
