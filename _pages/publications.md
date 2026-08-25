@@ -9,7 +9,7 @@ hide_title: true
   <div class="icnsl-showcase__glyph" aria-hidden="true"><i class="fas fa-book-open"></i></div>
   <div class="icnsl-showcase__intro-copy">
     <div class="icnsl-showcase__eyebrow">Research Output</div>
-    <p class="icnsl-showcase__lead">Peer-reviewed journal and conference publications in wireless networking, IoT, and digital twin systems.</p>
+    <p class="icnsl-showcase__lead">Peer-reviewed journal and conference publications </p>
     <div class="icnsl-showcase__tags" aria-label="Publication categories">
       <span>Journal Articles</span><span>Conference Papers</span>
     </div>
