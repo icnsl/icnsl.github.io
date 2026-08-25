@@ -40,7 +40,7 @@ redirect_from:
   <div class="home-section__list">
     <div class="home-section__entry">
       <div class="home-section__text">
-        <strong>[2026.07]</strong> Our work, "Demystifying Multi&#8209;Link Device Behavior and Performance under Network Saturation in Wi&#8209;Fi&nbsp;7", has been accepted to <em>IEEE Transactions on Networking</em>.
+        <strong>[2026.07]</strong> Our work, "Demystifying Multi&#8209;Link Device Behavior and Performance under Network Saturation in Wi&#8209;Fi&nbsp;7", has been published in the <em>IEEE Transactions on Networking</em>.
       </div>
     </div>
 
