@@ -30,6 +30,7 @@ hide_title: true
     Jongyeon Park, Youngwook Son*, Kanghyun Lee, <strong>Jonghun Han</strong>, and Saewoong Bahk,
     “Demystifying Multi-Link Device Behavior and Performance under Network Saturation in Wi-Fi 7,”
     <em>IEEE Transactions on Networking</em>, vol. 34, pp. 6632-6657, Jul. 2026.
+    <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">5.3</span>, SCIE top<span class="pub-metric-value pub-red">16.1%</span>)</span>
   </div>
 </div>
 
