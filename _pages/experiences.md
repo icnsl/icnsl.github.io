@@ -102,6 +102,14 @@ hide_title: true
 <div class="cv-list">
 
 <div class="cv-entry">
+  <div class="cv-date">2026.08.26</div>
+  <div class="cv-body">
+    <span class="cv-title">“ISAC 기술의 이해와 철도 적용 가능성”</span>,
+    제5회 철도운영기관 통신분야 기술협의회, 서울역 그랜드센트럴.
+  </div>
+</div>
+
+<div class="cv-entry">
   <div class="cv-date">2024.12.30</div>
   <div class="cv-body">
     <span class="cv-title">“Understanding Wireless Communication and Its Applications: Focusing on Wi-Fi and UWB Technologies”</span>,
