@@ -17,7 +17,12 @@ faculty:
       - "Until February 2025, I was a Senior Researcher at the Korea Railroad Research Institute, focusing on private-5G railway technology, train positioning, and mission-critical railway applications."
       - "Since March 2025, I have been an Assistant Professor in the Department of Artificial Intelligence and Information Technology at Sejong University, focusing on intelligent communication and networked systems."
 
-# Example member fields: name, photo, program, period, research, email, linkedin.
+# Example member fields: name, photo, department/program, period, research, email, linkedin.
 graduate_researchers: []
 
-undergraduate_researchers: []
+undergraduate_researchers:
+  - name: "Sehyun Choi (최세현)"
+    photo:
+    department: "Department of Artificial Intelligence and Information Technology (지능정보융합학과)"
+    research: "TBD"
+    email:
