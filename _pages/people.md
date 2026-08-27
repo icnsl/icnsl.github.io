@@ -111,11 +111,22 @@ hide_title: true
 
       <div class="member-card__content">
         <h3>{{ member.name }}</h3>
-        {% if member.program %}<div class="member-card__program">{{ member.program }}</div>{% endif %}
+        {% if member.department %}
+          <div class="member-card__department">{{ member.department }}</div>
+        {% elsif member.program %}
+          <div class="member-card__program">{{ member.program }}</div>
+        {% endif %}
         {% if member.period %}<div class="member-card__period">{{ member.period }}</div>{% endif %}
-        {% if member.research %}<p>{{ member.research }}</p>{% endif %}
+        {% if member.research %}<p class="member-card__research"><strong>Research Area:</strong> {{ member.research }}</p>{% endif %}
         <div class="member-card__links">
-          {% if member.email %}<a href="mailto:{{ member.email }}">Email</a>{% endif %}
+          <span class="member-card__email">
+            <strong>Email:</strong>
+            {% if member.email %}
+              <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+            {% else %}
+              <span class="member-card__email-placeholder">TBD</span>
+            {% endif %}
+          </span>
           {% if member.linkedin %}<a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>{% endif %}
         </div>
       </div>
@@ -145,11 +156,22 @@ hide_title: true
 
       <div class="member-card__content">
         <h3>{{ member.name }}</h3>
-        {% if member.program %}<div class="member-card__program">{{ member.program }}</div>{% endif %}
+        {% if member.department %}
+          <div class="member-card__department">{{ member.department }}</div>
+        {% elsif member.program %}
+          <div class="member-card__program">{{ member.program }}</div>
+        {% endif %}
         {% if member.period %}<div class="member-card__period">{{ member.period }}</div>{% endif %}
-        {% if member.research %}<p>{{ member.research }}</p>{% endif %}
+        {% if member.research %}<p class="member-card__research"><strong>Research Area:</strong> {{ member.research }}</p>{% endif %}
         <div class="member-card__links">
-          {% if member.email %}<a href="mailto:{{ member.email }}">Email</a>{% endif %}
+          <span class="member-card__email">
+            <strong>Email:</strong>
+            {% if member.email %}
+              <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+            {% else %}
+              <span class="member-card__email-placeholder">TBD</span>
+            {% endif %}
+          </span>
           {% if member.linkedin %}<a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>{% endif %}
         </div>
       </div>
