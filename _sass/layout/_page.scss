@@ -1610,6 +1610,13 @@ html[data-theme="dark"] .page__content .member-card {
   text-transform: uppercase;
 }
 
+.page__content .member-card__department {
+  color: var(--global-link-color);
+  font-size: 0.82em;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 .page__content .member-card__period {
   margin-top: 0.28rem;
   color: var(--global-text-color-light);
@@ -1626,12 +1633,14 @@ html[data-theme="dark"] .page__content .member-card {
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem;
+  align-items: baseline;
+  color: var(--global-text-color-light);
+  font-size: 0.85em;
 }
 
 .page__content .member-card__links a,
 .page__content .member-card__links a:visited {
   color: var(--global-link-color) !important;
-  font-size: 0.85em;
   font-weight: 700;
   text-decoration: none !important;
 }
@@ -1639,6 +1648,21 @@ html[data-theme="dark"] .page__content .member-card {
 .page__content .member-card__links a:hover {
   color: var(--global-link-color-hover) !important;
   text-decoration: underline !important;
+}
+
+.page__content .member-card__email {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  align-items: baseline;
+}
+
+.page__content .member-card__email strong {
+  color: var(--global-text-color);
+}
+
+.page__content .member-card__email-placeholder {
+  color: var(--global-text-color-light);
 }
 
 .page__content .people-empty {
