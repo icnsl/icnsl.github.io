@@ -40,6 +40,12 @@ redirect_from:
   <div class="home-section__list">
     <div class="home-section__entry">
       <div class="home-section__text">
+        <strong>[2026.08]</strong> 지능정보융합학과 최세현 학생이 학부연구생으로 연구실에 합류하게 되었습니다. 환영합니다!. We are pleased to welcome Sehyun Choi, a student in the Department of Artificial Intelligence and Information Technology, to our lab as an undergraduate researcher. 👍
+      </div>
+    </div>
+    
+    <div class="home-section__entry">
+      <div class="home-section__text">
         <strong>[2026.07]</strong> Our work, "Demystifying Multi&#8209;Link Device Behavior and Performance under Network Saturation in Wi&#8209;Fi&nbsp;7", has been published in the <em>IEEE Transactions on Networking</em>.
       </div>
     </div>
