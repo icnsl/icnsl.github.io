@@ -18,7 +18,7 @@ hide_title: true
 
 <section class="icnsl-section" aria-labelledby="us-patents-heading">
   <h2 id="us-patents-heading" class="icnsl-section__heading">
-    <span class="icnsl-section__icon" aria-hidden="true">📜</span>
+    <span class="icnsl-section__icon" aria-hidden="true"></span>
     <span>Patents (US, Granted)</span>
   </h2>
 
