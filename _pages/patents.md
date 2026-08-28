@@ -27,6 +27,16 @@ hide_title: true
 <div class="pub-entry">
   <div class="pub-no">[P1]</div>
   <div class="pub-citation">
+    US#12,719,639 B2,
+    Method And Apparatus For Transmitting And Receiving Block ACK In Wireless Communication System Supporting Multi-link,”
+    <strong>Jonghun Han</strong>, Chulho Chung, Seunghwan Oh, and Kyungik Cho,
+    2026.08.25.
+  </div>
+</div
+
+<div class="pub-entry">
+  <div class="pub-no">[P1]</div>
+  <div class="pub-citation">
     US#12,701,614 B2,
     “Apparatus for Channel Access in WLAN System and Operating Method of the Apparatus,”
     <strong>Jonghun Han</strong>, Saewoong Bahk, and Jongyeon Park,
