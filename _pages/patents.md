@@ -32,7 +32,7 @@ hide_title: true
     <strong>Jonghun Han</strong>, Chulho Chung, Seunghwan Oh, and Kyungik Cho,
     2026.08.25.
   </div>
-</div
+</div>
 
 <div class="pub-entry">
   <div class="pub-no">[P2]</div>
