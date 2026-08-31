@@ -106,6 +106,8 @@ hide_title: true
   <div class="cv-body">
     <span class="cv-title">“ISAC 기술의 이해와 철도 적용 가능성”</span>,
     제5회 철도운영기관 통신분야 기술협의회, 주관: 한국철도기술연구원, 서울역 그랜드센트럴.
+    <br>
+    관련 기사: <a href="https://www.newspim.com/news/view/20260827000625" target="_blank" rel="noopener noreferrer">철도통신도 5G 넘어 6G로…철도연·운영기관 기술협력 강화</a>
   </div>
 </div>
 
