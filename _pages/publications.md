@@ -59,7 +59,7 @@ hide_title: true
   <div class="pub-citation">
     Jongyeon Park, <strong>Jonghun Han*</strong>, and Saewoong Bahk*,
     “Adaptive Multi-Link Channel Access Under Cross-Link Interference in Next-Generation WLANs,”
-    <em>IEEE Internet of Things Journal</em>, vol. 11, no. 14, pp. 24685–24697, 2024.
+    <em>IEEE Internet of Things Journal</em>, vol. 11, no. 14, pp. 24685–24697, May. 2024.
     <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">8.2</span>, SCIE top<span class="pub-metric-value pub-red">3.4%</span>)</span>
   </div>
 </div>
