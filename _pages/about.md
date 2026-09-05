@@ -37,7 +37,13 @@ redirect_from:
 <section class="home-section home-section--news" aria-labelledby="home-news-heading">
   <h2 id="home-news-heading">📢 Recent News</h2>
 
-  <div class="home-section__list">
+   <div class="home-section__list">
+    <div class="home-section__entry">
+      <div class="home-section__text"> 
+        <strong>[2026.09]</strong> Our paper, “A Graph-Theoretic and Stochastic Analysis of BLE-Assisted Cooperative Wi-Fi Scanning,” has been published in <em>Mathematics<\em>.
+      </div>
+    </div>
+     
     <div class="home-section__entry">
       <div class="home-section__text">
         <strong>[2026.08]</strong> 지능정보융합학과 최세현 학생이 학부연구생으로 연구실에 합류하게 되었습니다. 환영합니다!. We are pleased to welcome Sehyun Choi, a student in the Department of Artificial Intelligence and Information Technology, to our lab as an undergraduate researcher. 👍
