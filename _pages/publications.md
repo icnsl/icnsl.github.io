@@ -27,6 +27,16 @@ hide_title: true
 <div class="pub-entry" id="pub-j1">
   <div class="pub-no">[J1]</div>
   <div class="pub-citation">
+    <strong>Jonghun Han</strong>, and Hongchan Kim,
+    “A Graph-Theoretic and Stochastic Analysis of BLE-Assisted Cooperative Wi-Fi Scanning,”
+    <em>Mathematics</em>, vol. 14, No. 17, pp. 3214, Sep. 2026.
+    <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">2.3</span>, SCIE top<span class="pub-metric-value pub-red">2.3%</span>)</span>
+  </div>
+</div>
+
+<div class="pub-entry" id="pub-j2">
+  <div class="pub-no">[J2]</div>
+  <div class="pub-citation">
     Jongyeon Park, Youngwook Son*, Kanghyun Lee, <strong>Jonghun Han</strong>, and Saewoong Bahk,
     “Demystifying Multi-Link Device Behavior and Performance under Network Saturation in Wi-Fi 7,”
     <em>IEEE Transactions on Networking</em>, vol. 34, pp. 6632-6657, Jul. 2026.
@@ -34,8 +44,8 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry" id="pub-j2">
-  <div class="pub-no">[J2]</div>
+<div class="pub-entry" id="pub-j3">
+  <div class="pub-no">[J3]</div>
   <div class="pub-citation">
     Cheonyong Kim, Walid Saad, <strong>Jonghun Han*</strong>, Tao Yu, Kei Sakaguchi and Minchae Jung*,
     “Real-Time Task Scheduling with Fairness in Digital Twin Systems,”
@@ -44,8 +54,8 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry" id="pub-j3">
-  <div class="pub-no">[J3]</div>
+<div class="pub-entry" id="pub-j4">
+  <div class="pub-no">[J4]</div>
   <div class="pub-citation">
     Jongyeon Park, <strong>Jonghun Han*</strong>, and Saewoong Bahk*,
     “Adaptive Multi-Link Channel Access Under Cross-Link Interference in Next-Generation WLANs,”
@@ -54,8 +64,8 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry" id="pub-j4">
-  <div class="pub-no">[J4]</div>
+<div class="pub-entry" id="pub-j5">
+  <div class="pub-no">[J5]</div>
   <div class="pub-citation">
     Minchae Jung, and <strong>Jonghun Han*</strong>, 
     “Adaptive Packet Tuning for Energy Efficient Communication in Underlay CSMA/CA Networks,”
@@ -64,8 +74,8 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry" id="pub-j5">
-  <div class="pub-no">[J5]</div>
+<div class="pub-entry" id="pub-j6">
+  <div class="pub-no">[J6]</div>
   <div class="pub-citation">
     <strong>Jonghun Han</strong>, Changhee Joo, and Saewoong Bahk*,
     “Resource Sharing in Dual-Stack Devices: Opportunistic Bluetooth Transmissions in WLAN Busy Periods,”
