@@ -24,8 +24,17 @@ hide_title: true
 
 <div class="pub-list icnsl-catalog-list icnsl-catalog-list--patents icnsl-catalog-list--us">
 
-<div class="pub-entry">
-  <div class="pub-no">[P1]</div>
+{% comment %}
+새 미국 특허는 아래 us_patent_no 초기화 줄 다음에 추가하세요.
+각 특허의 assign ... plus: 1 줄부터 pub-entry의 닫는 div까지 복사하고,
+pub-citation 안의 특허 정보만 수정하면 됩니다.
+초기화 줄(assign us_patent_no = 0)은 이 목록에 한 번만 둡니다.
+{% endcomment %}
+{% assign us_patent_no = 0 %}
+
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,719,639 B2,
     Method And Apparatus For Transmitting And Receiving Block ACK In Wireless Communication System Supporting Multi-link,”
@@ -34,8 +43,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P2]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,701,614 B2,
     “Apparatus for Channel Access in WLAN System and Operating Method of the Apparatus,”
@@ -44,8 +54,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P3]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,557,141 B2,
     “Methods, devices and systems for wireless communication using multi-link,”
@@ -54,8 +65,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P4]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,537,619 B2,
     “Apparatus and method for wireless communication based on puncturing,”
@@ -64,8 +76,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P5]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,526,648 B2,
     “Apparatus and method for channel sounding,”
@@ -74,8 +87,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P6]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,445,933 B2,
     “Apparatus and method for multi-link based wireless communication,”
@@ -84,8 +98,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P7]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,388,606 B2,
     “Apparatus and method for block acknowledgement within reduced duration,”
@@ -94,8 +109,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P8]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,382,497 B2,
     “Device and method for wireless communication using multiple links,”
@@ -104,8 +120,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P9]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     <span class="pub-red">(IEEE 802.11be 표준 채택)</span>
     US#12,355,706 B2,
@@ -115,8 +132,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P10]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,301,508 B2,
     “Apparatus and method for communication based on multi-resource unit in wireless local area network system,”
@@ -125,8 +143,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P11]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,250,589 B2,
     “Apparatus and method for channel sounding,”
@@ -135,8 +154,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P12]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,231,190 B2,
     “Apparatus and method for wireless communication based on enhanced null data packet announcement,”
@@ -145,8 +165,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P13]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,225,451 B2,
     “Apparatus and method for extended signal field,”
@@ -155,8 +176,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P14]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,224,817 B2,
     “Apparatus and method of uplink beamforming in wireless local area network system,”
@@ -165,8 +187,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P15]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,149,394 B2,
     “Apparatus and method for extended range communication,”
@@ -175,8 +198,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P16]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,096,475 B2,
     “Apparatus and method for coordinated spatial reuse in wireless communication,”
@@ -185,8 +209,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P17]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,082,249 B2,
     “Apparatus and method for coordinated spatial reuse in wireless communication,”
@@ -195,8 +220,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P18]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#12,058,230 B2,
     “Apparatus and method for signaling expansion in wireless local area network system,”
@@ -205,8 +231,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P19]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#11,984,985 B2,
     “Method of performing wireless communication, wireless transmission device and wireless reception device performing the same,”
@@ -215,8 +242,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P20]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#11,979,866 B2,
     “Apparatus and method for channel sounding based on aggregated physical protocol data unit,”
@@ -225,8 +253,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P21]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#11,595,994 B2,
     “Apparatus and method for coordinated spatial reuse in wireless communication,”
@@ -235,8 +264,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P22]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#11,387,877 B2,
     “Device and method using adaptive codebook for dual beamforming feedback and wireless communication system including the same,”
@@ -245,8 +275,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P23]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#11,381,366 B2,
     “Wireless communication devices for transmitting data using spatial reuse and data communication methods using the same,”
@@ -255,8 +286,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[P24]</div>
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
     US#8,260,270 B2,
     “Femto BS for reducing inter-cell interference and method for transmitting signal using the same,”
@@ -276,8 +308,17 @@ hide_title: true
 
 <div class="pub-list icnsl-catalog-list icnsl-catalog-list--patents icnsl-catalog-list--kr">
 
-<div class="pub-entry">
-  <div class="pub-no">[PK1]</div>
+{% comment %}
+새 한국 특허는 아래 kr_patent_no 초기화 줄 다음에 추가하세요.
+각 특허의 assign ... plus: 1 줄부터 pub-entry의 닫는 div까지 복사하고,
+pub-citation 안의 특허 정보만 수정하면 됩니다.
+초기화 줄(assign kr_patent_no = 0)은 이 목록에 한 번만 둡니다.
+{% endcomment %}
+{% assign kr_patent_no = 0 %}
+
+{% assign kr_patent_no = kr_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-pk{{ kr_patent_no }}">
+  <div class="pub-no">[PK{{ kr_patent_no }}]</div>
   <div class="pub-citation">
     KR#10-2976771,
     “시 민감 네트워크 패킷의 무선 송수신 시 데이터 송수신 방법 및 장치,”
@@ -286,8 +327,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[PK2]</div>
+{% assign kr_patent_no = kr_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-pk{{ kr_patent_no }}">
+  <div class="pub-no">[PK{{ kr_patent_no }}]</div>
   <div class="pub-citation">
     KR#10-2976784,
     “시 민감 네트워크 패킷의 무선 송수신을 위한 무선 플로우 해지 방법 및 장치,”
@@ -296,8 +338,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[PK3]</div>
+{% assign kr_patent_no = kr_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-pk{{ kr_patent_no }}">
+  <div class="pub-no">[PK{{ kr_patent_no }}]</div>
   <div class="pub-citation">
     KR#10-2894598,
     “고장 방지 기능을 갖는 멀티-억세스 에지 컴퓨팅 시스템 및 이의 고장 방지 방법,”
@@ -306,8 +349,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[PK4]</div>
+{% assign kr_patent_no = kr_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-pk{{ kr_patent_no }}">
+  <div class="pub-no">[PK{{ kr_patent_no }}]</div>
   <div class="pub-citation">
     KR#10-2755897,
     “EDCA 파라미터를 동적으로 조절하는 방법 및 장치,”
@@ -316,8 +360,9 @@ hide_title: true
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-no">[PK5]</div>
+{% assign kr_patent_no = kr_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-pk{{ kr_patent_no }}">
+  <div class="pub-no">[PK{{ kr_patent_no }}]</div>
   <div class="pub-citation">
     KR#10-2572878,
     “공간 재사용을 이용하여 데이터를 전송하는 무선 통신 장치 및 이를 이용한 데이터 통신 방법,”
