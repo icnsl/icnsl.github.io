@@ -40,7 +40,7 @@ redirect_from:
    <div class="home-section__list">
     <div class="home-section__entry">
       <div class="home-section__text"> 
-        <strong>[2026.09]</strong> Our paper, “A Graph-Theoretic and Stochastic Analysis of BLE-Assisted Cooperative Wi-Fi Scanning,” has been published in <em>Mathematics<\em>.
+        <strong>[2026.09]</strong> Our paper, “A Graph-Theoretic and Stochastic Analysis of BLE-Assisted Cooperative Wi-Fi Scanning,” has been published in <em>Mathematics</em>.
       </div>
     </div>
      
