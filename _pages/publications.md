@@ -24,61 +24,75 @@ hide_title: true
 
 <div class="pub-list icnsl-catalog-list icnsl-catalog-list--journal">
 
-<div class="pub-entry" id="pub-j1">
-  <div class="pub-no">[J1]</div>
+{% comment %}
+새 저널 논문은 아래 journal_no 초기화 줄 다음에 추가하세요.
+각 논문의 assign ... plus: 1 줄부터 pub-entry의 닫는 div까지 복사하고,
+pub-citation 안의 논문 정보만 수정하면 됩니다.
+초기화 줄(assign journal_no = 0)은 이 목록에 한 번만 둡니다.
+{% endcomment %}
+{% assign journal_no = 0 %}
+
+{% assign journal_no = journal_no | plus: 1 %}
+<div class="pub-entry" id="pub-j{{ journal_no }}">
+  <div class="pub-no">[J{{ journal_no }}]</div>
   <div class="pub-citation">
-    <strong>Jonghun Han</strong>, and Hongchan Kim*, <br>
-    “A Graph-Theoretic and Stochastic Analysis of BLE-Assisted Cooperative Wi-Fi Scanning,” <br>
+    <strong>Jonghun Han</strong>, and Hongchan Kim*,
+    “A Graph-Theoretic and Stochastic Analysis of BLE-Assisted Cooperative Wi-Fi Scanning,”<br>
     <em>Mathematics</em>, vol. 14, No. 17: 3214, Sep. 2026.
     <span class="pub-impact">(impact factor<span class="pub-metric-value">2.3</span>, SCIE top<span class="pub-metric-value pub-red">5.6%</span>)</span>
   </div>
 </div>
 
-<div class="pub-entry" id="pub-j2">
-  <div class="pub-no">[J2]</div>
+{% assign journal_no = journal_no | plus: 1 %}
+<div class="pub-entry" id="pub-j{{ journal_no }}">
+  <div class="pub-no">[J{{ journal_no }}]</div>
   <div class="pub-citation">
-    Jongyeon Park, Youngwook Son*, Kanghyun Lee, <strong>Jonghun Han</strong>, and Saewoong Bahk, <br>
-    “Demystifying Multi-Link Device Behavior and Performance under Network Saturation in Wi-Fi 7,” <br>
+    Jongyeon Park, Youngwook Son*, Kanghyun Lee, <strong>Jonghun Han</strong>, and Saewoong Bahk,
+    “Demystifying Multi-Link Device Behavior and Performance under Network Saturation in Wi-Fi 7,”<br>
     <em>IEEE Transactions on Networking</em>, vol. 34, pp. 6632-6657, Jul. 2026.
     <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">5.3</span>, SCIE top<span class="pub-metric-value pub-red">16.1%</span>)</span>
   </div>
 </div>
 
-<div class="pub-entry" id="pub-j3">
-  <div class="pub-no">[J3]</div>
+{% assign journal_no = journal_no | plus: 1 %}
+<div class="pub-entry" id="pub-j{{ journal_no }}">
+  <div class="pub-no">[J{{ journal_no }}]</div>
   <div class="pub-citation">
-    Cheonyong Kim, Walid Saad, <strong>Jonghun Han*</strong>, Tao Yu, Kei Sakaguchi and Minchae Jung*, <br>
-    “Real-Time Task Scheduling with Fairness in Digital Twin Systems,” <br>
+    Cheonyong Kim, Walid Saad, <strong>Jonghun Han*</strong>, Tao Yu, Kei Sakaguchi and Minchae Jung*,
+    “Real-Time Task Scheduling with Fairness in Digital Twin Systems,”<br>
     <em>IEEE Internet of Things Journal</em>, vol. 12, no. 7, pp. 7846–7862, Apr. 2025.
     <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">8.2</span>, SCIE top<span class="pub-metric-value pub-red">3.4%</span>)</span>
   </div>
 </div>
 
-<div class="pub-entry" id="pub-j4">
-  <div class="pub-no">[J4]</div>
+{% assign journal_no = journal_no | plus: 1 %}
+<div class="pub-entry" id="pub-j{{ journal_no }}">
+  <div class="pub-no">[J{{ journal_no }}]</div>
   <div class="pub-citation">
-    Jongyeon Park, <strong>Jonghun Han*</strong>, and Saewoong Bahk*, <br>
-    “Adaptive Multi-Link Channel Access Under Cross-Link Interference in Next-Generation WLANs,” <br>
+    Jongyeon Park, <strong>Jonghun Han*</strong>, and Saewoong Bahk*,
+    “Adaptive Multi-Link Channel Access Under Cross-Link Interference in Next-Generation WLANs,”<br>
     <em>IEEE Internet of Things Journal</em>, vol. 11, no. 14, pp. 24685–24697, Jul. 2024.
     <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">8.2</span>, SCIE top<span class="pub-metric-value pub-red">3.4%</span>)</span>
   </div>
 </div>
 
-<div class="pub-entry" id="pub-j5">
-  <div class="pub-no">[J5]</div>
+{% assign journal_no = journal_no | plus: 1 %}
+<div class="pub-entry" id="pub-j{{ journal_no }}">
+  <div class="pub-no">[J{{ journal_no }}]</div>
   <div class="pub-citation">
-    Minchae Jung, and <strong>Jonghun Han*</strong>, <br>
-    “Adaptive Packet Tuning for Energy Efficient Communication in Underlay CSMA/CA Networks,” <br>
+    Minchae Jung, and <strong>Jonghun Han*</strong>, 
+    “Adaptive Packet Tuning for Energy Efficient Communication in Underlay CSMA/CA Networks,”<br>
     <em>IEEE Access</em>, vol. 11, pp. 95989-95998, Aug. 2023.
     <span class="pub-impact">(impact factor<span class="pub-metric-value">3.9</span>, SCIE top<span class="pub-metric-value">36.2%</span>)</span>
   </div>
 </div>
 
-<div class="pub-entry" id="pub-j6">
-  <div class="pub-no">[J6]</div>
+{% assign journal_no = journal_no | plus: 1 %}
+<div class="pub-entry" id="pub-j{{ journal_no }}">
+  <div class="pub-no">[J{{ journal_no }}]</div>
   <div class="pub-citation">
-    <strong>Jonghun Han</strong>, Changhee Joo, and Saewoong Bahk*, <br>
-    “Resource Sharing in Dual-Stack Devices: Opportunistic Bluetooth Transmissions in WLAN Busy Periods,” <br>
+    <strong>Jonghun Han</strong>, Changhee Joo, and Saewoong Bahk*,
+    “Resource Sharing in Dual-Stack Devices: Opportunistic Bluetooth Transmissions in WLAN Busy Periods,”<br>
     <em>IEEE Transactions on Mobile Computing</em>, vol. 17, no. 10, pp. 2396–2407, Oct. 2018.
     <span class="pub-impact">(impact factor<span class="pub-metric-value">4.098</span>, SCIE top<span class="pub-metric-value pub-red">9.1%</span>)</span>
   </div>
@@ -95,81 +109,97 @@ hide_title: true
 
 <div class="pub-list icnsl-catalog-list icnsl-catalog-list--conference">
 
-<div class="pub-entry" id="pub-c1">
-  <div class="pub-no">[C1]</div>
+{% comment %}
+새 학회 논문은 아래 conference_no 초기화 줄 다음에 추가하세요.
+각 논문의 assign ... plus: 1 줄부터 pub-entry의 닫는 div까지 복사하고,
+pub-citation 안의 논문 정보만 수정하면 됩니다.
+초기화 줄(assign conference_no = 0)은 이 목록에 한 번만 둡니다.
+{% endcomment %}
+{% assign conference_no = 0 %}
+
+{% assign conference_no = conference_no | plus: 1 %}
+<div class="pub-entry" id="pub-c{{ conference_no }}">
+  <div class="pub-no">[C{{ conference_no }}]</div>
   <div class="pub-citation">
-    Seonho Jang, Jongseo Lee, <strong>Jonghun Han</strong>, and Minchae Jung, <br>
-    “Optimization of Update Period in Digital Twin Systems,” <br>
+    Seonho Jang, Jongseo Lee, <strong>Jonghun Han</strong>, and Minchae Jung,
+    “Optimization of Update Period in Digital Twin Systems,”<br>
     in <em>International Conference on Ubiquitous and Future Networks (ICUFN)</em> 2025,
     Lisbon, Portugal, Jul. 8–11, 2025.
   </div>
 </div>
 
-<div class="pub-entry" id="pub-c2">
-  <div class="pub-no">[C2]</div>
+{% assign conference_no = conference_no | plus: 1 %}
+<div class="pub-entry" id="pub-c{{ conference_no }}">
+  <div class="pub-no">[C{{ conference_no }}]</div>
   <div class="pub-citation">
-    Subin Choi, Hongjae Jeong, <strong>Jonghun Han</strong>, and Minchae Jung, <br>
-    “Optimal Inference Task Length for Minimizing Synchronization Error in Digital Twin Systems,” <br>
+    Subin Choi, Hongjae Jeong, <strong>Jonghun Han</strong>, and Minchae Jung,
+    “Optimal Inference Task Length for Minimizing Synchronization Error in Digital Twin Systems,”<br>
     in <em>International Conference on Ubiquitous and Future Networks (ICUFN)</em> 2025,
     Lisbon, Portugal, Jul. 8–11, 2025.
   </div>
 </div>
 
-<div class="pub-entry" id="pub-c3">
-  <div class="pub-no">[C3]</div>
+{% assign conference_no = conference_no | plus: 1 %}
+<div class="pub-entry" id="pub-c{{ conference_no }}">
+  <div class="pub-no">[C{{ conference_no }}]</div>
   <div class="pub-citation">
-    <strong>Jonghun Han</strong>, Joonsuk Kim, Changhee Joo, and Saewoong Bahk, <br>
-    “SplitScan: Sharing Wi-Fi Scan Information through Bluetooth Low Energy,” <br>
+    <strong>Jonghun Han</strong>, Joonsuk Kim, Changhee Joo, and Saewoong Bahk,
+    “SplitScan: Sharing Wi-Fi Scan Information through Bluetooth Low Energy,”<br>
     in <em>IEEE Vehicular Technology Conference (VTC) 2019-Spring</em>,
     Honolulu, USA, Sep. 22–25, 2019.
   </div>
 </div>
 
-<div class="pub-entry" id="pub-c4">
-  <div class="pub-no">[C4]</div>
+{% assign conference_no = conference_no | plus: 1 %}
+<div class="pub-entry" id="pub-c{{ conference_no }}">
+  <div class="pub-no">[C{{ conference_no }}]</div>
   <div class="pub-citation">
-    Taeseop Lee, <strong>Jonghun Han</strong>, Myung-Sup Lee, Hyung-Sin Kim, and Saewoong Bahk, <br>
-    “cABLE: Connection Interval Adaptation for BLE in Dynamic Wireless Environments,” <br>
+    Taeseop Lee, <strong>Jonghun Han</strong>, Myung-Sup Lee, Hyung-Sin Kim, and Saewoong Bahk,
+    “cABLE: Connection Interval Adaptation for BLE in Dynamic Wireless Environments,”<br>
     in <em>IEEE International Conference on Sensing, Communication, and Networking (SECON)</em> 2017,
     San Diego, USA, June 12–14, 2017.
   </div>
 </div>
 
-<div class="pub-entry" id="pub-c5">
-  <div class="pub-no">[C5]</div>
+{% assign conference_no = conference_no | plus: 1 %}
+<div class="pub-entry" id="pub-c{{ conference_no }}">
+  <div class="pub-no">[C{{ conference_no }}]</div>
   <div class="pub-citation">
-    Wonbin Park, <strong>Jonghun Han</strong>, Seowoo Jang, and Saewoong Bahk, <br>
-    “OAU: Opportunistic Antenna Utilization for Wi-Fi and Bluetooth Coexistence,” <br>
+    Wonbin Park, <strong>Jonghun Han</strong>, Seowoo Jang, and Saewoong Bahk,
+    “OAU: Opportunistic Antenna Utilization for Wi-Fi and Bluetooth Coexistence,”<br>
     in <em>IEEE Global Communication Conference (GLOBECOM)</em> 2016,
     Washington, DC, USA, Dec. 4–8, 2016.
   </div>
 </div>
 
-<div class="pub-entry" id="pub-c6">
-  <div class="pub-no">[C6]</div>
+{% assign conference_no = conference_no | plus: 1 %}
+<div class="pub-entry" id="pub-c{{ conference_no }}">
+  <div class="pub-no">[C{{ conference_no }}]</div>
   <div class="pub-citation">
-    Sung-Guk Yoon, <strong>Jonghun Han</strong>, and Saewoong Bahk, <br>
-    “Low-Duty Mode Operation of Femto Base Stations in a Densely Deployed Network Environment,” <br>
+    Sung-Guk Yoon, <strong>Jonghun Han</strong>, and Saewoong Bahk,
+    “Low-Duty Mode Operation of Femto Base Stations in a Densely Deployed Network Environment,”<br>
     in <em>International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)</em> 2012,
     Sydney, Australia, Sep. 9–12, 2012.
   </div>
 </div>
 
-<div class="pub-entry" id="pub-c7">
-  <div class="pub-no">[C7]</div>
+{% assign conference_no = conference_no | plus: 1 %}
+<div class="pub-entry" id="pub-c{{ conference_no }}">
+  <div class="pub-no">[C{{ conference_no }}]</div>
   <div class="pub-citation">
-    <strong>Jonghun Han</strong> and Saewoong Bahk, <br>
-    “Low-Duty Mode Operation of Femto Base Stations in a Densely Deployed Network Environment,” <br>
+    <strong>Jonghun Han</strong> and Saewoong Bahk,
+    “Low-Duty Mode Operation of Femto Base Stations in a Densely Deployed Network Environment,”<br>
     in <em>IEEE VTS Asia Pacific Wireless Communications Symposium (APWCS)</em> 2012,
     Kyoto, Japan, Aug. 23–24, 2012.
   </div>
 </div>
 
-<div class="pub-entry" id="pub-c8">
-  <div class="pub-no">[C8]</div>
+{% assign conference_no = conference_no | plus: 1 %}
+<div class="pub-entry" id="pub-c{{ conference_no }}">
+  <div class="pub-no">[C{{ conference_no }}]</div>
   <div class="pub-citation">
-    Nalin Chakoo, <strong>Jonghun Han</strong>, and Saewoong Bahk, <br>
-    “Context-Aware Ontological Schemes for Multimedia Personalization,” <br>
+    Nalin Chakoo, <strong>Jonghun Han</strong>, and Saewoong Bahk,
+    “Context-Aware Ontological Schemes for Multimedia Personalization,”<br>
     in <em>International Conference on ICT Convergence (ICTC)</em> 2011,
     Seoul, Korea, Sep. 28–30, 2011.
   </div>
