@@ -98,8 +98,8 @@ hide_title: true
 <div class="pub-entry" id="pub-c1">
   <div class="pub-no">[C1]</div>
   <div class="pub-citation">
-    Seonho Jang, Jongseo Lee, <strong>Jonghun Han</strong>, and Minchae Jung,
-    “Optimization of Update Period in Digital Twin Systems,”
+    Seonho Jang, Jongseo Lee, <strong>Jonghun Han</strong>, and Minchae Jung, <br>
+    “Optimization of Update Period in Digital Twin Systems,” <br>
     in <em>International Conference on Ubiquitous and Future Networks (ICUFN)</em> 2025,
     Lisbon, Portugal, Jul. 8–11, 2025.
   </div>
@@ -108,8 +108,8 @@ hide_title: true
 <div class="pub-entry" id="pub-c2">
   <div class="pub-no">[C2]</div>
   <div class="pub-citation">
-    Subin Choi, Hongjae Jeong, <strong>Jonghun Han</strong>, and Minchae Jung,
-    “Optimal Inference Task Length for Minimizing Synchronization Error in Digital Twin Systems,”
+    Subin Choi, Hongjae Jeong, <strong>Jonghun Han</strong>, and Minchae Jung, <br>
+    “Optimal Inference Task Length for Minimizing Synchronization Error in Digital Twin Systems,” <br>
     in <em>International Conference on Ubiquitous and Future Networks (ICUFN)</em> 2025,
     Lisbon, Portugal, Jul. 8–11, 2025.
   </div>
@@ -118,8 +118,8 @@ hide_title: true
 <div class="pub-entry" id="pub-c3">
   <div class="pub-no">[C3]</div>
   <div class="pub-citation">
-    <strong>Jonghun Han</strong>, Joonsuk Kim, Changhee Joo, and Saewoong Bahk,
-    “SplitScan: Sharing Wi-Fi Scan Information through Bluetooth Low Energy,”
+    <strong>Jonghun Han</strong>, Joonsuk Kim, Changhee Joo, and Saewoong Bahk, <br>
+    “SplitScan: Sharing Wi-Fi Scan Information through Bluetooth Low Energy,” <br>
     in <em>IEEE Vehicular Technology Conference (VTC) 2019-Spring</em>,
     Honolulu, USA, Sep. 22–25, 2019.
   </div>
@@ -128,8 +128,8 @@ hide_title: true
 <div class="pub-entry" id="pub-c4">
   <div class="pub-no">[C4]</div>
   <div class="pub-citation">
-    Taeseop Lee, <strong>Jonghun Han</strong>, Myung-Sup Lee, Hyung-Sin Kim, and Saewoong Bahk,
-    “cABLE: Connection Interval Adaptation for BLE in Dynamic Wireless Environments,”
+    Taeseop Lee, <strong>Jonghun Han</strong>, Myung-Sup Lee, Hyung-Sin Kim, and Saewoong Bahk, <br>
+    “cABLE: Connection Interval Adaptation for BLE in Dynamic Wireless Environments,” <br>
     in <em>IEEE International Conference on Sensing, Communication, and Networking (SECON)</em> 2017,
     San Diego, USA, June 12–14, 2017.
   </div>
@@ -138,8 +138,8 @@ hide_title: true
 <div class="pub-entry" id="pub-c5">
   <div class="pub-no">[C5]</div>
   <div class="pub-citation">
-    Wonbin Park, <strong>Jonghun Han</strong>, Seowoo Jang, and Saewoong Bahk,
-    “OAU: Opportunistic Antenna Utilization for Wi-Fi and Bluetooth Coexistence,”
+    Wonbin Park, <strong>Jonghun Han</strong>, Seowoo Jang, and Saewoong Bahk, <br>
+    “OAU: Opportunistic Antenna Utilization for Wi-Fi and Bluetooth Coexistence,” <br>
     in <em>IEEE Global Communication Conference (GLOBECOM)</em> 2016,
     Washington, DC, USA, Dec. 4–8, 2016.
   </div>
@@ -148,8 +148,8 @@ hide_title: true
 <div class="pub-entry" id="pub-c6">
   <div class="pub-no">[C6]</div>
   <div class="pub-citation">
-    Sung-Guk Yoon, <strong>Jonghun Han</strong>, and Saewoong Bahk,
-    “Low-Duty Mode Operation of Femto Base Stations in a Densely Deployed Network Environment,”
+    Sung-Guk Yoon, <strong>Jonghun Han</strong>, and Saewoong Bahk, <br>
+    “Low-Duty Mode Operation of Femto Base Stations in a Densely Deployed Network Environment,” <br>
     in <em>International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)</em> 2012,
     Sydney, Australia, Sep. 9–12, 2012.
   </div>
@@ -158,8 +158,8 @@ hide_title: true
 <div class="pub-entry" id="pub-c7">
   <div class="pub-no">[C7]</div>
   <div class="pub-citation">
-    <strong>Jonghun Han</strong> and Saewoong Bahk,
-    “Low-Duty Mode Operation of Femto Base Stations in a Densely Deployed Network Environment,”
+    <strong>Jonghun Han</strong> and Saewoong Bahk, <br>
+    “Low-Duty Mode Operation of Femto Base Stations in a Densely Deployed Network Environment,” <br>
     in <em>IEEE VTS Asia Pacific Wireless Communications Symposium (APWCS)</em> 2012,
     Kyoto, Japan, Aug. 23–24, 2012.
   </div>
@@ -168,8 +168,8 @@ hide_title: true
 <div class="pub-entry" id="pub-c8">
   <div class="pub-no">[C8]</div>
   <div class="pub-citation">
-    Nalin Chakoo, <strong>Jonghun Han</strong>, and Saewoong Bahk,
-    “Context-Aware Ontological Schemes for Multimedia Personalization,”
+    Nalin Chakoo, <strong>Jonghun Han</strong>, and Saewoong Bahk, <br>
+    “Context-Aware Ontological Schemes for Multimedia Personalization,” <br>
     in <em>International Conference on ICT Convergence (ICTC)</em> 2011,
     Seoul, Korea, Sep. 28–30, 2011.
   </div>
