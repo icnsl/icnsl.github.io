@@ -37,8 +37,8 @@ hide_title: true
 <div class="pub-entry" id="pub-j2">
   <div class="pub-no">[J2]</div>
   <div class="pub-citation">
-    Jongyeon Park, Youngwook Son*, Kanghyun Lee, <strong>Jonghun Han</strong>, and Saewoong Bahk,
-    “Demystifying Multi-Link Device Behavior and Performance under Network Saturation in Wi-Fi 7,”
+    Jongyeon Park, Youngwook Son*, Kanghyun Lee, <strong>Jonghun Han</strong>, and Saewoong Bahk, <br>
+    “Demystifying Multi-Link Device Behavior and Performance under Network Saturation in Wi-Fi 7,” <br>
     <em>IEEE Transactions on Networking</em>, vol. 34, pp. 6632-6657, Jul. 2026.
     <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">5.3</span>, SCIE top<span class="pub-metric-value pub-red">16.1%</span>)</span>
   </div>
@@ -47,8 +47,8 @@ hide_title: true
 <div class="pub-entry" id="pub-j3">
   <div class="pub-no">[J3]</div>
   <div class="pub-citation">
-    Cheonyong Kim, Walid Saad, <strong>Jonghun Han*</strong>, Tao Yu, Kei Sakaguchi and Minchae Jung*,
-    “Real-Time Task Scheduling with Fairness in Digital Twin Systems,”
+    Cheonyong Kim, Walid Saad, <strong>Jonghun Han*</strong>, Tao Yu, Kei Sakaguchi and Minchae Jung*, <br>
+    “Real-Time Task Scheduling with Fairness in Digital Twin Systems,” <br>
     <em>IEEE Internet of Things Journal</em>, vol. 12, no. 7, pp. 7846–7862, Apr. 2025.
     <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">8.2</span>, SCIE top<span class="pub-metric-value pub-red">3.4%</span>)</span>
   </div>
@@ -57,8 +57,8 @@ hide_title: true
 <div class="pub-entry" id="pub-j4">
   <div class="pub-no">[J4]</div>
   <div class="pub-citation">
-    Jongyeon Park, <strong>Jonghun Han*</strong>, and Saewoong Bahk*,
-    “Adaptive Multi-Link Channel Access Under Cross-Link Interference in Next-Generation WLANs,”
+    Jongyeon Park, <strong>Jonghun Han*</strong>, and Saewoong Bahk*, <br>
+    “Adaptive Multi-Link Channel Access Under Cross-Link Interference in Next-Generation WLANs,” <br>
     <em>IEEE Internet of Things Journal</em>, vol. 11, no. 14, pp. 24685–24697, Jul. 2024.
     <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">8.2</span>, SCIE top<span class="pub-metric-value pub-red">3.4%</span>)</span>
   </div>
@@ -67,8 +67,8 @@ hide_title: true
 <div class="pub-entry" id="pub-j5">
   <div class="pub-no">[J5]</div>
   <div class="pub-citation">
-    Minchae Jung, and <strong>Jonghun Han*</strong>, 
-    “Adaptive Packet Tuning for Energy Efficient Communication in Underlay CSMA/CA Networks,”
+    Minchae Jung, and <strong>Jonghun Han*</strong>, <br>
+    “Adaptive Packet Tuning for Energy Efficient Communication in Underlay CSMA/CA Networks,” <br>
     <em>IEEE Access</em>, vol. 11, pp. 95989-95998, Aug. 2023.
     <span class="pub-impact">(impact factor<span class="pub-metric-value">3.9</span>, SCIE top<span class="pub-metric-value">36.2%</span>)</span>
   </div>
@@ -77,8 +77,8 @@ hide_title: true
 <div class="pub-entry" id="pub-j6">
   <div class="pub-no">[J6]</div>
   <div class="pub-citation">
-    <strong>Jonghun Han</strong>, Changhee Joo, and Saewoong Bahk*,
-    “Resource Sharing in Dual-Stack Devices: Opportunistic Bluetooth Transmissions in WLAN Busy Periods,”
+    <strong>Jonghun Han</strong>, Changhee Joo, and Saewoong Bahk*, <br>
+    “Resource Sharing in Dual-Stack Devices: Opportunistic Bluetooth Transmissions in WLAN Busy Periods,” <br>
     <em>IEEE Transactions on Mobile Computing</em>, vol. 17, no. 10, pp. 2396–2407, Oct. 2018.
     <span class="pub-impact">(impact factor<span class="pub-metric-value">4.098</span>, SCIE top<span class="pub-metric-value pub-red">9.1%</span>)</span>
   </div>
