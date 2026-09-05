@@ -29,7 +29,7 @@ hide_title: true
   <div class="pub-citation">
     <strong>Jonghun Han</strong>, and Hongchan Kim,
     “A Graph-Theoretic and Stochastic Analysis of BLE-Assisted Cooperative Wi-Fi Scanning,”
-    <em>Mathematics</em>, vol. 14, No. 17, pp. 3214, Sep. 2026.
+    <em>Mathematics</em>, vol. 14, No. 17: 3214, Sep. 2026.
     <span class="pub-impact">(impact factor<span class="pub-metric-value">2.3</span>, SCIE top<span class="pub-metric-value pub-red">3.4%</span>)</span>
   </div>
 </div>
