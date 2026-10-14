@@ -179,10 +179,10 @@ hide_title: true
     </div>
 
     <ul class="service-details">
-      <li>IEEE Transactions on Vehicular Technology (2019) </li>
-      <li>IEEE Communications Letters (2023) </li>
-      <li>IEEE Journal of Selected Topics in Signal Processing (2024) </li>
-      <li>IEEE Internet of Things Journal (2026) </li>
+      <li>IEEE Transactions on Vehicular Technology </li>
+      <li>IEEE Communications Letters </li>
+      <li>IEEE Journal of Selected Topics in Signal Processing </li>
+      <li>IEEE Internet of Things Journal </li>
     </ul>
   </div>
 </div>
