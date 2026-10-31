@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function () {
   };
   const rich = (tag, className, html) => {
     const node = element(tag, className);
-    // Only reuse markup already supplied by the site's own static page.
+    /* Only reuse markup already supplied by the site's own static page. */
     node.innerHTML = html;
     return node;
   };
