@@ -36,6 +36,17 @@ pub-citation 안의 특허 정보만 수정하면 됩니다.
 <div class="pub-entry" id="pub-p{{ us_patent_no }}">
   <div class="pub-no">[P{{ us_patent_no }}]</div>
   <div class="pub-citation">
+    US#12,756,439 B2,
+    “Apparatus and method of uplink beamforming in wireless local area network system,”
+    Eunsung Jeon, Chulho Chung, Jinmin Kim, Ravi Hiranand Gidvani, Myeongjin Kim, and <strong>Jonghun Han</strong>,
+    2026.10.06.
+  </div>
+</div>
+
+{% assign us_patent_no = us_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-p{{ us_patent_no }}">
+  <div class="pub-no">[P{{ us_patent_no }}]</div>
+  <div class="pub-citation">
     US#12,719,639 B2,
     Method And Apparatus For Transmitting And Receiving Block ACK In Wireless Communication System Supporting Multi-link,”
     <strong>Jonghun Han</strong>, Chulho Chung, Seunghwan Oh, and Kyungik Cho,
