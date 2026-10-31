@@ -337,10 +337,10 @@ document.addEventListener('DOMContentLoaded', function () {
   if (root.classList.contains('icnsl-showcase--home')) {
     const research = root.querySelector('.home-section--research');
     const news = root.querySelector('.home-section--news');
-    if (research && news) root.insertBefore(research, news);
+    if (research && news) root.insertBefore(news, research);
     const eyebrow = root.querySelector('.icnsl-showcase__eyebrow');
     if (eyebrow) eyebrow.textContent = 'ICNSL · Sejong University';
-    [['home-notice-heading', 'Notice', ''], ['home-research-heading', 'Research Areas', '01'], ['home-news-heading', 'Recent News', '02']].forEach(([id, title, no]) => {
+    [['home-notice-heading', 'Notice', ''], ['home-research-heading', 'Research Areas', '02'], ['home-news-heading', 'Recent News', '01']].forEach(([id, title, no]) => {
       const heading = document.getElementById(id);
       if (heading) { heading.textContent = title; if (no) heading.prepend(element('span', 'calm-section-no', no)); }
     });
