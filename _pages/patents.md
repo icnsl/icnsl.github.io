@@ -324,6 +324,17 @@ pub-citation 안의 특허 정보만 수정하면 됩니다.
 <div class="pub-entry" id="pub-pk{{ kr_patent_no }}">
   <div class="pub-no">[PK{{ kr_patent_no }}]</div>
   <div class="pub-citation">
+    <a class="patent-link" href="https://patents.google.com/patent/KR102992232B1/ko" target="_blank" rel="noopener noreferrer" title="특허 원문 보기 (새 탭에서 열림)">KR#10-2992232</a>,
+    “WLAN 시스템에서 상향링크 빔포밍을 위한 장치 및 방법,”
+    Eunsung Jeon, Chulho Chung, Myeongjin Kim, and <strong>Jonghun Han</strong>,
+    2026.07.16.
+  </div>
+</div>
+
+{% assign kr_patent_no = kr_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-pk{{ kr_patent_no }}">
+  <div class="pub-no">[PK{{ kr_patent_no }}]</div>
+  <div class="pub-citation">
     <a class="patent-link" href="https://patents.google.com/patent/KR102976771B1/ko" target="_blank" rel="noopener noreferrer" title="특허 원문 보기 (새 탭에서 열림)">KR#10-2976771</a>,
     “시 민감 네트워크 패킷의 무선 송수신 시 데이터 송수신 방법 및 장치,”
     Ilmu Byun, <strong>Jonghun Han</strong>, Youngju Kim, Sungsoo Park, and Yong-ki Yoon,
@@ -357,6 +368,17 @@ pub-citation 안의 특허 정보만 수정하면 됩니다.
 <div class="pub-entry" id="pub-pk{{ kr_patent_no }}">
   <div class="pub-no">[PK{{ kr_patent_no }}]</div>
   <div class="pub-citation">
+    <a class="patent-link" href="https://patents.google.com/patent/KR102846763B1/ko" target="_blank" rel="noopener noreferrer" title="특허 원문 보기 (새 탭에서 열림)">KR#10-2846763</a>,
+    “듀얼 빔포밍 피드백을 위한 적응적 코드북을 이용하는 장치, 방법 및 이를 포함하는 무선 통신 시스템,”
+    Eunsung Jeon, Wookbong Lee, Myeongjin Kim, and <strong>Jonghun Han</strong>,
+    2025.08.14.
+  </div>
+</div>
+
+{% assign kr_patent_no = kr_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-pk{{ kr_patent_no }}">
+  <div class="pub-no">[PK{{ kr_patent_no }}]</div>
+  <div class="pub-citation">
     <a class="patent-link" href="https://patents.google.com/patent/KR102755897B1/ko" target="_blank" rel="noopener noreferrer" title="특허 원문 보기 (새 탭에서 열림)">KR#10-2755897</a>,
     “EDCA 파라미터를 동적으로 조절하는 방법 및 장치,”
     <strong>Jonghun Han</strong>, Jung-tai Kim, and Yong-ki Yoon,
@@ -372,6 +394,17 @@ pub-citation 안의 특허 정보만 수정하면 됩니다.
     “공간 재사용을 이용하여 데이터를 전송하는 무선 통신 장치 및 이를 이용한 데이터 통신 방법,”
     <strong>Jonghun Han</strong>, Young-Wook Son, Sung-Hyun Choi, Seong-Won Kim, and Kang-Hyun Lee,
     2023.08.30.
+  </div>
+</div>
+
+{% assign kr_patent_no = kr_patent_no | plus: 1 %}
+<div class="pub-entry" id="pub-pk{{ kr_patent_no }}">
+  <div class="pub-no">[PK{{ kr_patent_no }}]</div>
+  <div class="pub-citation">
+    <a class="patent-link" href="https://patents.google.com/patent/KR101168635B1/ko" target="_blank" rel="noopener noreferrer" title="특허 원문 보기 (새 탭에서 열림)">KR#10-1168635</a>,
+    “셀간 간섭 감소를 위한 펨토 기지국 및 이를 이용한 신호 전송 방법,”
+    Sae Woong Bahk, Sung Guk Yoon, <strong>Jonghun Han</strong>, Young Han Kim, and Ik Hyeon Kim,
+    2012.07.25.
   </div>
 </div>
 
