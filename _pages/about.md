@@ -30,6 +30,11 @@ redirect_from:
       <div class="home-section__translation" lang="en">
         If you would like to discuss research, academics, career or future plans, or personal concerns, please contact me by email.
       </div>
+      <div class="notice-email">
+        <button class="notice-email__toggle" type="button" data-email-codes="x.z.16.11.b.1k.1a.x.10.11.18.2t.16.14.2t.w.1l" aria-expanded="false" aria-controls="home-notice-email-details" hidden>이메일 확인 / Show email</button>
+        <div class="notice-email__details" id="home-notice-email-details" aria-live="polite" hidden></div>
+        <a class="notice-email__fallback" href="{{ '/contact/' | relative_url }}">이메일 연락처 / Email contact</a>
+      </div>
     </div>
   </div>
 </section>
@@ -105,4 +110,5 @@ redirect_from:
   </div>
 </section>
 </div>
+
 
