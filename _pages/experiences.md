@@ -9,7 +9,6 @@ hide_title: true
   <div class="icnsl-showcase__glyph" aria-hidden="true"><i class="fas fa-briefcase"></i></div>
   <div class="icnsl-showcase__intro-copy">
     <div class="icnsl-showcase__eyebrow">Career &amp; Service</div>
-    <p class="icnsl-showcase__lead">Academic, industrial, and public-research experience, together with invited talks and professional service.</p>
     <div class="icnsl-showcase__tags" aria-label="Experience areas">
       <span>Academia</span><span>Industry</span><span>Public Research</span>
     </div>
