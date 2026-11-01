@@ -40,6 +40,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “A Graph-Theoretic and Stochastic Analysis of BLE-Assisted Cooperative Wi-Fi Scanning,”<br>
     <em>Mathematics</em>, vol. 14, No. 17: 3214, Sep. 2026.
     <span class="pub-impact">(impact factor<span class="pub-metric-value">2.3</span>, SCIE top<span class="pub-metric-value pub-red">5.6%</span>)</span>
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.3390/math14173214" target="_blank" rel="noopener noreferrer">10.3390/math14173214</a></div>
   </div>
 </div>
 
@@ -51,6 +52,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “Demystifying Multi-Link Device Behavior and Performance under Network Saturation in Wi-Fi 7,”<br>
     <em>IEEE Transactions on Networking</em>, vol. 34, pp. 6632-6657, Jul. 2026.
     <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">5.3</span>, SCIE top<span class="pub-metric-value pub-red">16.1%</span>)</span>
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/TON.2026.3715174" target="_blank" rel="noopener noreferrer">10.1109/TON.2026.3715174</a></div>
   </div>
 </div>
 
@@ -62,6 +64,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “Real-Time Task Scheduling with Fairness in Digital Twin Systems,”<br>
     <em>IEEE Internet of Things Journal</em>, vol. 12, no. 7, pp. 7846–7862, Apr. 2025.
     <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">8.2</span>, SCIE top<span class="pub-metric-value pub-red">3.4%</span>)</span>
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/JIOT.2024.3519666" target="_blank" rel="noopener noreferrer">10.1109/JIOT.2024.3519666</a></div>
   </div>
 </div>
 
@@ -73,6 +76,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “Adaptive Multi-Link Channel Access Under Cross-Link Interference in Next-Generation WLANs,”<br>
     <em>IEEE Internet of Things Journal</em>, vol. 11, no. 14, pp. 24685–24697, Jul. 2024.
     <span class="pub-impact">(impact factor<span class="pub-metric-value pub-red">8.2</span>, SCIE top<span class="pub-metric-value pub-red">3.4%</span>)</span>
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/JIOT.2024.3369688" target="_blank" rel="noopener noreferrer">10.1109/JIOT.2024.3369688</a></div>
   </div>
 </div>
 
@@ -84,6 +88,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “Adaptive Packet Tuning for Energy Efficient Communication in Underlay CSMA/CA Networks,”<br>
     <em>IEEE Access</em>, vol. 11, pp. 95989-95998, Aug. 2023.
     <span class="pub-impact">(impact factor<span class="pub-metric-value">3.9</span>, SCIE top<span class="pub-metric-value">36.2%</span>)</span>
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/ACCESS.2023.3310546" target="_blank" rel="noopener noreferrer">10.1109/ACCESS.2023.3310546</a></div>
   </div>
 </div>
 
@@ -95,6 +100,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “Resource Sharing in Dual-Stack Devices: Opportunistic Bluetooth Transmissions in WLAN Busy Periods,”<br>
     <em>IEEE Transactions on Mobile Computing</em>, vol. 17, no. 10, pp. 2396–2407, Oct. 2018.
     <span class="pub-impact">(impact factor<span class="pub-metric-value">4.098</span>, SCIE top<span class="pub-metric-value pub-red">9.1%</span>)</span>
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/TMC.2018.2797911" target="_blank" rel="noopener noreferrer">10.1109/TMC.2018.2797911</a></div>
   </div>
 </div>
 
@@ -125,6 +131,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “Optimization of Update Period in Digital Twin Systems,”<br>
     in <em>International Conference on Ubiquitous and Future Networks (ICUFN)</em> 2025,
     Lisbon, Portugal, Jul. 8–11, 2025.
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICUFN65838.2025.11169874" target="_blank" rel="noopener noreferrer">10.1109/ICUFN65838.2025.11169874</a></div>
   </div>
 </div>
 
@@ -136,6 +143,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “Optimal Inference Task Length for Minimizing Synchronization Error in Digital Twin Systems,”<br>
     in <em>International Conference on Ubiquitous and Future Networks (ICUFN)</em> 2025,
     Lisbon, Portugal, Jul. 8–11, 2025.
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICUFN65838.2025.11169921" target="_blank" rel="noopener noreferrer">10.1109/ICUFN65838.2025.11169921</a></div>
   </div>
 </div>
 
@@ -147,6 +155,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “SplitScan: Sharing Wi-Fi Scan Information through Bluetooth Low Energy,”<br>
     in <em>IEEE Vehicular Technology Conference (VTC) 2019-Spring</em>,
     Honolulu, USA, Sep. 22–25, 2019.
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/VTCFall.2019.8891362" target="_blank" rel="noopener noreferrer">10.1109/VTCFall.2019.8891362</a></div>
   </div>
 </div>
 
@@ -158,6 +167,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “cABLE: Connection Interval Adaptation for BLE in Dynamic Wireless Environments,”<br>
     in <em>IEEE International Conference on Sensing, Communication, and Networking (SECON)</em> 2017,
     San Diego, USA, June 12–14, 2017.
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/SAHCN.2017.7964929" target="_blank" rel="noopener noreferrer">10.1109/SAHCN.2017.7964929</a></div>
   </div>
 </div>
 
@@ -169,6 +179,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “OAU: Opportunistic Antenna Utilization for Wi-Fi and Bluetooth Coexistence,”<br>
     in <em>IEEE Global Communication Conference (GLOBECOM)</em> 2016,
     Washington, DC, USA, Dec. 4–8, 2016.
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/GLOCOM.2016.7842032" target="_blank" rel="noopener noreferrer">10.1109/GLOCOM.2016.7842032</a></div>
   </div>
 </div>
 
@@ -180,6 +191,7 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “Low-Duty Mode Operation of Femto Base Stations in a Densely Deployed Network Environment,”<br>
     in <em>International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)</em> 2012,
     Sydney, Australia, Sep. 9–12, 2012.
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/PIMRC.2012.6362862" target="_blank" rel="noopener noreferrer">10.1109/PIMRC.2012.6362862</a></div>
   </div>
 </div>
 
@@ -202,9 +214,11 @@ pub-citation 안의 논문 정보만 수정하면 됩니다.
     “Context-Aware Ontological Schemes for Multimedia Personalization,”<br>
     in <em>International Conference on ICT Convergence (ICTC)</em> 2011,
     Seoul, Korea, Sep. 28–30, 2011.
+    <div class="pub-doi">DOI: <a href="https://doi.org/10.1109/ICTC.2011.6082599" target="_blank" rel="noopener noreferrer">10.1109/ICTC.2011.6082599</a></div>
   </div>
 </div>
 
 </div>
 </section>
 </div>
+
