@@ -204,12 +204,12 @@ html[data-icnsl-design="calm"] .page__content .icnsl-showcase--experiences .serv
 html[data-icnsl-design="calm"] .page__content .icnsl-showcase--experiences .cv-entry { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 24px; }
 html[data-icnsl-design="calm"] .page__content .icnsl-showcase--experiences .cv-body { text-align: left; font-size: 15px; line-height: 1.8; }
 html[data-icnsl-design="calm"] .page__content .icnsl-showcase--lecture .lecture-list { display: block; margin: 0; padding: 0; }
-html[data-icnsl-design="calm"] .page__content .icnsl-showcase--lecture .lecture-entry { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 30px; margin: 0; padding: 26px 0; border: 0; border-top: 1px solid var(--global-border-color); border-radius: 0; background: none; box-shadow: none; transform: none; }
+html[data-icnsl-design="calm"] .page__content .icnsl-showcase--lecture .lecture-entry { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 30px; align-items: start; min-height: 0; margin: 0; padding: 26px 0; border: 0; border-top: 1px solid var(--global-border-color); border-radius: 0; background: none; box-shadow: none; transform: none; }
 html[data-icnsl-design="calm"] .page__content .icnsl-showcase--lecture .lecture-entry::after,
 html[data-icnsl-design="calm"] .page__content .lecture-term__icon { display: none; }
-html[data-icnsl-design="calm"] .page__content .icnsl-showcase--lecture .lecture-term { padding: 0; margin: 0; border: 0; font-size: 18px; font-weight: 600; color: var(--global-text-color); }
-html[data-icnsl-design="calm"] .page__content .icnsl-showcase--lecture .lecture-courses { display: block; margin: 0; padding: 0; list-style: none; }
-html[data-icnsl-design="calm"] .page__content .icnsl-showcase--lecture .lecture-courses li { display: block; margin: 0 0 7px; padding: 0; border: 0; border-radius: 0; background: none; font-size: 15px; color: var(--global-text-color-light); }
+html[data-icnsl-design="calm"] .page__content .icnsl-showcase--lecture .lecture-term { display: block; line-height: 1.5; padding: 0; margin: 0; border: 0; font-size: 18px; font-weight: 600; color: var(--global-text-color); }
+html[data-icnsl-design="calm"] .page__content .icnsl-showcase--lecture .lecture-courses { display: grid; gap: 8px; min-width: 0; margin: 0; padding: 0; list-style: none; }
+html[data-icnsl-design="calm"] .page__content .icnsl-showcase--lecture .lecture-courses li { display: block; margin: 0; padding: 0; line-height: 1.7; overflow-wrap: anywhere; border: 0; border-radius: 0; background: none; font-size: 15px; color: var(--global-text-color-light); }
 html[data-icnsl-design="calm"] .page__content .icnsl-showcase--lecture .lecture-courses li::before { display: none; }
 html[data-icnsl-design="calm"] .page__content .icnsl-showcase--contact .contact-grid { grid-template-columns: 1fr 2fr; gap: 42px; }
 html[data-icnsl-design="calm"] .page__content .icnsl-showcase--contact .contact-card,
@@ -526,4 +526,5 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 </script>
+
 
