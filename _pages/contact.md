@@ -9,7 +9,6 @@ hide_title: true
   <div class="icnsl-showcase__glyph" aria-hidden="true"><i class="fas fa-paper-plane"></i></div>
   <div class="icnsl-showcase__intro-copy">
     <div class="icnsl-showcase__eyebrow">Get in Touch</div>
-    <p class="icnsl-showcase__lead">Contact and location information for ICNSL at Sejong University.</p>
     <div class="icnsl-showcase__tags" aria-label="Contact options">
       <span>Email</span><span>Faculty Office</span><span>Student Lab</span>
     </div>
