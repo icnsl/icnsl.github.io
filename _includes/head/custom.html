@@ -365,7 +365,7 @@ document.addEventListener('DOMContentLoaded', function () {
   Object.keys(pageTitles).forEach(key => {
     if (root.classList.contains('icnsl-showcase--' + key) && intro) {
       const title = element('h1', 'calm-page-title', pageTitles[key]);
-      intro.insertBefore(title, intro.querySelector('.icnsl-showcase__lead'));
+      intro.insertBefore(title, intro.querySelector('.icnsl-showcase__lead') || intro.querySelector('.icnsl-showcase__tags'));
     }
   });
   const menu = document.querySelector('.greedy-nav > button');
