@@ -332,6 +332,13 @@ html.research-lightbox-open { overflow: hidden; }
   .research-lightbox__close { margin-left: auto !important; }
   .research-lightbox__image { max-height: calc(100vh - 150px); max-height: calc(100dvh - 150px); }
 }
+
+html[data-icnsl-design="calm"] .page__content .home-section--notice .notice-email { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-top: 16px; }
+html[data-icnsl-design="calm"] .page__content .home-section--notice .notice-email [hidden] { display: none !important; }
+html[data-icnsl-design="calm"] .page__content .home-section--notice .notice-email__toggle { display: inline-flex; align-items: center; min-height: 42px; margin: 0; padding: 8px 12px; border: 1px solid var(--global-dark-border-color); border-radius: 5px; background: transparent; color: var(--calm-accent); font-family: inherit; font-size: 14px; font-weight: 500; line-height: 1.5; text-align: left; cursor: pointer; box-shadow: none; }
+html[data-icnsl-design="calm"] .page__content .home-section--notice .notice-email__toggle:hover { background: var(--calm-surface); color: var(--global-text-color); }
+html[data-icnsl-design="calm"] .page__content .home-section--notice .notice-email__details { min-width: 0; }
+html[data-icnsl-design="calm"] .page__content .home-section--notice .notice-email a { color: var(--global-link-color); font-size: 15px; line-height: 1.6; text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }
 </style>
 <script id="icnsl-calm-enhancement">
 /* Progressive presentation enhancement; unmatched records keep their original markup. */
@@ -383,6 +390,28 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
   if (root.classList.contains('icnsl-showcase--home')) {
+
+    /* Delay decoding until a visitor activates the control. This is obfuscation, not access control. */
+    const emailToggle = root.querySelector('.notice-email__toggle');
+    const emailDetails = root.querySelector('#home-notice-email-details');
+    const emailFallback = root.querySelector('.notice-email__fallback');
+    if (emailToggle && emailDetails) {
+      emailToggle.addEventListener('click', () => {
+        const expanded = emailToggle.getAttribute('aria-expanded') === 'true';
+        emailDetails.replaceChildren();
+        if (!expanded) {
+          const address = emailToggle.dataset.emailCodes.split('.').map(value => String.fromCharCode(parseInt(value, 36) ^ 75)).join('');
+          const link = element('a', 'notice-email__address', address);
+          link.href = 'mailto:' + address;
+          emailDetails.append(link);
+        }
+        emailDetails.hidden = expanded;
+        emailToggle.setAttribute('aria-expanded', String(!expanded));
+        emailToggle.textContent = expanded ? '이메일 확인 / Show email' : '이메일 숨기기 / Hide email';
+      });
+      emailToggle.hidden = false;
+      if (emailFallback) emailFallback.hidden = true;
+    }
     const research = root.querySelector('.home-section--research');
     const news = root.querySelector('.home-section--news');
     if (research && news) root.insertBefore(news, research);
@@ -531,6 +560,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 </script>
+
 
 
 
