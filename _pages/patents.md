@@ -417,7 +417,6 @@ pub-citation 안의 특허 정보만 수정하면 됩니다.
   <div class="icnsl-showcase__glyph" aria-hidden="true"><i class="fas fa-certificate"></i></div>
   <div class="icnsl-showcase__intro-copy">
     <div class="icnsl-showcase__eyebrow">Intellectual Property</div>
-    <p class="icnsl-showcase__lead">Granted patents covering wireless communication, multi-link operation, channel access, and network systems.</p>
     <div class="icnsl-showcase__tags" aria-label="Granted patent counts">
       <span>United States · {{ us_patent_no }} granted</span><span>Republic of Korea · {{ kr_patent_no }} granted</span><span>Total · {{ us_patent_no | plus: kr_patent_no }} granted</span>
     </div>
