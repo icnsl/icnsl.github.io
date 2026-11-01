@@ -9,7 +9,6 @@ hide_title: true
   <div class="icnsl-showcase__glyph" aria-hidden="true"><i class="fas fa-graduation-cap"></i></div>
   <div class="icnsl-showcase__intro-copy">
     <div class="icnsl-showcase__eyebrow">Teaching</div>
-    <p class="icnsl-showcase__lead">Courses taught at Sejong University, organized by academic semester.</p>
     <div class="icnsl-showcase__tags" aria-label="Course levels">
       <span>Undergraduate</span><span>Graduate</span>
     </div>
