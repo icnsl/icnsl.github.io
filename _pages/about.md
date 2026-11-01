@@ -83,9 +83,10 @@ redirect_from:
   <div class="research-card-grid">
   {% for area in site.data.research.areas %}
     <article class="research-card">
-      <div class="research-card__image">
-        <img src="{{ area.image | relative_url }}" alt="{{ area.alt }}" loading="lazy" decoding="async">
-      </div>
+      <a class="research-card__image" href="{{ area.image_full | default: area.image | relative_url }}" target="_blank" rel="noopener" aria-label="Enlarge diagram: {{ area.title | escape }}">
+        <img src="{{ area.image | relative_url }}" alt="{{ area.alt | escape }}" width="1536" height="1024" loading="lazy" decoding="async">
+        <span class="research-card__zoom-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6M10 7v6M7 10h6"/></svg>View larger</span>
+      </a>
       <div class="research-card__body">
         <div class="research-card__kicker">{{ area.kicker }}</div>
         <h3 class="research-card__title{% if area.title_style %} research-card__title--{{ area.title_style }}{% endif %}">{{ area.title }}</h3>
@@ -104,3 +105,4 @@ redirect_from:
   </div>
 </section>
 </div>
+
